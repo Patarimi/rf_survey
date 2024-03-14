@@ -9,14 +9,17 @@ if __name__ == "__main__":
         layout="wide",
         initial_sidebar_state="expanded",
         menu_items={
-            "Get Help": "https://passiveautodesign.netlify.app/",
-            "Report a bug": "https://github.com/Patarimi/PassiveAutoDesign/issues",
+            "Report a bug": "https://github.com/Patarimi/rf-survey/issues",
         },
     )
     st.title("Welcome")
     data = pd.read_excel("data/PA-Survey-v8.xlsx", sheet_name="CMOS")
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns([0.3, 0.7])
     col1.write(data.keys())
     fig, ax = plt.subplots()
     data.plot(x="Frequency (GHz)", y="Psat (dBm)", kind="scatter", ax=ax, logx=True)
     col2.pyplot(fig)
+
+    st.write(
+        'Source : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, Hossein Jalili, Mohsen Ghorbanpoor, Chenhao Chu, Tzu-​Yuan Huang, Naga Sasikanth Mannem, Jeongsoo Park, Jeongseok Lee, David Munzer,Sensen Li, Fei Wang, Amr S. Ahmed, Christopher Snyder, Huy Thong Nguyen, and Michael Edward Duffy Smith, "Power Amplifiers Performance Survey 2000-​Present," [Online]. Available: https://ideas.ethz.ch/Surveys/pa-​survey.html'
+    )
