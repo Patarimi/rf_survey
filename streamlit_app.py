@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib as mpl
 
+
 if __name__ == "__main__":
     st.set_page_config(
         page_title="Passive Auto Design demo",
@@ -15,10 +16,10 @@ if __name__ == "__main__":
     )
     st.title("Welcome !")
     cmap = mpl.colormaps.get_cmap("tab10").colors
-    data = pd.read_excel("data/PA-Survey-v8.xlsx", sheet_name="CMOS")
+    data = pd.read_excel(io="data/PA-Survey-v8.xlsx", sheet_name="CMOS", usecols="B:V")
     col1, col2 = st.columns([0.3, 0.7])
-    x_name = col1.selectbox('X axis', data.keys(), index=7)
-    y_name = col1.selectbox('Y axis', data.keys(), index=8)
+    x_name = col1.selectbox('X axis', data.keys(), index=6)
+    y_name = col1.selectbox('Y axis', data.keys(), index=7)
     x_log = col1.checkbox('X Log scale', True)
     y_log = col1.checkbox('Y Log scale', False)
     fig, ax = plt.subplots()
