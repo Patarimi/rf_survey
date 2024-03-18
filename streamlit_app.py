@@ -14,16 +14,17 @@ if __name__ == "__main__":
             "Report a bug": "https://github.com/Patarimi/rf-survey/issues",
         },
     )
-    st.title("Welcome!")
-    st.write("Please select a technology.")
-    techno = st.selectbox("Technology", ["CMOS", "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"])
     cmap = mpl.colormaps.get_cmap("tab10").colors
-    data = pd.read_excel(io="data/PA-Survey-v8.xlsx", sheet_name=techno, usecols="B:V")
     col1, col2 = st.columns([0.3, 0.7])
-    x_name = col1.selectbox("X axis", data.keys(), index=6)
-    y_name = col1.selectbox("Y axis", data.keys(), index=7)
-    x_log = col1.checkbox("X Log scale", True)
-    y_log = col1.checkbox("Y Log scale", False)
+    with col1:
+        st.title("Welcome!")
+        st.write("Please select a technology.")
+        techno = st.selectbox("Technology", ["CMOS", "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"])
+        data = pd.read_excel(io="data/PA-Survey-v8.xlsx", sheet_name=techno, usecols="B:V")
+        x_name = st.selectbox("X axis", data.keys(), index=6)
+        y_name = st.selectbox("Y axis", data.keys(), index=7)
+        x_log = st.checkbox("X Log scale", True)
+        y_log = st.checkbox("Y Log scale", False)
     fig, ax = plt.subplots()
     for i, process in enumerate(data["Process"].unique()):
         subset = data.loc[data["Process"] == process]
@@ -39,7 +40,7 @@ if __name__ == "__main__":
         )
     col2.pyplot(fig)
 
-    st.write(
+    col1.write(
         "**Source** : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, "
         "Hossein Jalili, Mohsen Ghorbanpoor, Chenhao Chu, Tzu-​Yuan Huang, Naga Sasikanth Mannem, Jeongsoo Park, "
         "Jeongseok Lee, David Munzer,Sensen Li, Fei Wang, Amr S. Ahmed, Christopher Snyder, Huy Thong Nguyen, "
