@@ -22,16 +22,14 @@ if __name__ == "__main__":
         techno = st.selectbox(
             "Technology", ["CMOS", "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"]
         )
-        data = pd.read_excel(
-            io="data/PA-Survey-v8.xlsx", sheet_name=techno, usecols="B:V"
-        )
+        data = pd.read_csv(f"data/cleaned/{techno}.csv")
         x_name = st.selectbox("X axis", data.keys(), index=6)
         y_name = st.selectbox("Y axis", data.keys(), index=7)
         x_log = st.checkbox("X Log scale", True)
         y_log = st.checkbox("Y Log scale", False)
     fig, ax = plt.subplots()
-    for i, process in enumerate(data["Process"].unique()):
-        subset = data.loc[data["Process"] == process]
+    for i, process in enumerate(data["process"].unique()):
+        subset = data.loc[data["process"] == process]
         subset.plot(
             x=x_name,
             y=y_name,
@@ -39,7 +37,7 @@ if __name__ == "__main__":
             ax=ax,
             logx=x_log,
             logy=y_log,
-            label=process,
+            label=process.split(".")[-1],
             color=cmap[i % 10],
         )
     col2.pyplot(fig)

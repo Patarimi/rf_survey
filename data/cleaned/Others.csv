@@ -1,4 +1,4 @@
-,Year,Month,Last Name (1st Author),Paper Title,Process,CW Performance,Frequency (GHz),Psat (dBm),PAEmax (%),P1dB (dBm),PAE_1dB (%),Gain (dB),RF PA Modulations,EVM (dB),Modulation Speed (Msym/s),Average Pout (dBm),Average PAE (%),RF PA Note (Modulation Type),RF PA Note (Analog PA or Digital PA),Process node,PCB
+,year,month,author_name,paper_title,process,CW Performance,frequency,Psat (dBm),PAEmax (%),P1dB (dBm),PAE_1dB (%),Gain (dB),RF PA Modulations,EVM (dB),Modulation Speed (Msym/s),Average Pout (dBm),Average PAE (%),RF PA Note (Modulation Type),PA_type,node,PCB
 0,2017,6,Takenaka,Novel broadband Doherty power amplifier design for multiband handset applications,InGaP HBT,,0.8,,,,,,,,,27.5,45.3,"LTE (10 MHz, QPSK)",,InGaP-HBT,
 1,2005,6,Kim,CDMA handset power amplifier with diode load modulator,InGaP,,0.836,,,,,,,,1.2288,28.0,41,IS-95A,,,
 2,2010,11,Chen,An Efficiency-Improved Outphasing Power Amplifier Using RF Pulse Modulation,,,0.8365,,64,,,,,,,25.2,30.6,CDMA2000 (4.5 dB PAPR),,PHMET,PCB

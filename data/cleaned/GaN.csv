@@ -1,4 +1,4 @@
-,Year,Month,Last Name (1st Author),Paper Title,Process,CW Performance,Frequency (GHz),Psat (dBm),PAEmax (%),PA Efficieny Note,P1dB (dBm),PAE_1dB (%),Gain (dB),RF PA Modulations,EVM (dB),Modulation Speed (Msym/s),Average Pout (dBm),Average PAE (%),RF PA Note (Modulation Type),RF PA Note (Analog PA or Digital PA),Process node
+,year,month,author_name,paper_title,process,CW Performance,frequency,Psat (dBm),PAEmax (%),PA Efficieny Note,P1dB (dBm),PAE_1dB (%),Gain (dB),RF PA Modulations,EVM (dB),Modulation Speed (Msym/s),Average Pout (dBm),Average PAE (%),RF PA Note (Modulation Type),PA_type,node
 0,2022,6,Shenoy,A GaN HF-band Power Amplifier using Class-D Topology for Jupiter Ice Penetrating Radar,GaN,0.009,0.009,46.7,82,Not Done,,,,,,,,,,,
 1,2018,1,Raza,Design of a 70 W wideband GaN HEMT power amplifier with 60% efficiency over 100-1000 MHz bandwidth,GaN,,0.1,48.5,60,DE,,,25,,,,,,,,GaN
 2,2018,5,Liu,UHF-Band 4kW Broadband High Efficiency GaN Amplifier,GaN,,0.36,56.9,62,PAE,,,,,,,,,,,GaN HEMT

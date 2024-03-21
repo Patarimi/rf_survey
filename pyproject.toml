@@ -6,15 +6,21 @@ authors = ["Patarimi <38954040+Patarimi@users.noreply.github.com>"]
 readme = "README.md"
 package-mode = false
 
+[tool.poe.tasks]
+prep = "python data_preparation.py"
+run = "streamlit run streamlit_app.py"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 streamlit = "^1.32.2"
 openpyxl = "^3.1.2"
 matplotlib = "^3.8.3"
+pydantic = "^2.6.4"
 
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.3.2"
+poethepoet = "^0.25.0"
 
 [build-system]
 requires = ["poetry-core"]
