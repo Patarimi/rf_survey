@@ -1,0 +1,669 @@
+,Year,Month,Last Name (1st Author),Paper Title,"Process (CMOS_Bulk, CMOS_SOI, SiGe)",CW Performance,Frequency (GHz),Psat (dBm),PAEmax (%),PA Efficiency Note,P1dB (dBm),PAE_1dB (%),Gain (dB),RF PA Modulations,EVM (dB),Modulation Speed (Msym/s),Average Pout (dBm),Average PAE (%),RF PA Note (Modulation Type),RF PA Note (Analog PA or Digital PA),Process node
+0,2000,6,Cao,"A 3.2 V, 45% efficient, novel Class AB+C CDMA MMIC power amplifier using quasi enhancement mode PHEMTs",GaAs,,0.8,,,,,,33.1,,,,29,45.8,CDMA,,AlGaAs/InGaAs/GaAs PHEMT
+1,2000,6,Cao,"A 3.2 V, 45% efficient, novel Class AB+C CDMA MMIC power amplifier using quasi enhancement mode PHEMTs",GaAs,,0.8,,,,,,33.1,,,,29,45.7,CDMA,,AlGaAs/InGaAs/GaAs PHEMT
+2,2005,8,Nam,A handset power amplifier with high efficiency at a low level using load-modulation technique,GaAs,,0.8,30.8,48.7,PAE,,,29.8,,,1.2288,23,39.8,IS-95A,,InGaP/GaAs
+3,2007,6,Hun Ji,Concurrent Dual-Band Class-E Power Amplifier Using Composite Right/Left-Handed Transmission Lines,GaAs,,0.8,22.4,43,PAE,20,38,,,,,,,,,
+4,2011,9,Yamamoto,A 2.5-V Low-Reference-Voltage 2.8-V Low- Collector–Voltage Operation 0.8–0.9-GHz Broadband CDMA BiFET Power Amplifier With an Input SPDT Band Select Switch ,GaAs,,0.8,,,,,,27.6,,,,28,36,N-CDMA (J-/W-CDMA),,BiFET 
+5,2013,6,Motoyama,Stacked FET structure for multi-band mobile terminal power amplifier module,GaAs,,0.8,,,,,,,,,,28.5,40,WCDMA release 99,,HEMT
+6,2020,8,Refai,A Highly Efficient Linear Multimode Multiband Class-J Power Amplifier Utilizing GaAs HBT for Handset Modules,GaAs HBT,0.814-0.915,0.814,34.3,57.5,PAE,,,23.5,,,,29,35,2.5G/EDGE,,GaAs HBT
+7,2020,8,Refai,A Highly Efficient Linear Multimode Multiband Class-J Power Amplifier Utilizing GaAs HBT for Handset Modules,GaAs HBT,0.814-0.915,0.814,34.3,57.5,PAE,,,23.5,,,,29,36,3G/W-CDMA,,GaAs HBT
+8,2020,8,Refai,A Highly Efficient Linear Multimode Multiband Class-J Power Amplifier Utilizing GaAs HBT for Handset Modules,GaAs HBT,0.814-0.915,0.814,34.3,57.5,PAE,,,23.5,,,,34.3,62.2,2G/GSM,,GaAs HBT
+9,2004,6,Chen,An envelope elimination and restoration power amplifier using a CMOS dynamic power supply circuit,GaAs,,0.836,,,,,,12,,,,25,48,CDMA,,GaAs/AlGaAs
+10,2008,3,Han,A Parallel Power Amplifier With a Novel Mode Switching Control,GaAs,,0.84,,,,,,`,,,1.2288,28^,40.5^,CDMA IS-95,,InGaP/GaAs
+11,2009,12,Yoo,Helix on Pad-Type Ultra Small-Size Power Amplifiers for WCDMA Handset Applications,GaAs,,0.84,,,,,,,,,3.84,28,40.5,3GPP W-CDMA,,InGaP/GaAs
+12,2007,5,Nam,The Doherty Power Amplifier With On-Chip Dynamic Bias Control Circuit for Handset Application,GaAs,,0.85,,,,,,28.8,,,1.2288,28,43.3,IS-95A,,InGaP/GaAs
+13,2015,1,Kang,A Multi-Mode Multi-Band Reconfigurable Power Amplifier for 2G/3G/4G Handset Applications,GaAs,0.85-0.9,0.85,34.9,52,PAE,,,32,,-27.95,,34.5,52.5,GMSK/EDGE,,2- u InGaP/GaAs HBT
+14,2007,12,Choi,AΔΣ-Digitized Polar RF Transmitter,GaAs,,0.86,,,,,,,,,,22.1,31^,IS-95A,,AlGaAs/GaAs
+15,2010,5,Franco,"An efficient, 35 dBm, inverse class-F, UHF RF power amplifier Module on a 12 mm2footprint designed in first pass through accurate modeling and simulation",GaAs,,0.87,35.0,60.2,PAE,,,,,,,,,,,GaAs HBT
+16,2016,10,Baek,A Linear InGaP/GaAs HBT Power Amplifier Using Parallel-Combined Transistors With IMD3 Cancellation,GaAs,,0.88,33.5,46.1,PAE,27,28,29.2,,,,25.6,18.8,"LTE (10 MHz, 8.1 dB PAPR)",*Data estimated from graph,InGaP/GaAs HBT
+17,2009,6,De la Rosa,A GSM-EDGE power amplifier with a BiFET current limiting bias circuit,GaAs,,0.8975,,,,,,,,,,35,55,GMSK,,InGaP
+18,2009,6,De la Rosa,A GSM-EDGE power amplifier with a BiFET current limiting bias circuit,GaAs,,0.8975,,,,,,,,-37.72,,29.5,25,EDGE,,InGaP
+19,2000,6,Matilainen,An integrated 900-MHz push-pull power amplifier for mobile applications,GaAs,,0.9,35.0,57,PAE,34,55,36,,,,,,,,
+20,2000,8,Yamamoto,A 3.2-V operation single-chip dual-band AlGaAs/GaAs HBT MMIC power amplifier with active feedback circuit technique,GaAs,,0.9,34.5,52,PAE,,,29.5,,,,,,,,AlGaAs/GaAs
+21,2001,5,Abey,A single supply high performance PA MMIC for GSM handsets using quasi-enhancement mode PHEMT,GaAs,,0.9,35.5,63,PAE,,,30.5,,,,,,,,
+22,2001,5,Zhang,"E-PHEMT, single supply, high efficient power amplifiers for GSM and DCS applications",GaAs,,0.9,35.0,55,PAE,32.5,45,39,,,,,,,,
+23,2002,6,Yamamoto,"A GSM/EDGE dual-mode, 900/1800/1900-MHz triple-band HBT MMIC power amplifier module",GaAs,,0.9,,,,,,,,-27.95,,35.5,50,GSM900,,
+24,2002,6,Kim,An advanced 2 watt high power amplifier for CDMA 900 MHz system,GaAs,,0.9,,,,39.74,,30.35,,,,33,,CDMA 900,,
+25,2002,6,Kusunoki,Power amplifier module with digital adaptive predistortion for cellular phone,GaAs,,0.9,,,,,,,,,1.2288,27.5,48,OQPSK,,
+26,2002,12,Kusunoki,Power-amplifier module with digital adaptive predistortion for cellular phones,GaAs,,0.9,,,,,,,,,1.2288,27.5,48,OQPSK,,
+27,2004,3,Fukuda,Novel 900 MHz/1.9 GHz dual-mode power amplifier employing MEMS switches for optimum matching,GaAs,,0.9,30.8,46,PAE,30,40,16,,,,,,,,
+28,2005,6,Fukuda,A 900/1500/2000-MHz triple-band reconfigurable power amplifier employing RF-MEMS switches,GaAs,,0.9,30.2,60,PAE,29.5,55,14,,,,,,,,
+29,2005,6,Zhang,A novel tunable broadband power amplifier module operating from 0.8 GHz to 2.0 GHz,GaAs,,0.9,,34,PAE,34.5,34,33.5,,,,,,,,InGaP/GaAs
+30,2005,6,Keerti,Dynamic output phase to adaptively improve the linearity of power amplifier under antenna mismatch,GaAs,,0.9,,,,25,,29,,,,,,,,
+31,2005,11,Zhang,Broad-band power amplifier with a novel tunable output matching network,GaAs,,0.9,,42,PAE,31,42,30,,,,,,,,InGaP/GaAs
+32,2006,6,Fukuda,A 0.9-5- GHz Wide-Range 1W-Class Reconfigurable Power Amplifier Employing RF-MEMS Switches,GaAs,,0.9,30.5,64,PAE,29.5,58,10.7,,,,,,,,
+33,2006,6,Moriwaki,"A 2.4-V low-reference-voltage operation, InGaP HBT-MMIC power amplifier module for CDMA applications",GaAs,,0.9,,,,,,26.5,,,,27.5,40,J-CDMA,,InGaP/GaAs
+34,2006,6,Moriwaki,"A 2.4-V low-reference-voltage operation, InGaP HBT-MMIC power amplifier module for CDMA applications",GaAs,,0.9,,,,,,26.7,,,,28,42,W-CDMA,,InGaP/GaAs
+35,2007,5,Yamamoto,A CDMA InGaP/GaAs-HBT MMIC Power Amplifier Module Operating With a Low Reference Voltage of 2.4 V,GaAs,,0.9,,,,,,,,,,27.5,40,J-CDMA,,InGaP/GaAs
+36,2007,5,Yamamoto,A CDMA InGaP/GaAs-HBT MMIC Power Amplifier Module Operating With a Low Reference Voltage of 2.4 V,GaAs,,0.9,,,,,,,,,,28,42,W-CDMA,,InGaP/GaAs
+37,2009,6,Zhang,A novel reconfigurable power amplifier structure for multi-band and multi-mode portable wireless applications using a reconfigurable die and a switchable output matching network,GaAs,,0.9,33.8,48(DE),DE,,,,,,,,,,,
+38,2012,6,Kim,A Multiband Reconfigurable Power Amplifier for UMTS Handset Applications ,GaAs,,0.9,,,,,,28.4,,,,28.2,43,"UMTS (Linear) Bands 1, 2, 4, 5, 8",,2-μm InGaP/GaAs HBT 
+39,2014,6,Shimura,A multiband power amplifier using combination of CMOS and GaAs technologies for WCDMA handsets,GaAs,,0.915,,,,,,28.6,,,,28,40.1,WCDMA,,CMOS and GaAs
+40,2016,2,Yamamoto,A WCDMA Multiband Power Amplifier Module With Si-CMOS/GaAs-HBT Hybrid Power-Stage Configuration,GaAs,,0.915,,,,,,,,,,28,40.1, WCDMA MB-PAM,,Si-CMOS/GaAs-HBT hybrid
+41,2020,8,Refai,A Highly Efficient Linear Multimode Multiband Class-J Power Amplifier Utilizing GaAs HBT for Handset Modules,GaAs HBT,0.814-0.915,0.915,33.0,56,PAE,,,22.5,,,,29,33,2.5G/EDGE,,GaAs HBT
+42,2020,8,Refai,A Highly Efficient Linear Multimode Multiband Class-J Power Amplifier Utilizing GaAs HBT for Handset Modules,GaAs HBT,0.814-0.915,0.915,33.0,56,PAE,,,22.5,,,,29,33,3G/W-CDMA,,GaAs HBT
+43,2020,8,Refai,A Highly Efficient Linear Multimode Multiband Class-J Power Amplifier Utilizing GaAs HBT for Handset Modules,GaAs HBT,0.814-0.915,0.915,33.0,56,PAE,,,22.5,,,,34.3,57.5,2G/GSM,,GaAs HBT
+44,2000,1,Martin,A class-E power amplifier based on an extended resonance technique,GaAs,,0.935,35.5,67,PAE,35,65,12.5,,,,,,,,
+45,2001,12,Iwamoto,An extended Doherty amplifier with high efficiency over a wide power range,GaAs,,0.95,,46,PAE,27.5,46,10.2,,,,25,45,CDMA,,InGaP/GaAs
+46,2008,6,Fukuda,A novel reconfigurable quad-band power amplifier with reconfigurable biasing network and LTCC substrates,GaAs,,1.0,30.0,55,PAE,26,35,9.2,,,,,,,,
+47,2017,2,Alizadeh,Investigation of a Class-J Mode Power Amplifier in Presence of a Second-Harmonic Voltage at the Gate Node of the Transistor,GaAs,,1.0,28.1,62,PAE,27.5,59,18,,,,,,,,0.25-μm AlGaAsInGaAs pHEMT 
+48,2007,6,Florian,Hybrid High Power Amplifiers for L-Band Space Application,GaAs,,1.275,40.9,56.46,PAE,40.82,56,12.3,,,,,,,,0.35um pHEMT
+49,2007,6,Florian,Hybrid High Power Amplifiers for L-Band Space Application,GaAs,,1.275,40.9,56.46,PAE,46.25,50,13,,,,,,,,0.35um pHEMT
+50,2005,6,Fukuda,A 900/1500/2000-MHz triple-band reconfigurable power amplifier employing RF-MEMS switches,GaAs,,1.5,30.0,61,PAE,29,58,12.7,,,,,,,,
+51,2006,6,Fukuda,A 0.9-5- GHz Wide-Range 1W-Class Reconfigurable Power Amplifier Employing RF-MEMS Switches,GaAs,,1.5,31.0,58,PAE,30.5,58,8.3,,,,,,,,
+52,2008,6,Fukuda,A novel reconfigurable quad-band power amplifier with reconfigurable biasing network and LTCC substrates,GaAs,,1.5,31.0,52,PAE,25,24,8.8,,,,,,,,
+53,2009,6,Zhang,A novel reconfigurable power amplifier structure for multi-band and multi-mode portable wireless applications using a reconfigurable die and a switchable output matching network,GaAs,,1.6,29.4,55(DE),DE,,,,,,,,,,,
+54,2007,6,Hun Ji,Concurrent Dual-Band Class-E Power Amplifier Using Composite Right/Left-Handed Transmission Lines,GaAs,,1.7,22.2,42.6,PAE,21,40,,,,,,,,,
+55,2012,6,Cho,A low/high-mode power amplifier with envelope-tracking operation ,GaAs,,1.71,,,,,,,,,,27,39.9,"LTE (10 MHz, 16-QAM, 6.44 dB PAPR)",Dual-path ET,InGaP/GaAs HBT and the AIGaAs/InGaAs pHEMT
+56,2012,6,Cho,A low/high-mode power amplifier with envelope-tracking operation ,GaAs,,1.71,,,,,,,,,,15.5,30.3,"LTE (10 MHz, 16-QAM, 6.44 dB PAPR)",,InGaP/GaAs HBT and the AIGaAs/InGaAs pHEMT
+57,2012,6,Leipold,A WCDMA 41% power efficiency direct DC coupled hybrid CMOS/GaAs power amplifier with pre-distortion linearization,GaAs,,1.735,,,,30.5,,25.6,,,,28.5,41.3,WCDMA,,CMOS and InGaP HBT dies
+58,2012,6,Kim,Wideband envelope tracking power amplifier for LTE application ,GaAs,,1.74,,,,,,30.1 / 29.9 / 29.8,,,,27,40.03 / 39.40 / 38.49,LTE with BW 10 / 20 / 30 MHz and PAPR 6.95/6.87/6.87 dB,,InGaP/GaAs 2 μm HBT
+59,2012,5,Kim,Highly Efficient Dual-Switch Hybrid Switching Supply Modulator for Envelope Tracking Power Amplifier,GaAs,,1.74,,,,,,,,,,27,39.1,"LTE (10 MHz, 6.95 dB PAPR)",ET,InGaP/GaAs 2 μm HBT
+60,2000,8,Yamamoto,A 3.2-V operation single-chip dual-band AlGaAs/GaAs HBT MMIC power amplifier with active feedback circuit technique,GaAs,,1.745,32.0,41.8,PAE,,,27,,,,,,,,AlGaAs/GaAs
+61,2001,5,Abey,A single supply high performance PA MMIC for GSM handsets using quasi-enhancement mode PHEMT,GaAs,,1.75,33.2,61.1,PAE,,,28.2,,,,,,,,
+62,2003,12,Jiang,A class-B push-pull power amplifier based on an extended resonance technique,GaAs,,1.75,31.5,60,PAE,30,59,7.3,,,,,,,,
+63,2003,6,Park,Demonstration of on-chip appended power amplifier for improved efficiency at low power region,GaAs,,1.75,28.0,39,PAE,27.6,34.2,23,,,,,,,,InGaP/GaAs
+64,2008,6,Fu,A tunable matching network for power amplifier efficiency enhancement and distortion reduction,GaAs,,1.75,20.0,52.5(DE),DE,19,52.5,11.8,,,,,,,,AlGaAs/InGaAs^^
+65,2008,11,Fu,Improving Power Amplifier Efficiency and Linearity Using a Dynamically Controlled Tunable Matching Network,GaAs,,1.75,17.0,40 (DE),DE,16.5,38,10.5,,,,15,43,3GPP W-CDMA,,AlGaAs/InGaAs
+66,2001,5,Zhang,"E-PHEMT, single supply, high efficient power amplifiers for GSM and DCS applications",GaAs,,1.8,33.0,40,PAE,32,35,35,,,,,,,,
+67,2002,6,Jager,Broadband high-efficiency monolithic InGaP/GaAs HBT power amplifiers for 3G handset applications,GaAs,,1.8,30.0,50,PAE,,,22.5,,,,,,,,InGaP/GaAs
+68,2004,6,Akkul,High efficiency power amplifier input/output circuit topologies for base station and WLAN applications,GaAs,,1.8,42.04,73(DE),DE,41.4,65,16,,,,42.04,73 (DE),GSM,,0.5um PHEMT
+69,2005,11,Zhang,Broad-band power amplifier with a novel tunable output matching network,GaAs,,1.8,33.0,55,PAE,31,42,27.5,,,,,,,,InGaP/GaAs
+70,2005,3,Eccleston,Compact dual-fed distributed power amplifier,GaAs,,1.8,23.0,35,PAE,,,17,,,,,,,,
+71,2014,11,Kang,A Multi-Mode Multi-Band Reconfigurable Power Amplifier for 2G/3G/4G Handset Applications,GaAs,1.8-1.9,1.8,,,,,,,,,,33.4 - 33.80,50.2 - 52.1,2G/2.5G (1.8 / 1.9 GHz band),,2- u InGaP/GaAs HBT
+72,2014,11,Kang,A Multi-Mode Multi-Band Reconfigurable Power Amplifier for 2G/3G/4G Handset Applications,GaAs,1.8-1.9,1.8,,,,,,,,,,40.1 - 41.1 / 34.3 - 35.4,41.9 - 44.2 / 35.2 - 38.2,3G (B1/2/3/4/8) / 4G (B1/2/3/5/8),,2- u InGaP/GaAs HBT
+73,2015,1,Kang,A Multi-Mode Multi-Band Reconfigurable Power Amplifier for 2G/3G/4G Handset Applications,GaAs,1.8-1.9,1.8,,,,,,30,,-27.95,,32.5,50,GMSK/EDGE,,2- u InGaP/GaAs HBT
+74,2010,8,Kang,A Multimode/Multiband Power Amplifier With a Boosted Supply Modulator,GaAs,,1.85,32.0,50,PAE,,,30,,,,30.1,46,"WCDMA ( 3.84 MHz, 3.5 dB PAPR)",,InGaP/GaAs  HBT
+75,2010,8,Kang,A Multimode/Multiband Power Amplifier With a Boosted Supply Modulator,GaAs,,1.85,32.0,50,PAE,,,30,,-32,,27.8,37,"LTE (10 MHz, 7.5 dB PAPR, 16-QAM)",,InGaP/GaAs  HBT
+76,2011,5,Kim,Optimization for Envelope Shaped Operation of Envelope Tracking Power Amplifier ,GaAs,,1.85,33.0,68 (DE),DE,,,,,,,31.5,48.8,WCDMA (QPSK),,InGaP/GaAs 2-μm HBT
+77,2011,5,Kim,Optimization for Envelope Shaped Operation of Envelope Tracking Power Amplifier ,GaAs,,1.85,33.0,68 (DE),DE,,,,,-31.4,,28.9,42.2,"LTE (10 MHz, 7.44 dB PAPR, 16 QAM)",,InGaP/GaAs 2-μm HBT
+78,2011,6,Kang,1.6–2.1 GHz broadband Doherty power amplifiers for LTE handset applications,GaAs,,1.85,,,,,,,,-28,,27.5,36.6,"LTE (10 MHz, 7.5 dB PAPR, 16-QAM)",,2-μm InGaP/GaAs HBT
+79,2011,11,Kang,Design of Bandwidth-Enhanced Doherty Power Amplifiers for Handset Applications ,GaAs,,1.85,,,,,,,,,,27.5,36.3,"LTE (10 MHz, 7.5 dB PAPR)",Doherty ,nGaP/GaAs (HBT) 
+80,2014,6,Shimura,A multiband power amplifier using combination of CMOS and GaAs technologies for WCDMA handsets,GaAs,,1.85,,,,,,31.2,,,,28,34.5,WCDMA,,CMOS and GaAs
+81,2014,1,Cho,Linear Doherty Power Amplifier With an Enhanced Back-Off Efficiency Mode for Handset Applications,GaAs,,1.85,29.0,51,PAE,28,51,27.7,,-28.4,,26,42,"LTE (10 MHz, 16-QAM, 7.5 dB PAPR)",,HBT/pHEMT
+82,2015,3,Moon,Investigation of Intermodulation Distortion of Envelope Tracking Power Amplifier for Linearity Improvement,GaAs,,1.85,31.5,62.5,PAE,,,23.4,,-34.9,,27,44.3,"LTE ( 10 MHz, 16-QAM)",ET,InGaP/GaAs HBT + 0.18- μm CMOS
+83,2015,11,Kim,Analysis of Far-Out Spurious Noise and its Reduction in Envelope-Tracking Power Amplifier,GaAs,,1.85,,,,,,,,,,27,41.8,"LTE (10 MHz, 16-QAM, 6.5 dB PAPR)",,InGaP/GaAs HBT
+84,2015,6,Moon,An HBT Saturated Power Amplifier With Minimized Knee Effect for Envelope Tracking Operation,GaAs,,1.85,,,,,,24.2,,-30.46,,27,46.5,"LTE (10 MHz, 16-QAM, 7.5 dB PAPR)",,InGaP/GaAs HBT
+85,2016,2,Yamamoto,A WCDMA Multiband Power Amplifier Module With Si-CMOS/GaAs-HBT Hybrid Power-Stage Configuration,GaAs,,1.85,,,,,,,,,,28,34.9, WCDMA MB-PAM,,Si-CMOS/GaAs-HBT hybrid
+86,2018,,Chauhan,Design and Performance of Power Amplifier Integration with BAW Filter on a Silicon-Ceramic Composite and Standard Epoxy/Glass Substrate,GaAs,1.85-1.91,1.85,23.0,,,,,13,,,,23,,LTE 20MHz,,SiCer compound substrate
+87,2010,9,Liao,High Efficiency WCDMA Power Amplifier With Pulsed Load Modulation (PLM) ,GaAs,,1.87,30.0,55,PAE,,,13.7,,,,27.1,52.6,WCDMA (10.8 dB PAPR),EDSM+PLM,0.35μm GaAs pHEMT
+88,2004,8,Jeon,A highly efficient CDMA power amplifier based on parallel amplification architecture,GaAs,,1.88,,,,,,25.5,,,1.288,28,37,IS-95A,,InGaP/GaAs
+89,2004,8,Jeon,A highly efficient CDMA power amplifier based on parallel amplification architecture,GaAs,,1.88,,,,,,20.5,,,1.288,16,17,IS-95A,,InGaP/GaAs
+90,2005,10,Yang,Power amplifier with low average current and compact output matching network,GaAs,,1.88,,,,,,,,,,28,38.13,CDMA,,InGaP/GaAs
+91,2007,6,Zhang,A Novel High Efficiency and Linearity Power Amplifier with Over-Voltage Protection,GaAs,,1.88,33.0,,,32,,17.7,,,,,,,,InGaP/GaAs
+92,2008,1,Kang,A Highly Efficient and Linear Class-AB/F Power Amplifier for Multimode Operation,GaAs,,1.88,32.5,61.3,PAE,31.5,59.5,,,,1.2288,28,38.9,CDMA IS-95,,2um InGaP/GaAs HBT
+93,2008,1,Kang,A Highly Efficient and Linear Class-AB/F Power Amplifier for Multimode Operation,GaAs,,1.88,32.3,63.8,PAE,,,,,,,32.5,64.7,PCS1900,,2um InGaP/GaAs HBT
+94,2008,6,Apel,Efficient three-state WCDMA PA integrated with high-performance BiHEMT HBT / E-D pHEMT process,GaAs,,1.88,,,,,,26,,,,28,32,HSDPA W-CDMA,,InGaAs/GaAs
+95,2009,6,Choi,Optimized Envelope Tracking Operation of Doherty Power Amplifier for High Efficiency Over an Extended Dynamic Range,GaAs,,1.88,34.0,51,PAE,,,25,,-28.77,,24.22,38.6,10.75dB crest 5MHz WiBro,,InGaP/GaAs 2um HBT PA
+96,2009,6,Kang,Input power dividing of Doherty power amplifiers for handset applications,GaAs,,1.88,33.0,51,PAE,32,48,23,,-30.46,,26,40.2,9.54dB crest 8.75MHz WiBro,,2um InGaP/GaAs
+97,2009,12,Yoo,Helix on Pad-Type Ultra Small-Size Power Amplifiers for WCDMA Handset Applications,GaAs,,1.88,,,,,,,,,3.84,28,39.3,3GPP W-CDMA,,InGaP/GaAs
+98,2009,7,Choi,A Polar Transmitter With CMOS Programmable Hysteretic-Controlled Hybrid Switching Supply Modulator for Multistandard Application,GaAs,,1.88,,,,,,,,,,27.8,45.3,EDGE,,"2um HBT PA, 0.13um CMOS supply"
+99,2009,7,Choi,A Polar Transmitter With CMOS Programmable Hysteretic-Controlled Hybrid Switching Supply Modulator for Multistandard Application,GaAs,,1.88,,,,,,,,,,29,46,W-CDMA,,"2um HBT PA, 0.13um CMOS supply"
+100,2009,7,Choi,A Polar Transmitter With CMOS Programmable Hysteretic-Controlled Hybrid Switching Supply Modulator for Multistandard Application,GaAs,,1.88,,,,,,,,-30.51,,23.9,34.3,WiMax,,"2um HBT PA, 0.13um CMOS supply"
+101,2010,7,Kang,Design of Doherty Power Amplifiers for Handset Applications ,GaAs,,1.88,33.0,51,PAE,31.5,48,24,,-30.4,,26,40.2,m-WiMAX,,3 um InGaP/GaAs  HBT
+102,2002,9,Sub Noh,PCS/W-CDMA dual-band MMIC power amplifier with a newly proposed linearizing bias circuit,GaAs,,1.9,,,,,,27.4,,,1.2288,28,37,QPSK,,InGaP/GaAs
+103,2002,9,Sub Noh,PCS/W-CDMA dual-band MMIC power amplifier with a newly proposed linearizing bias circuit,GaAs,,1.9,,,,,,25,,,3.84,28,34.65,HPSK,,InGaP/GaAs
+104,2002,6,Yamamoto,"A GSM/EDGE dual-mode, 900/1800/1900-MHz triple-band HBT MMIC power amplifier module",GaAs,,1.9,,,,,,,,-27.95,,33.4,45,GSM1800/1900,,
+105,2002,6,Escalera,Performance of GaAs on silicon power amplifier for wireless handset applications,GaAs,,1.9,,,,19.8,,,,,,,,,,0.7um GaAs/STO/Si
+106,2004,3,Fukuda,Novel 900 MHz/1.9 GHz dual-mode power amplifier employing MEMS switches for optimum matching,GaAs,,1.9,31.0,62,PAE,30,40,17.4,,,,,,,,
+107,2005,6,Zhang,A novel tunable broadband power amplifier module operating from 0.8 GHz to 2.0 GHz,GaAs,,1.9,,,,30.5,34,30.6,,,,,,,,InGaP/GaAs
+108,2006,8,Jau,Envelope Following-Based RF Transmitters Using Switching-Mode Power Amplifiers,GaAs,,1.9,,,,,,,,-30.45,1.2288,21,40,CDMA2000,,0.15um InGaAs
+109,2007,6,Kim,Parasitic Capacitance Optimization of GaAs HBT Class E Power Amplifier for High Efficiency CDMA EER Transmitter,GaAs,,1.9,29.0,,,,,15,,,,,,,,
+110,2007,6,Zhang,A high performance Balanced Power Amplifier and Its Integration into a Front-end Module at PCS Band,GaAs,,1.9,28.0,41,PAE,,,27,,,,,,,,
+111,2016,5,Kim,Design of linear Doherty power amplifier for handset application,GaAs,,1.9,32.0,57,PAE,,,25.1,,-31.37,,27.5,45.8,"LTE (10 MHz, 16-QAM, 7.5 dB PAPR)",Doherty,InGaP/GaAs HBT
+112,2016,5,Cho,Linear Doherty power amplifier with adaptive bias circuit for average power-tracking,GaAs,,1.9,,,,,,24.4,,-31.53,,27.5,45.7,"LTE (10 MHz, 16-QAM, 7.5 dB PAPR)",Doherty with APT,InGaP/GaAs HBT
+113,2000,12,Iwai,42% high efficiency two-stage HBT power amplifier MMIC for W-CDMA cellular phone system,GaAs,,1.95,27.0,42,PAE,,,30.5,,,3.84,27,42,HPSK,,InGaP/GaAs
+114,2000,6,Hau,A linearized power amplifier MMIC for 3.5 V battery operated wide-band CDMA handsets,GaAs,,1.95,,44.5,PAE,31.2,,,,,3.84,28.8,44.5,HPSK,,AlGaAs/InGaAs
+115,2000,12,Mori,An L-band high efficiency and low distortion power amplifier module using an HPF/LPF combined interstage matching circuit,GaAs,,1.95,,,,,,27.7,,,3.84,27.1,43.9,HPSK,,
+116,2001,5,Nishimura,A 50% efficiency InGaP/GaAs HBT power amplifier module for 1.95 GHz wide-band CDMA handsets,GaAs,,1.95,,,,,,28.5,,,,26.3,50.5,W-CDMA,,InGaP/GaAs
+117,2001,5,Vintola,Variable gain power amplifier for mobile WCDMA applications,GaAs,,1.95,,,,,,,,,,24,28,W-CDMA,,AlGaAs/GaAs
+118,2001,6,Hau,A highly efficient linearized wide-band CDMA handset power amplifier based on predistortion under various bias conditions,GaAs,,1.95,,,,28.3,,,,,4.096,26.2,49.9,W-CDMA HPSK,,
+119,2001,12,Vintola,Variable-gain power amplifier for mobile WCDMA applications,GaAs,,1.95,,,,,,35,,,,24,27,W-CDMA,,AlGaAs/GaAs
+120,2002,6,Jager,Broadband high-efficiency monolithic InGaP/GaAs HBT power amplifiers for 3G handset applications,GaAs,,1.95,,,,,,22.6,,,,27,38.3,W-CDMA,,InGaP/GaAs
+121,2003,6,Hyung Kim,An InGaP-GaAs HBT MMIC smart power amplifier for W-CDMA mobile handsets,GaAs,,1.95,28.0,40,PAE,,,25,,,3.84,25,,W-CDMA HPSK,,InGaP/GaAs
+122,2003,6,Hyung Kim,An InGaP-GaAs HBT MMIC smart power amplifier for W-CDMA mobile handsets,GaAs,,1.95,16.0,21,PAE,,,15,,,3.84,16,,W-CDMA HPSK,,InGaP/GaAs
+123,2003,6,Kim,MMIC power amplifier adaptively linearized with RF coupled active bias circuit for W-CDMA mobile terminals applications,GaAs,,1.95,,,,,,27.5,,,3.84,30.3,42,W-CDMA,,InGaP/GaAs
+124,2004,6,Hoon Kim,A power efficient W-CDMA smart power amplifier with emitter area adjusted for output power levels,GaAs,,1.95,,,,22,15.2,15.6,,,3.84,16,,HPSK,,InGaP/GaAs
+125,2004,6,Hoon Kim,A power efficient W-CDMA smart power amplifier with emitter area adjusted for output power levels,GaAs,,1.95,,,,27,33.4,25,,,3.84,27,,HPSK,,InGaP/GaAs
+126,2004,6,Aoki,A 20-mA quiescent current two-stage W-CDMA power amplifier using anti-phase intermodulation distortion,GaAs,,1.95,,,,,,25.2,,,3.84,27.1,44,W-CDMA,,InGaP/GaAs
+127,2005,6,Jarvinen,GaAs HBT class-E amplifiers for 2-GHz mobile applications,GaAs,,1.95,27.0,62.5,PAE,,,21.6,,,,,,,,
+128,2005,6,Tanoue,Switch-less-impedance-matching type W-CDMA power amplifier with improved efficiency and linearity under low power operation,GaAs,,1.95,,,,,,,,,,25.6,38,W-CDMA,,
+129,2005,6,Hau,A 20 mA quiescent current 40% PAE WCDMA HBT power amplifier module with reduced current consumption under backoff power operation,GaAs,,1.95,,,,,,22,,,3.84,18,19,HPSK,,InGaP/GaAs HBT
+130,2005,6,Hau,A 20 mA quiescent current 40% PAE WCDMA HBT power amplifier module with reduced current consumption under backoff power operation,GaAs,,1.95,,,,,,26,,,3.84,28,40.5,HPSK,,InGaP/GaAs HBT
+131,2005,3,Srirattana,Analysis and design of a high-efficiency multistage Doherty power amplifier for wireless communications,GaAs,,1.95,,,,,,12.2,,,3.84,33,50,W-CDMA,,
+132,2006,6,Jau,Highly Efficient Multimode RF Transmitter Using the Hybrid Quadrature Polar Modulation Scheme,GaAs,,1.95,24.21,64,PAE,,,,,,1.2288,21,42,QPSK CDMA2000,,0.15um InGaAs pHEMT
+133,2006,6,Lee,DC/DC converter controlled power amplifier module for WCDMA applications,GaAs,,1.95,,,,,,27.5,,,,27.5,38.5,W-CDMA,,
+134,2007,6,Hau,A WCDMA HBT Power Amplifier Module with Integrated Si DC Power Management IC for Current Reduction under Backoff Operation,GaAs,,1.95,,,,,,25,,,3.84,27.5,,HPSK W-CDMA,,"GaAs HBT PA, Si BiCMOS DC power"
+135,2008,6,Hau,A 3x3mm2 embedded-wafer-level packaged WCDMA GaAs HBT power amplifier module with integrated Si DC power management IC,GaAs,,1.95,,,,,,,,,3.84,27.5,,3GPP W-CDMA HPSK,,
+136,2009,3,Chen,Design and Linearization of Class-E Power Amplifier for Nonconstant Envelope Modulation,GaAs,,1.95,28.7,72.3,PAE,,,9.2,,-31.05*,1.2288,22.7,53.9,CDMA2000,,
+137,2009,6,Chen,High efficiency dual-mode RF transmitter using envelope-tracking dual-band Class-E power amplifier for W-CDMA/WiMAX systems,GaAs,,1.95,,,,,,,,,,25,45,W-CDMA,,
+138,2009,12,Yoo,Helix on Pad-Type Ultra Small-Size Power Amplifiers for WCDMA Handset Applications,GaAs,,1.95,,,,,,,,,3.84,28.5,40.2,3GPP W-CDMA,,InGaP/GaAs
+139,2010,6,Hau,Multi-mode WCDMA power amplifier module with improved low-power efficiency using stage-bypass ,GaAs,,1.95,,,,,,27.5,,,,28.5,42,WCDMA,,GaAs BiFET
+140,2012,11,Chen,High-Gain and High-Efficiency EER/Polar Transmitters Using Injection-Locked Oscillators,GaAs,,1.95,28.0,57,PAE,,,20.8 / 26.6,,-27.9 / -35.9,,25.8 / 26.6,44 / 48.7,WCDMA / EDGE,EER with injection locking transmitter,0.15-μm GaAs pHEMT
+141,2012,6,Lee,A single chip multiband power amplifier using active load modulation techniques ,GaAs,,1.95,,,,,,12,,,,27,35,"LTE (10 MHz, 16-QAM)",,InGaP/GaAs HBT
+142,2013,1,Kheirkhahi,RF Power Amplifier Efficiency Enhancement by Envelope Injection and Termination for Mobile Terminal Applications,GaAs,,1.95,28.0,,,,,,,,,26.5 (Max),42,WCDMA,,heterojunction GaAs field-effect transistor
+143,2015,4,Ji,A Novel Load Mismatch Detection and Correction Technique for 3G/4G Load Insensitive Power Amplifier Application,GaAs,,1.95,,,,,,25.3,,,,28.25,42.9,WCDMA,,2-μm InGaP/GaAs HBT
+144,2018,11,Sugiura,High Efficiency Compact Doherty Power Amplifier with Novel Harmonics Termination for Handset Applications,GaAs,,1.95,31.5,58.8,PAE,,,27.2,,,,25.5,50.1,10 MHz QPSK,,
+145,2010,5,Kim,A multi-band reconfigurable power amplifier for UMTS handset applications,GaAs,,1.95,27.5,,,,,25.5,,,,28.5 / 27.5,39 / 37,Band 2 + Band 4/10 WCDMA (Rel'99),,2 um InGaP/GaAs  HBT
+146,2002,6,Jeon,A New “Active” Predistortor With High Gain Using CascodeFET Structures,GaAs,,2.0,29.5,,,,,33,,,,,,,,GaAs_pHEMT
+147,2004,6,Akkul,50 watt MMIC power amplifier design for 2 GHz applications,GaAs,,2.0,,38,PAE,46.98,,21,,,,,,,,
+148,2005,6,Fukuda,A 900/1500/2000-MHz triple-band reconfigurable power amplifier employing RF-MEMS switches,GaAs,,2.0,30.0,62,PAE,28,56,14,,,,,,,,
+149,2005,6,Jarvinen,GaAs HBT Class-E Amplifiers for 2-GHz Mobile Applications,GaAs,,2.0,26.0,60,PAE,,,,,,,,,,,GaAs HBT
+150,2005,5,Wren,Experimental class-F power amplifier design using computationally efficient and accurate large-signal pHEMT model,GaAs,,2.0,19.85,70.5(DE),DE,18,62(DE),15,,,,,,,,
+151,2005,5,Wren,Experimental Class-F Power Amplifier Design Using Computationally Efficient and Accurate Large-Signal pHEMT Model,GaAs,,2.0,19.85,70.5(DE),DE,,,10,,,,,,,,LP6836P70_pHEMT
+152,2006,6,Fukuda,A 0.9-5- GHz Wide-Range 1W-Class Reconfigurable Power Amplifier Employing RF-MEMS Switches,GaAs,,2.0,31.0,58,PAE,30,57,8.6,,,,,,,,
+153,2006,6,Fukuda,A 0.9-5-GHz Wide-Range 1W-Class Reconfigurable Power Amplifier Employing RF-MEMS Switches,GaAs,,2.0,31.0,58,PAE,,,8.6,,,,,,,,GaAs FET
+154,2006,5,Tsai,A new feedback method for power amplifier with unilateralization and improved output return loss,GaAs,,2.0,29.3,40,PAE,29,37,18.8,,,,,,,,
+155,2007,2,Bahl,0.7–2.7-GHz 12-W Power-Amplifier MMIC Developed Using MLP Technology,GaAs,,2.0,42.2,26,PAE,41.9,26,21.5,,,,,,,,GaAs_MESFET
+156,2008,6,Fukuda,A novel reconfigurable quad-band power amplifier with reconfigurable biasing network and LTCC substrates,GaAs,,2.0,31.0,52,PAE,28,44,8,,,,,,,,
+157,2008,6,Ezzeddine,10W ultra-broadband power amplifier,GaAs,,2.0,,,,40,13,21,,,,,,,,
+158,2010,8,Lin,A High Efficiency Broadband Class-E Power Amplifier Using a Reactance Compensation Technique ,GaAs,,2.0,27.9,65,PAE,27,,21,,,,,,,,0.5 um GaAs PHMET
+159,2011,6,Kang,1.6-2.1 GHz Broadband Doherty Power Amplifiers for LTE Handset Applications,GaAs,,2.0,,,,,,27,,-30.45*,,27.5,35,16QAM (LTE),,InGaP/GaAs HBT
+160,2012,6,Lee,A Single Chip Multiband Power Amplifier using Active Load Modulation Techniques,GaAs,,2.0,,,,,,,,,,28,41,16 QAM LTE,,InGaP/GaAs HBT
+161,2019,8,Alizadeh,Integrated Output Matching Networks for Class–J/J-1 Power Amplifiers,GaAs,,2.0,28.2,61,PAE,,,14.8,,,,,,,,250nm pHEMT
+162,2019,8,Alizadeh,Integrated Output Matching Networks for Class–J/J-1 Power Amplifiers,GaAs,,2.0,28.6,65,PAE,,,15,,,,,,,,250nm pHEMT
+163,2019,12,Lee,Broadband InGaP/GaAs HBT Power Amplifier Integrated Circuit Using Cascode Structure and Optimized Shunt Inductor,InP/GaAs HBT,,2.0,31.0,52.5,PAE,,,29,,,,27.5,37,16QAM LTE(10MHz),,
+164,2021,10,Hu,Design of 35-dB 0.03-to-2.7 GHz Two-Stage Broadband Power Amplifier With 37.2 dBm Psat Using Modular Technology,GaAs,0.03-2.7,2.0,37.0,34,PAE,,,36,,,,,,,Analog,0.25 μm GaAs PHEMT
+165,2016,1,Jagadheswaran,"A 2-μmInGaP/GaAs Class-J Power Amplifier for Multi-Band LTE Achieving 35.8-dB Gain, 40.5% to 55.8% PAE and 28-dBm Linear Output Power",GaAs,,2.05,32.0,,,31,,35.8,,-27.96,,28,55.8,"LTE (20 MHz, 16-QAM, 7.88 dB PAPR)",,2- um InGaP/GaAs HBT
+166,2016,1,Jagadheswaran,"A 2-um InGaP/GaAs Class-J Power Amplifier for Multi-Band LTE Achieving 35.8-dB Gain, 40.5% t0 55.8% PAE and 28-DBm Linear Output Power",GaAs,,2.05,,,,,,,,-29.42,,28,56,16QAM,,InGap/GaAs HBT
+167,2010,5,Landon,Generation 2 High Voltage Heterojunction Bipolar Transistor Technology for High Efficiency Base Station Power Amplifiers,GaAs,,2.1,57.0,70(CE),CE,,,,,,,50.8,54,,,HVHBT
+168,2011,12,Kang,Design of Bandwidth-Enhanced Doehrty Power Amplifiers for Handset Applications,GaAs,,2.1,,,,,,27,,-26,,28,31,16QAM,,InGaP/GaAs HBT
+169,2002,6,Staudinger,A 15 Watt PEP GaAs PHEMT MMIC Power Amplifier For 3G Wireless Transmitter Applications,GaAs,,2.14,,,,41.76,,34.8,,,,33,17,W-CDMA,,GaAs PHEMT
+170,2002,6,Staudinger,A 15 Watt PEP GaAs PHEMT MMIC Power Amplifier For 3G Wireless Transmitter Applications,GaAs,,2.14,,,,41.76,,34.8,,,,36,25,IS-95,,GaAs PHEMT
+171,2004,6,Akkul,50 Watt MMIC Power Amplifier Design for 2 GHz Applications,GaAs,,2.14,47.0,38,PAE,,,21,,,,,,,,GaAs pHEMT(500nm)
+172,2006,12,Takenaka,A Distortion-Cancelled Doherty High-Power Amplifier Using 28-V GaAs Heterojunction FETs for W-CDMA Base Stations,GaAs,,2.14,55.2,,,,,14,,,,49,42(DE),WCDMA,,GaAs HJFET
+173,2006,4,Jeong,Compensation Method for a Nonlinear Amplifier Using the Gain Expansion Phenomenon in a Doherty Amplifier,GaAs,,2.14,,,,,,,,,,39,24,CDMA2000,,FLL351ME_GaAs_FET
+174,2010,5,Hsia,Wideband High Efficiency Digitally-Assisted Envelope Amplifier with Dual Switching Stages for Radio Base-Station Envelope Tracking Power Amplifiers,GaAs,,2.14,,,,,,,,-29.9,,45.85,60.9,WCDMA (10Mhz),,GaAs HBT
+175,2001,6,Barataud,Optimum Design of Very High-Efficiency Microwave Power Amplifiers Based on Time-Domain Harmonic Load–Pull Measurements,GaAs,,2.15,30.0,60,PAE,,,14,,,,,,,,GaAs_HBT
+176,2019,12,Lee,Broadband InGaP/GaAs HBT Power Amplifier Integrated Circuit Using Cascode Structure and Optimized Shunt Inductor,InP/GaAs HBT,,2.2,30.8,48,PAE,,,28,,,,27.4,35,16QAM LTE(10MHz),,
+177,2020,12,Öncü,An S-Band Solid-State Power Amplifier for Low Earth Orbit Satellite Telemetry Communications,GaAs,2.23,2.23,,,,38,43,10.31,,-27.85,,36.76,37.4,2 Mbps BPSK,Analog,GaAs
+178,2008,8,Ji,Linearity Improved Doherty Power Amplifier Using Composite Right/Left-Handed Transmission Lines,GaAs,,2.3,31.0,32,PAE,,,,,,,,,,,GaAs
+179,2004,6,Kunihiro,A Diplexer-matching Dual-band Power Amplifier LTCC Module for IEEE 802.1 1 a/b/g Wireless LANs,GaAs,,2.4,29.0,40,PAE,27,38,34,,-27.33,54Mbps,20,16,802.11a/g(OFDM_64QAM),,InGaP/GaAs
+180,2004,6,Wang,Envelope Tracking Power Amplifier with Pre-Distortion Linearization for WLAN 802.1 1 g,GaAs,,2.4,,52,PAE,,,13,,-32.77,54Mbps,19.5,25,802.11g,,MWT-871 GaAs MESFET
+181,2005,4,Wang,Design of Wide-Bandwidth Envelope-Tracking Power Amplifiers for OFDM Applications,GaAs,,2.4,23.0,52,PAE,,,13,,-32.77,54 Mbps,19.5,25,WLAN 802.11 g,,MWT-871_GaAs_MESFET
+182,2007,6,Meliani,A 2.4 GHz GaAs-HBT Class-E MMIC Amplifier with 65% PAE,GaAs,,2.4,37.0,65,PAE,,,,,,,,,,,GaAs
+183,2007,9,Huang,High Efficiency Linear Power Amplifier for IEEE 802.11g WLAN Applications,GaAs,,2.4,26.5,39.3,PAE,,,18.1,,,,,,,,InGaP/GaAs
+184,2008,6,Seol,A 2.4-GHz HBT Power Amplifier Using an On-Chip Transformer as an Output Matching Network,GaAs,,2.4,,,,28.3,40.2,29.8,,,,,,,,InGaP/GaAs HBT
+185,2017,8,Ershadi,Investigation of Integrated Smooth Transistor's Switching Transition Power Amplifier 2.4Ghz Realization of Class-Em,GaAs,,2.4,29.0,63,PAE,28,60,14,,,,,,,,GaAs pHEMT(250nm)
+186,2020,3,Ekhteraei,High-Efficiency Low Voltage Inverse Class-F Power Amplifier Design Based on Harmonic Control Network Analysis,GaAs,,2.4,27.4,76,PAE,,,11.2,,,,,,,,pHEMT
+187,2019,12,Lee,Broadband InGaP/GaAs HBT Power Amplifier Integrated Circuit Using Cascode Structure and Optimized Shunt Inductor,InP/GaAs HBT,,2.4,30.5,45,PAE,,,26,,,,27,34,16QAM LTE(10MHz),,
+188,2021,6,Imai,A Bandwidth-Optimized Transformer-Based Doherty Power Amplifier for 5G Power Class 2 Handset operation at 2.2 GHz–2.7 GHz,GaAs,2.2-2.7,2.4,37.4,59,PAE,36.6,56,25,,,,30.5,35.5,100 MHz-bandwidth 5G signals,Analog,GaAs
+189,2007,6,Hsu,Single-chip Dual-Mode Power Amplifier MMIC using GaAs E-pHEMT for WiMAX/WLAN Applications,GaAs,,2.45,,,,27,,21,,-32,54Mbps,19,,64QAM,,GaAs
+190,2021,5,Wan,A High-Efficiency Two-Stage GaAs HBT Doherty Power Amplifier With Thermal Compensation for WLAN Application,GaAs,2.45,2.45,,,,,,29,,-42,,26,21,40 MHz 64-QAM signal,Analog,InGaP/GaAs HBT process
+191,2007,2,Bahl,0.7–2.7-GHz 12-W Power-Amplifier MMIC Developed Using MLP Technology,GaAs,,2.5,41.5,25,PAE,41,25,20,,,,,,,,
+192,2007,2,Bahl,0.7–2.7-GHz 12-W Power-Amplifier MMIC Developed Using MLP Technology,GaAs,,2.5,41.5,25,PAE,41,23,22,,,,,,,,GaAs_MESFET
+193,2008,6,Fukuda,A novel reconfigurable quad-band power amplifier with reconfigurable biasing network and LTCC substrates,GaAs,,2.5,30.0,40,PAE,29,38,8.1,,,,,,,,
+194,2008,6,Chow,"A variable supply, (2.3-2.7)GHz linear power amplifier module for IEEE 802.16e and LTE applications using E-mode pHEMT technology",GaAs,,2.5,,,,,,,,-26,,28,,OFDM ,,GaAs/AlGaAs pHEMT
+195,2008,6,Ezzeddine,10W Ultra-Broadband Power Amplifier,GaAs,,2.5,40.0,,,36,23,20,,,,,,,,HIFET
+196,2010,5,Alidio,A Novel Broadband Power Amplifier Architecture for High Efficiency and High Linearity Applications,GaAs,,2.5,26.0,,,,,11,,-30.45,54Mbps,19.6,25,64 QAM OFDM,,GaAs HBT
+197,2010,12,Kang,Broradband HBT Doherty Power Amplifiers for Handset Applications,GaAs,,2.5,,,,,,21,,-30,,24.6,30.3,16 QAM (Wimax),Analog,2 um InGaP/GaAs HBT
+198,2018,9,Balteanu,Linear Front End Module for 4G/5G LTE Advanced Applications,GaAs,,2.5,,,,,,,,,,29,41,LTE 20MHz,,
+199,2021,10,Hu,Design of 35-dB 0.03-to-2.7 GHz Two-Stage Broadband Power Amplifier With 37.2 dBm Psat Using Modular Technology,GaAs,0.03-2.7,2.5,36.0,26.5,PAE,,,37,,,,,,,Analog,0.25 μm GaAs PHEMT
+200,2011,6,Hassan,High Efficiency Envelope Tracking Power Amplifier with Very Low Quiescent Power for 20 MHz LTE,GaAs,,2.535,33.0,60,PAE,,,29,,,,30,45,LTE 20Mhz,,GaAs HBT
+201,2009,6,Chen,High efficiency dual-mode RF transmitter using envelope-tracking dual-band Class-E power amplifier for W-CDMA/WiMAX systems,GaAs,,2.6,,,,,,,,,,21.6,43,WiMAX,,
+202,2009,6,Chen,High Efficiency Dual-Mode RF Transmitter Using Envelope-Tracking Dual-Band Class-E Power Amplifier for W-CDMA/WiMAX Systems,GaAs,,2.6,,,,,,,,,,21.6,43,WiMax,,GaAs pHMET
+203,2017,6,Li,A 2.6 GHz RF Power Amplifier with 25.6 dBm Linear Power and -47 dBc ACLR for Small-cell Applications,GaAs,,2.6,34.0,47,PAE,32.14,39.7,31.6,,,,25.6,17.2,LTE (20Mhz),,GaAs HBT
+204,2019,6,Lee,InGaP/GaAs HBT Broadband Power Amplifer IC with 54.3% Fractional Bandwidth Based on Cascode Structure,GaAs,1.55-2.65,2.65,,,,,,23.7,LTE,,,26.7,30.9,PAPR=7.5dB,,
+205,2018,11,Balteanu,Envelope Tracking System for High Power Applications in Uplink 4G/5G LTE Advanced,GaAs,,2.7,,,,,,26,,,,31.2,40,LTE 20MHz 64QAM,,
+206,2004,6,Piotrowicz,High Power and High Efficiency 30 W Compact S-Band HBT Power Chips with Gold or Diamond Heat Spreaders,GaAs,,2.9,44.91,49.5,PAE,,,,,,,,,,,GaInP/GaAs HBT
+207,2008,1,Bahl,2–8 GHz 8-W Power Amplifier MMIC Developed Using MSAG MESFET Technology,GaAs,,3.0,39.5,28,PAE,,,15.5,,,,,,,,GaAs
+208,2019,10,Alizadeh,Class-J23 Power Amplifiers,GaAS,,3.0,30.7,58,PAE,,,19,,,,,,,,250nm pHEMT
+209,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,2.6-7.3,3.0,21.0,35,PAE,,,7.3,,,,,,,Analog,PIH1-10 GaAs pHEMT
+210,2021,12,Wu,A 0.5-3 GHz 1-Watt High Efficiency GaAs pHEMT Power Amplifier,GaAs,0.2-3,3.0,31.0,33.5,PAE,30,32,21,,,,,,,Analog,0.15-μm GaAs pHEMT
+211,2000,6,Murae,A COMPACT S-BAND MMIC HIGH POWER AMPLIFIER MODULE,GaAs,,3.2,,,,43.3(2dB),40(2dB),25,,,,,,,,GaAs_pHEMT(500nm)
+212,2000,6,Murae,A COMPACT S-BAND MMIC HIGH POWER AMPLIFIER MODULE,GaAs,,3.2,,,,48.3(2dB),32(2dB),22.5,,,,,,,,GaAs_pHEMT(500nm)
+213,2003,6,Matsunaga,A 90W S-band High Power Amplifier for Broadband Wireless Applications,GaAs,,3.2,49.7,36,PAE,,,9.8,,,,,,,,GaAs FET
+214,2019,3,Quaglia,A 1.8–3.2-GHz Doherty Power Amplifier in Quasi-MMIC Technology,GaAs,,3.2,42.0,52,PAE,,,9,,,,,,LTE 20MHz,,
+215,2019,3,Quaglia,A 1.8–3.2-GHz Doherty Power Amplifier in Quasi-MMIC Technology,GaAs,,3.2,41.4,43,PAE,,,9,,,,,,LTE 20MHz,,
+216,2018,5,Liu,A 3.5GHz GaAs pHEMT Power Amplifier,GaAs,,3.36,,,,23,22,16,,,,,,,,0.25um pHEMT
+217,2005,10,Chu,A Fully Matched High Linearity 2-W PHEMT MMIC Power Amplifier for 3.5 GHz Applications,GaAs,,3.5,34.8,37.1,PAE,34,37.1,30.4,,,,,,,,AlGaAs/InGaAs/GaAs pHEMT
+218,2006,6,Goto,A Low Distortion 25 W Class-F Power Amplifier Using Internally Harmonic Tuned FET Architecture for 3.5 GHz OFDM Applications,GaAs,,3.5,44.6,53,PAE,44.2,53,11.5,,-36.48,,34.6,18,WiMAX OFDM,,IHT-FET
+219,2007,6,Hsu,Single-chip Dual-Mode Power Amplifier MMIC using GaAs E-pHEMT for WiMAX/WLAN Applications,GaAs,,3.5,,,,30,,25.6,,-31.3,,24.4,15,OFDM,,GaAs
+220,2012,10,Lin,A Broadband Injection-Locking Class-E Power Amplifier,GaAs,,3.5,27.7,55,PAE,25,25,32,,-30.2,,25,52,64QAM,,GaAs PHEMT (500nm)
+221,2021,11,Wan,A Fully Integrated High-Efficiency Three-stage Doherty Power Amplifier for Small-cell application,GaAs,3.3-3.5,3.5,38.0,47.5,PAE,,,34,,,,30,30.3,20 MHz LTE signal,Analog,2μm GaAs HBT technology
+222,2001,5,Hang,High Efficiency S-band Class AB Push-pull Power Amplifier with Wide Band Harmonic Suppression,GaAs,,3.55,28.2,63.8,PAE,,,,,,,,,,,MWT-8HP_GaAS_FET
+223,2022,6,Oh,2.8-3.8 GHz Broadband InGaP/GaAs HBT Doherty Power Amplifier IC for 5G New Radio Handset,GaAs,2.8-3.8,3.55,,,,,,38.3,,,,27.1,30.6,5G NR 100 MHz,Analog,2-μm InGaP/GaAs HBT process
+224,2005,10,Wakejima,C-band GaAs FET power amplifiers with 70-W output power and 50% PAE for satellite communication use,GaAs,,3.8,48.5,51,PAE,,,12.1,,,,,,,Analog,GaAs_HFET(700nm)
+225,2007,10,Chen,An Integrated Wideband Power Amplifier for Cognitive Radio,GaAs,,4.0,,,,22,28,20,,-25.7,,17.4,,64QAM OFDM,,InGaAs_pHEMT(150nm)
+226,2016,1,Ding,A High-Efficiency GaAs MMIC Power Amplifier for Multi-Standard System,GaAs,,4.0,33.5,47.5,PAE,,,20.5,,,20 MHz,24,,LTE,,GaAs pHEMT(150nm)
+227,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,2.6-7.3,4.0,20.1,31,PAE,,,7.3,,,,,,,Analog,PIH1-10 GaAs pHEMT
+228,2000,6,Hang,PUSH-PULL POWER AMPLIFIER INTEGRATED WITH QUASI-YAGI ANTENNA FOR POWER COMBINING AND HARMONIC TUNING,GaAs,,4.15,28.2,60.9,PAE,,,12,,,,,,,,MWT8HP_GaAs_FET
+229,2001,6,Hang,High-Efficiency Push–Pull Power Amplifier Integrated with Quasi-Yagi Antenna,GaAs,,4.15,28.2,60.9,PAE,27,55,,,,,,,,,GaAS_FET
+230,2016,7,Silva,Ovtave Band Lineaer MMIC Amplifier With +40dBm OIP3 for High-Reliability Space Applicatinos,GaAs,,4.5,28.0,25,PAE,26.7,18,25,,,,,,,,GaAs pHEMT (250nm)
+231,2001,4,Lim,A power amplifier with efficiency improved using defected ground structure,GaAs,,4.6,24.4,40,PAE,,,,,,,,,,, GaAs
+232,2022,6,Ma,A 35 dBm PSAT and 41% PAE GaAs Power Amplifier with Series Distributed-Balun,GaAs,4.4-6,4.6,33.5,36,PAE,32,26,32.5,,,,,,,Analog,0.5μm GaAs pHEMT process
+233,2007,6,Tsai,An HBT Four-Cell Monolithic Stacked Power Amplifier,GaAs,,4.8,29.5,36.9,PAE,26,22.8,14,,,,,,,,HBT (200nm)
+234,2018,8,Lv,A C-band GaAs Doherty Power Amplifier MMIC with Compact Size and 1-GHz Bandwidth,GaAs,,4.9,30.0,46,PAE,,,15,,,,,,,,
+235,2000,6,Kobayashi,A 0.5-1 6 GHz Capacitively Coupled HBT Medium Power Amplifier MMlC with Active Bias Regulation,GaAs,,5.0,19.0,,,17,,8,,,,,,,,GaAs_HBT
+236,2002,12,Iwamoto,Optimum Bias Conditions for Linear Broad-Band InGaP/GaAs HBT Power Amplifiers,GaAs,,5.0,,,,24.5,14.1,7.5,,,,,,,,GaAs_HBT
+237,2002,12,Iwamoto,Optimum Bias Conditions for Linear Broadband InGaP/GaAs HBT Power Amplifiers,GaAs,,5.0,,,,25,,7.5,,,,,,,,InGaP/GaAs HBT
+238,2003,6,Fujita,A 5 GHz High Efficiency and Low Distortion InGaP/GaAs HBT Power Amplifier MMIC,GaAs,,5.0,,,,,,22.1,,-26,54Mbps,19.7,22.5,IEEE 802.11a,,InGaP/GaAs HBT
+239,2006,6,Fukuda,A 0.9-5- GHz Wide-Range 1W-Class Reconfigurable Power Amplifier Employing RF-MEMS Switches,GaAs,,5.0,30.8,45,PAE,30,42,8.1,,,,,,,,
+240,2006,6,Fukuda,A 0.9-5-GHz Wide-Range 1W-Class Reconfigurable Power Amplifier Employing RF-MEMS Switches,GaAs,,5.0,30.8,45,PAE,,,8.1,,,,,,,,GaAs FET
+241,2006,6,Yu,Fully Integrated Doherty Power Amplifiers for 5 GHz Wireless-LANs,GaAs,,5.0,,,,,,,,-26,54Mbps,22.5,21.3,64 QAM OFDM,,InGaP/GaAs HBT (2000nm)
+242,2008,6,Shen,A Broadband Stacked Power Amplifier Using 2-m GaAs HBT Process for C-band Applications,GaAs,,5.0,25.0,42.5,PAE,24.2,36.4,15,,,,,,,,GaAs HBT (2000nm)
+243,2016,6,Alizadeh,A Braodband Integrated Class-J Power Amplifier in GaAs pHEMT Technology,GaAs,,5.0,27.8,62,PAE,,,,,,,,,,,GaAs pHEMT
+244,2017,8,Alizadeh,Dual Band Design of Integrated Class-J Power Amplifiers in GaAs pHEMT Technology,GaAs,,5.0,26.9,49,PAE,,,,,,,,,,,GaAs pHEMT(100nm)
+245,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,2.6-7.3,5.0,20.1,28.5,PAE,,,7,,,,,,,Analog,PIH1-10 GaAs pHEMT
+246,2021,5,Chen,A Monolithically Integrated Single-Input Load- Modulated Balanced Amplifier With Enhanced Efficiency at Power Back-Off,GaAs,2021-04-06 00:00:00,5.0,31.0,25,PAE,30,25,5.2,,-29.5,80,22,11.1, 64-QAM,Analog,1-μm GaAs HBT
+247,2021,5,Chen,A Monolithically Integrated Single-Input Load- Modulated Balanced Amplifier With Enhanced Efficiency at Power Back-Off,GaAs,2021-04-06 00:00:00,5.0,31.5,26,PAE,30,25,6.2,,-29.9,80,22.3,10.6, 64-QAM,Analog,1-μm GaAs HBT
+248,2022,6,Ma,A 35 dBm PSAT and 41% PAE GaAs Power Amplifier with Series Distributed-Balun,GaAs,4.4-6,5.0,34.5,40,PAE,32.5,,32.5,,-32.4,160,28.7,,64-QAM 160MSym/s,Analog,0.5μm GaAs pHEMT process
+249,2022,6,Ma,A 35 dBm PSAT and 41% PAE GaAs Power Amplifier with Series Distributed-Balun,GaAs,4.4-6,5.0,34.5,40,PAE,32.5,,32.5,,-35.2,160,26.5,,256-QAM 160MSym/s,Analog,0.5μm GaAs pHEMT process
+250,2004,6,Sawa,Manufacturable 4W GaAs WLAN Amplifier Module for 5GHz Applications,GaAs,,5.03,,,,36,38,26,,-25,54Mbps,28.7,6,802.11a 64QAM OFDM,,GaAs MESFET
+251,2004,6,Dow,Low DC Current 2.4-2.5 GHz and 4.9-6.0 GHz Linear Power Amplifier Modules for IEEE802.11 a/b/g Applications,GaAs,,5.15,27.0,35,PAE,26,32,16,,-27.54,54Mbps,23,22,802.11a(OFDM_64QAM),,InGaP/GaAs_HBT
+252,2004,,Yamamoto,"InGaP/GaAs HBT MMICs for 5-GHz-Band Wireless Applicationsa High PldB, 23/4-dB Step-Gain Low-Noise Amplifier and a Power Amplifier",GaAs,,5.2,,,,23.2,30,23.2,,,,,,,,InGaP/GaAs HBT
+253,2012,9,Shen,A Monolithic 3.5-to-6.5 GHz GaAs HBT-HEMT/Common-Emitter and Common-Gate Stacked Power Amplifier,GaAs,,5.2,29.5,26,PAE,,,5,,,,,,,,GaAs HBT-HEMT
+254,2022,6,Ma,A 35 dBm PSAT and 41% PAE GaAs Power Amplifier with Series Distributed-Balun,GaAs,4.4-6,5.2,35.0,41,PAE,33,30,32.5,,,,,,,Analog,0.5μm GaAs pHEMT process
+255,2003,6,Kim,A Low Quiescent Current 3.3V Operation Linear MMIC Power Amplifier for 5 GHz WLAN Applications,GaAs,,5.25,,,,26,27.8,17,,,,,,,,InCaP/GaAs HBT
+256,2004,6,Kunihiro,A Diplexer-matching Dual-band Power Amplifier LTCC Module for IEEE 802.1 1 a/b/g Wireless LANs,GaAs,,5.25,27.0,22,PAE,24,20,25,,-25,54Mbps,18,9,802.11a/g(OFDM_64QAM),,InGaP/GaAs
+257,2004,6,Griindlingh,A High Efficiency Chireix Out-phasing Power Amplifier for SGHz WLAN Applications,GaAs,,5.25,,,,,,,,-27,54Mbps,22.2,33,802.11a,,power pHEMT(500nm)
+258,2018,1,Kang,Highly Efficient 5.15- to 5.85-GHz Neutralized HBT Power Amplifier for LTE Applications,GaAs,,5.3,31.3,44.5,PAE,,,,,,,24.1-24.4 / 22.2-22.8,,20-MHz 100-RB QPSK 6.7 dB PAPR / 40-MHz 200-RB QPSK 8.3 dB PAPR,,GaAs HBT
+259,2007,10,Oka,A High-Power Low-Distortion GaAs HBT Power Amplifier for Mobile Terminals Used in Broadband Wireless Applications,GaAs,,5.5,26.0,25,PAE,,,24,,-30.46,54 Mbps,22,17,OFDM(64QAM),Analog,GaAs_HBT
+260,2018,8,Lei,Developemet of C-band High Integration & High Efficiency Space-borne T/R Module,GaAs,,5.5,41.6,38.25,PAE,,,,,,,,,,,
+261,2004,6,Ma,InGaP/GaAs HBT RF Power Amplifier with Compact ESD Protection Circuit,GaAs,,5.7,27.0,,,25,,18,,,,,,,,InGaP/GaAs HBT
+262,2005,1,Ma,ESD Protection Design Considerations for InGaP/GaAs HBT RF Power Amplifiers,GaAs,,5.7,27.0,,,25,,18,,,,,,,,InGaP/GaAs_HBT
+263,2006,6,Ma,A Compact Over-Voltage Protection Circuit for HBT Power Amplifiers,GaAs,,5.7,27.0,,,25,,18,,,,,,,,InGaP/GaAs HBT
+264,2001,6,Yamamoto,A lchip RF Transceiver MMIC for ETC with Surface Via-Hole Isolation Technique,GaAs,,5.8,,,,7.8,,20,,,,,,,,GaAs_MODFET
+265,2001,6,Raghavan,A GaAs HBT 5.8 GHz OFDM Transmitter MMIC Chip Set,GaAs,,5.8,,,,29,,20,,,,,,,,GaAs HBT
+266,2001,6,Raghavan,A GaAs HBT 5.8 GHz OFDM Transmitter MMIC Chip Set,GaAs,,5.8,,,,29,,20,,,,,,,,GaAs_HBT
+267,2018,11,Li,"A 32% Bandwidth, 47.2% PAE Power Amplifier with a reduced IMD3 using GaAs HBT Technology",GaAs,,5.8,23.2,47.2,PAE,,,9,,,,,,,,
+268,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,2.6-7.3,5.8,20.1,29.5,PAE,,,7.3,,,,10,2.3,100-MHz LTE-like signal,Analog,PIH1-10 GaAs pHEMT
+269,2022,6,Ma,A 35 dBm PSAT and 41% PAE GaAs Power Amplifier with Series Distributed-Balun,GaAs,4.4-6,5.8,34.5,33,PAE,31,18,32,,,,,,,Analog,0.5μm GaAs pHEMT process
+270,2006,7,Yau,"An Extension of the Classical Method to Design
+High Efficiency Microwave Class E Pas",GaAs,,6.0,22.91,52.16,PAE,,,7.91,,,,,,,,GaAs
+271,2017,8,Alizadeh,Dual Band Design of Integrated Class-J Power Amplifiers in GaAs pHEMT Technology,GaAs,,6.0,26.0,55,PAE,,,,,,,,,,,GaAs pHEMT(250nm)
+272,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,2.6-7.3,6.0,20.0,30,PAE,,,7.3,,,,,,,Analog,PIH1-10 GaAs pHEMT
+273,2005,6,Jiang,A Broadband Power Amplifier Design Based on the Extended Resonance Power Combining Technique,GaAs,,6.5,,,,31.9,,9.9,,,,,,,,AlGaAs/InGaAs pHEMT LP1500
+274,2017,6,Wu,A 4-10 GHz Fully-integrated Stacked GaAs pHEMT Power Amplifier,GaAs,,7.0,37.0,32,PAE,,,11,,,,,,,,GaAs (150 nm)
+275,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,2.6-7.3,7.0,21.0,35,PAE,,,8,,,,,,,Analog,PIH1-10 GaAs pHEMT
+276,2000,6,Chu,A 7.4 to 8.4 GHz High Efficiency PHEMT Three-Stage Power Amplifier,GaAs,,8.0,35.0,60,PAE,,,24,,,,,,,,GaAs_pHEMT(250nm)
+277,2001,12,Yamauchi,X-band MMIC Power Amplifier with an On-chip Temperature Compensation Circuit,GaAs,,8.0,24.0,13,PAE,18,7,32,,,,,,,,GaAs_MESFET
+278,2011,6,Powell,GaAs X-Band High Efficiency (>65%) Broadband (>30%) Amplifier MMIC based on the Class B to Class J Continuum,GaAs,,8.0,27.2,67(DE),DE,,,,,,,,,,,GaAs pHEMT
+279,2004,6,Boger,"X-BAND, 17 WATT, SOLID-STATE POWER AMPLIFIER FOR SPACE APPLICATIONS",GaAs,,8.455,16.9,29.5,PAE,,,,,,,,,,,GaAs pHEMT
+280,2022,4,Gittemeier,"A 0.5W, 45% PAE GaAs X-Band Front End Module MMIC",GaAs,8.5-10.5,8.5,27.6,46,PAE,,,34,,,,,,,Analog,0.15-μm GaAs pHEMT
+281,2020,8,Zurek,Two-Stage Concurrent X/Ku Dual-Band GaAs MMIC Power Amplifier,GaAs,,9.0,20.2,45.5,PAE,,,16.9,,,,,,,,0.15um pHEMT enhancement-mode GaAs
+282,2020,8,Zurek,Two-Stage Concurrent X/Ku Dual-Band GaAs MMIC Power Amplifier,GaAs,,9.0,20.2,45.5,PAE,,,16.9,,,,,,,,0.15um pHEMT enhancement-mode GaAs
+283,2022,4,Gittemeier,"A 0.5W, 45% PAE GaAs X-Band Front End Module MMIC",GaAs,8.5-10.5,9.0,27.6,46,PAE,,,34,,,,,,,Analog,0.15-μm GaAs pHEMT
+284,2022,6,Xie,An X/Ku Dual-Band Switchless Frequency Reconfigurable GaAs Power Amplifier,GaAs,8.5-9.5,9.0,29.6,44.4,PAE,,,23,,,,,,,Analog,0.25-μm GaAs pHEMT
+285,2021,11,Niven,X-Band GaAs Stacked-FET Amplifier,GaAs,7.0-10.0,9.0,32.9,24.6,PAE,32.1,20,21,,,,,,,Analog,0.15 um GaAs technology
+286,2022,6,Donahue,An X/Ku Dual-Band GaAs MMIC Power Amplifier with Integrated Load Impedance Sensing,GaAs,9 / 16.1,9.0,20.5,48,PAE,19.8,43,20,,,,,,,Analog,150-nm pHEMT E-mode GaAs process
+287,2022,6,Donahue,An X/Ku Dual-Band GaAs MMIC Power Amplifier with Integrated Load Impedance Sensing,GaAs,9 / 16.1,9.0,20.5,45,PAE,19.8,41,19.3,,,,,,,Analog,150-nm pHEMT E-mode GaAs process
+288,2007,6,Couturier,A Robust 1 1W High efficiency X-band GaInP HBT amplifier,GaAs,,9.2,42.0,43,PAE,,,,,,,,,,,GaInP/GaAs
+289,2008,6,Chu,An X-Band High-Power and High-PAE PHEMT MMIC Power Amplifier for Pulse and CW Operation,GaAs,,9.4,40.0,42,PAE,,,17.5,,,,,,,,AlGaAs/InGaAs/GaAs PHEMT
+290,2008,6,Chu,An X-Band High-Power and High-PAE PHEMT MMIC Power Amplifier for Pulse and CW Operation,GaAs,,9.4,40.0,42,PAE,,,,,,,,,,,alGaAs/InGaAs/GaAs PHEMT
+291,2007,2,Chu,"A 9.1–10.7 GHz 10-W, 40-dB Gain Four-Stage PHEMT MMIC Power Amplifier",GaAs,,9.5,40.0,33,PAE,,,40,,,,,,,,AlGaAs/InGaAs/GaAs pHEMT
+292,2020,10,Alizadeh,An X-Band Class-J Power Amplifier With Active Load Modulation to Boost Drain Efficiency,GaAs,9.1-10.8,9.5,28.8,47,PAE,,,14.5,,,,,,,Analog,0.25 μm GaAs pHEMT
+293,2022,4,Gittemeier,"A 0.5W, 45% PAE GaAs X-Band Front End Module MMIC",GaAs,8.5-10.5,9.5,27.8,48,PAE,,,33,,,,,,,Analog,0.15-μm GaAs pHEMT
+294,2001,12,Duperrier,New Design Method of Uniform and Nonuniform Distributed Power Amplifiers,GaAs,,10.0,30.0,20,PAE,,,8.5,,,,,,,,GaAs_pHEMT(250nm)
+295,2001,5,Contrata,INTERMODULATION DISTORTION SIMULATION USING PHYSICAL GaAs FET MODEL,GaAs,,10.0,25.0,42,PAE,23,39,10,,,,,,,,GaAs FET
+296,2001,5,Duperrier,New Design Method of Non-Uniform Distributed Power Amplifiers Application to a single stage 1W PHEMT MMIC,GaAs,,10.0,29.0,20,PAE,,,7,,,,,,,,pHEMT(250nm)
+297,2003,9,Bessemoulin,A 4-W X-band compact coplanar high-power amplifier MMIC with 18-dB gain and 25% PAE,GaAs,,10.0,36.4,50,PAE,34.8,39,19,,,,,,,Analog,GaAs_pHEMT(300nm)
+298,2004,3,Wang,60% Efficient 10-GHz Power Amplifier With Dynamic Drain Bias Control,GaAs,,10.0,20.3,60,DE,,,10,,,,,,,,IRF7331 MOSFET
+299,2005,3,Wang,Linearity of X-Band Class-E Power Amplifiers in EER Operation,GaAs,,10.0,19.5,52,PAE,,,6.5,,,,,,,,AFM04P_GaAs_MESFET
+300,2006,6,Piotrowicz,"Ultra Compact X-Band GaInP/GaAs HBT MMIC amplifiers: 11W, 42% of PAE on 13mm2 and 8.7W, 38% of PAE on 9mm2",GaAs,,10.0,40.49,42.3,PAE,,,16.5,,,,,,,,GaInP/GaAs HBT
+301,2006,6,Piotrowicz,"Ultra Compact X-Band GaInP/GaAs HBT MMIC amplifiers: 11W, 42% of PAE on 13mm2 and 8.7W, 38% of PAE on 9mm2",GaAs,,10.0,39.4,38,PAE,,,,,,,,,,,GaInP/GaAs HBT
+302,2007,6,Tayrani,A Highly Efficient Broadband (7-14 GHz) Monolithic Class E Power Amplifier for Space Based Radar,GaAs,,10.0,25.2,70,PAE,,,10,,,,,,,,GaAs pHEMT (250nm)
+303,2012,6,Kim,A Broadband Power-Reconfigurable Distributed Amplifier,GaAs,,10.0,24.0,17,DE,,,,,,,,,,,GaAs (150 nm)
+304,2017,8,Alizadeh,Dual Band Design of Integrated Class-J Power Amplifiers in GaAs pHEMT Technology,GaAs,,10.0,26.0,46,PAE,,,,,,,,,,,GaAs
+305,2020,10,Alizadeh,An X-Band Class-J Power Amplifier With Active Load Modulation to Boost Drain Efficiency,GaAs,9.1-10.8,10.0,29.2,50,PAE,29,49,16,,,,,,,Analog,0.25 μm GaAs pHEMT
+306,2021,1,Alizadeh,A 10-W X-Band Class-F High-Power Amplifier in a 0.25-μm GaAs pHEMT Technology,GaAs,9.8-10.3,10.0,39.7,58,PAE,,,18,,-25.99,,26,,200-Mb/s QPSK signal,Analog,0.25-μm GaAs pHEMT
+307,2021,1,Alizadeh,A 10-W X-Band Class-F High-Power Amplifier in a 0.25-μm GaAs pHEMT Technology,GaAs,9.8-10.3,10.0,40.1,63,PAE,,,18.5,,,,,,,Analog,0.25-μm GaAs pHEMT
+308,2022,4,Gittemeier,"A 0.5W, 45% PAE GaAs X-Band Front End Module MMIC",GaAs,8.5-10.5,10.0,27.6,48,PAE,,,32,,,,,,,Analog,0.15-μm GaAs pHEMT
+309,2003,7,Pajic,An Efficient X-Band 16-Element Spatial Combiner of Switched-Mode Power Amplifiers,GaAs,,10.2,32.3,52,PAE,,,5.3,,,,,,,,GaAs_MESFET
+310,2018,9,Kamioka,A Low-cost 30-W class X-band GaN-on-Si MMIC Power Amplifier with a GaAs MMIC Output Matching Circuit,GaAs,,10.3,44.8,30,PAE,,,29.8,,,,,,,,
+311,2020,10,Alizadeh,An X-Band Class-J Power Amplifier With Active Load Modulation to Boost Drain Efficiency,GaAs,9.1-10.8,10.5,29.1,49,PAE,,,14,,,,,,,Analog,0.25 μm GaAs pHEMT
+312,2022,4,Gittemeier,"A 0.5W, 45% PAE GaAs X-Band Front End Module MMIC",GaAs,8.5-10.5,10.5,27.5,44,PAE,,,31,,,,,,,Analog,0.15-μm GaAs pHEMT
+313,2002,6,Vendier,"Flip-chip mounted, Ku band power amplifier compliant with space applications",GaAs,,11.0,32.0,22,PAE,,,20,,,,,,,,GaAs
+314,2017,7,Meghdadi,Design of 6-18 Ghz High-Power Amplifier in GaAs pHEMT Technology,GaAs,,11.0,40.5,29,PAE,39,23,,,,,39.6,22,,,AlGaAs-InGaAs pHEMT(250nm)
+315,2018,5,Hua,A High-efficiency 3-Watt GaAs pHEMT X-band MMIC Power Amplifier,GaAs,,11.5,35.0,49,PAE,32,,28,,,,,,,,
+316,2010,6,Otsuka,A Q-band 6W MMIC Power Amplifier with 3-way Power Combination Circuit,GaAs,,12.0,37.9,17,PAE,36,17,9,,,,,,,,TaN/Au T-gate pHEMT
+317,2020,7,Cai,A Compact Ku-Band Broadband GaAs Power Amplifier Using an Improved Darlinton Power Stage,InGaAs,10.5 - 16.6 Ghz,13.0,36.0,46.8,PAE,,,19,,,,,,,,0.15um InGaAs pHEMT
+318,2000,6,Jeon,A 5 to 27 GHz MMIC POWER AMPLIFIER,GaAs,,14.0,21.0,,,,,,,,,,,,,GaAs_pHEMT(250nm)
+319,2001,6,Lee,A Compact LTCC Ku-Band Transmitter Module with Integrated Filter for Satellite Communication Applications,GaAs,,14.0,,,PAE,26.5,30,5,,,,,,,,GaAs_MESFET
+320,2004,6,Zhang,Fully Monolithic 8 Watt Ku-Band High Power Amplifier,GaAs,,14.0,39.0,22,PAE,,,22,,,,,,,,pHEMT(250nm)
+321,2004,6,Bessemoulin,1-Watt Ku-band Power Amplifier MMICs using Low-cost Quad-Flat Plastic Package,GaAs,,14.0,32.0,,,31,,32,,,,,,,,power phEMT(250nm)
+322,2006,2,Lin,A Compact 6.5-W PHEMT MMIC Power Amplifier for Ku-Band Applications,GaAs,,14.0,38.1,24.6,PAE,,,10.5,,,,,,,,AlGaAs/InGaAs/GaAs pHEMT
+323,2001,6,Okazaki,Efficient Transmission-Power-Control Scheme for Ku-Band High-Power Amplifiers in Portable User Earth Terminals,GaAs,,14.25,25.0,10.2,PAE,24.5,11,14.2,,,,,,,,GaAs_MESFET(500nm)
+324,2001,6,Okazaki,Efficient Transmission-Power-Control Scheme for Ku-Band High-Power Amplifiers in Portable User Earth Terminals,GaAs,,14.25,20.0,10,PAE,18.8,16,10.9,,,,,,,,GaAs_MESFET(500nm)
+325,2017,6,Darwish,Compact and High Efficiency Doherty Power Amplifier Using a New Modulation Load Range,GaAs,,15.0,27.0,41,PAE,,,17,,,,,,,,GaAs
+326,2003,6,Fujii,"E-PHEMT, Single Supply, Power Amplifier for Ku Band Applications",GaAs,,16.0,,,PAE,26.5,21,13,,,,,,,,E-pHEMT
+327,2006,6,Fujii,Single supply 1W Ku-band Power Amplifier Based on 0.25gm E-mode PHEMT,GaAs,,16.0,,,PAE,31,31,28,,,,,,,,E-pHEMT(250nm)
+328,2017,8,Alizadeh,Dual Band Design of Integrated Class-J Power Amplifiers in GaAs pHEMT Technology,GaAs,,16.0,25.5,53,PAE,,,,,,,,,,,GaAs
+329,2022,6,Xie,An X/Ku Dual-Band Switchless Frequency Reconfigurable GaAs Power Amplifier,GaAs,15.5-16.5,16.0,30.1,38.4,PAE,,,23,,,,,,,Analog,0.25-μm GaAs pHEMT
+330,2020,8,Zurek,Two-Stage Concurrent X/Ku Dual-Band GaAs MMIC Power Amplifier,GaAs,,16.1,20.5,40,PAE,,,14.5,,,,,,,,0.15um pHEMT enhancement-mode GaAs
+331,2020,8,Zurek,Two-Stage Concurrent X/Ku Dual-Band GaAs MMIC Power Amplifier,GaAs,,16.1,20.5,40,PAE,,,14.5,,,,,,,,0.15um pHEMT enhancement-mode GaAs
+332,2022,6,Donahue,An X/Ku Dual-Band GaAs MMIC Power Amplifier with Integrated Load Impedance Sensing,GaAs,9 / 16.1,16.1,21.6,38,PAE,21.4,37,16,,,,,,,Analog,150-nm pHEMT E-mode GaAs process
+333,2022,6,Donahue,An X/Ku Dual-Band GaAs MMIC Power Amplifier with Integrated Load Impedance Sensing,GaAs,9 / 16.1,16.1,21.2,38,PAE,21,37,15.8,,,,,,,Analog,150-nm pHEMT E-mode GaAs process
+334,2003,6,Shimura,"A High Power Density, 6W MMIC for Ku/K-Band Applications",GaAs,,18.0,,,PAE,37.78,30,23,,,,,,,,pHEMT
+335,2009,12,Lee,A 18 GHz Broadband Stacked FET Power Amplifier Using 130 nm Metamorphic HEMTs,GaAs,,18.0,26.4,33,PAE,24.5,30*,21.2,,,,,,,,GaAs mHEMT (130nm)
+336,2011,6,Park,X-to-K band Broadband Watt-level Power Amplifier Using Stacked-FET Unit Cells,GaAs,,18.0,33.7,29.5,PAE,33,28.5,14,,,,,,,,GaAs pHEMT (150nm)
+337,2011,6,Park,X-to-K band broadband watt-level power amplifier using stacked-FET unit cells,GaAs,,18.0,33.7,29.5,PAE,,,,,,,,,,,GaAs
+338,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,17.4-23.3,18.0,19.5,20,PAE,,,5,,,,,,,Analog,PIH1-10 GaAs pHEMT
+339,2001,11,Takagi,MMIC Development for Millimeter-Wave Space Application,GaAs,,19.0,24.6,50,PAE,,,17,,,,,,,,GaAs_pHEMT(200nm)
+340,2007,6,Lefebvre,A K-band low cost plastic packaged high linearity Power Amplifier with integrated ESD protection for Multi-band Telecom applications,GaAs,,19.0,30.5,,,,,19,,,,,,,,GaAs pHEMT(150nm)
+341,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,17.4-23.3,19.0,20.0,23,PAE,,,5,,,,,,,Analog,PIH1-10 GaAs pHEMT
+342,2004,4,Forestier,Joint Optimization of the Power-Added Efficiency and the Error-Vector Measurement of 20-GHz pHEMT Amplifier Through a New Dynamic Bias-Control Method,GaAs,,19.8,,,,,,6,,,,18.3,26,16QAM,,GaAs_pHEMT(150nm)
+343,1989,6,Auricchio, A 12 watt 20 GHz FET power amplifier,GaAs,,20.0,40.79,15.5,PAE,,,,,,,,,,,GaAs
+344,2000,9,Xuejun, A 2-26 GHz MMIC power amplifier with low noise figure,GaAs,,20.0,24.47,,,,,7,,,,,,,,GaAs
+345,2000,6,McCarroll,A 2OGHz Doherty Power Amplifier MMIC with High Efficiency and Low Distortion Designed for Broad Band Digital Communication Systems,GaAs,,20.0,,,PAE,23,38.5,8,,,,,,,,GaAs_pHEMT(150nm)
+346,2000,6,Mccarroll, A 20 GHz Doherty power amplifier MMIC with high efficiency and low distortion designed for broad band digital communication systems,GaAs,,20.0,,38.5,PAE,,,8,,,,,,,,GaAs
+347,2005,12,Chuang,A broadband medium power amplifier for millimeter-wave applications,GaAs,,20.0,23.3,13,PAE,21,,16.3,,,,,,,,GaAs
+348,2006,6,Chuang,A Miniature 15-50-GHz Medium Power Amplifier,GaAs,,20.0,20.0,,,15,,21,,,,,,,,GaAs (150nm)
+349,2012,1,Huang,"A 17-35 GHz Broadband, High Efficiency PHEMT Power Amplifier Using Synthesized Transformer Matching Technique",GaAs,,20.0,23.7,19.5,PAE,22,16.3,,,,,,,,,GaAsHEMT
+350,2018,3,Bondarev, A line of 4–40 GHz GaAs low noise medium power amplifiers for SDH relay stations,GaAs,,20.0,,,,12,,27,,,,,,,,0.15um GaAs pHEMT
+351,2020,7,Martin,An 18-38-GHz K-/Ka-Band Reconfigurable Chireix Outphasing GaAs MMIC Power Amplifier,GaAs,,20.0,21.0,25,PAE,,,16,100MHz 7.3dB- PAPR,,,14.3,15.4,LTE,,100nm GaAs
+352,2020,7,Martin,An 18-38-GHz K-/Ka-Band Reconfigurable Chireix Outphasing GaAs MMIC Power Amplifier,GaAs,,20.0,21.0,25,PAE,,,16,200 MHz 7.3dB- PAPR,,,14.3,15.3,LTE,,100nm GaAs
+353,2006,9,Bessemoulin,Compact K-band Watt-level GaAs PHEMT Power Amplifier MMIC with integrated ESD Protection,GaAs,,20.0,31.0,,,28,,18,,,,,,,,0.15um GaAs pHEMT
+354,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,17.4-23.3,20.0,20.7,25,PAE,,,5,,,,,,,Analog,PIH1-10 GaAs pHEMT
+355,2000,12,Uhm, A gain-variable Ka-band SSPA using MMIC technology,GaAs,,20.655,43.15,17.3,PAE,,,58.16,,,,,,,,GaAs
+356,2000,12,Uhm, A gain-variable Ka-band SSPA using MMIC technology,GaAs,,20.665,37.78,5.9,PAE,,,56.1,,,,,,,,GaAs
+357,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,17.4-23.3,21.0,20.7,26,PAE,,,5.5,,,,,,,Analog,PIH1-10 GaAs pHEMT
+358,2022,6,Mullins,A Ku/K/Ka-Band GaAs MMIC Load-Modulated Amplifier with a Negative Group Delay Output Network,GaAs,16-28,21.0,27.0,22,PAE,24,20,14,,,,,,,,0.15 um GaAs pHEMT
+359,2014,6,Fersch,"A 2-watt, 0.15-µm GaAs pHEMT stacked amplifier at 22 GHz",GaAs,,22.0,33.0,22.5,PAE,32.3,,9.4,,,,,,,,GaAs pHEMT
+360,2020,4,Dang,An Ultra-Wideband Power Combining in Ridge Waveguide for Millimeter Wave,GaAs,18-40,22.0,35.5,13,PAE,,,15,,,,,,,,
+361,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,17.4-23.3,22.0,20.7,27.2,PAE,,,6,,,,8,1.2,100-MHz LTE-like signal,Analog,PIH1-10 GaAs pHEMT
+362,2014,4,Camarchia,A K-band GaAs MMIC Doherty power amplifier for point-to-point microwave backhaul applications,GaAs,,22.4,32.5,32,PAE,,,10,,,,,,,,GaAs
+363,2004,11,Negra,Switched-mode High-efficiency Ka-band MMIC Power Amplifier in GaAs pHEMT Technology,GaAs,,23.0,19.1,42,PAE,,,10.3,,,,,,,,GaAs
+364,2002,6,Schellenberg," A broadband, push-pull power MMIC operating at K/Ka-band frequencies",GaAs,,23.0,27.0,28,PAE,27,,18,,,,,,,,GaAs
+365,2021,6,Der,A S-C- / K-band Reconfigurable GaAs MMIC Power Amplifier for 5G Applications,GaAs,17.4-23.3,23.0,20.0,26,PAE,,,6,,,,,,,Analog,PIH1-10 GaAs pHEMT
+366,2006,6,Chuang, A miniature 15-50-GHz medium power amplifier,GaAs,,24.0,22.0,,,18,,22.5,,,,,,,,0.15um  GaAs pHEMT
+367,2008,12,Luo, 24-GHz MMIC development using 0.15-µm GaAs PHEMT process for automotive radar applications,GaAs,,24.0,23.0,32,PAE,20,,20,,,,,,,,0.15um  GaAs pHEMT
+368,2012,1,Huang," A 17–35 GHz Broadband, High Efficiency PHEMT Power Amplifier Using Synthesized Transformer Matching Technique",GaAs,,24.0,23.5,40,PAE,22,32,12,,,,,,,,0.15um GaAs pHEMT
+369,2014,11,Quaglia,K-Band GaAs MMIC Doherty Power Amplifier for Microwave Radio With Optimized Driver,GaAs,,24.0,30.9,38,PAE,,,12.5,,,,,,,,0.15um GaAs pHEMT
+370,2015,10,Welp, A 24GHz signal generator with 30.8 dBm output power based on a power amplifier with 24.7 dBm output power and 31% PAE in SiGe,GaAs,,24.0,31.0,13,PAE,,,20.7,,,,,,,,GaAs
+371,2020,7,Martin,An 18-38-GHz K-Ka-Band Reconfigurable Chireix Outphasing GaAs MMIC Power Amplifier,GaAs,28/32/36,24.0,22.0,30,PAE,20,,17,LTE,,100,14.3,15.4,100 MHz,,100nm GaAs
+372,2021,5,Ramella,Watt-Level 21–25-GHz Integrated Doherty Power Amplifier in GaAs Technology,GaAs,21-25,24.0,30.2,37,PAE,,,10,,,,22.9,20,256QAM (28MHz),,
+373,2001,10,Lai,Extremely High P I dB MMlC amplifiers for Ka-band applications,GaAs,,25.0,31.0,27,PAE,30.5,27,14,,,,,,,,GaAs
+374,2022,6,Mullins,A Ku/K/Ka-Band GaAs MMIC Load-Modulated Amplifier with a Negative Group Delay Output Network,GaAs,16-28,25.0,27.0,41,PAE,26.5,40,12,,,,,,,,0.15 um GaAs pHEMT
+375,2017,11,Lin,A Ka-Band 25-dBm Output Power High Efficiency Monolithic Doherty Power Amplifier in 0.15um GaAs E-mode pHEMT Process,GaAs,,25.8,25.1,16.5,PAE,,,7,,,,,,,,0.15um E-mode GaAs
+376,1988,5,Schindler, A K/Ka-band distributed power amplifier with capacitive drain coupling,GaAs,,26.0,,,,23.5,,5,,,,,,,,GaAs
+377,1996,11,Murakami,A 3.6-W 26 GHz-band AlGaAs/GaAs HBT Power Amplifier,GaAs,,26.0,25.6,21.2,PAE,,,6.2,,,,,,,,GaAs
+378,2017,5,Lv,A Millimeter-Wave sequential Power Amplifier,GaAs,,26.0,24.4,18.6,PAE,,,19,,,,,,,,GaAs
+379,2013,6,Curtis," A Ka-Band doherty power amplifier with 25.1 dBm output power, 38% peak PAE and 27% back-off PAE",GaAs,,26.4,25.3,38,PAE,25.1,,10.3,,,,,,,,0.15um GaAs pHEMT
+380,1995,6,Kalayci, A miniaturized Ka-band MMIC high-gain medium power amplifier in coplanar line technique by using a conventional 0.5um MESFET technology,GaAs,,26.5,,,,23,,7,,,,,,,,GaAs
+381,2016,7,Curtis," Ka-band doherty power amplifier with 26.9 dBm output power, 42% peak PAE and 32% back-off PAE using GaAs PHEMTS",GaAs,,26.6,,42,PAE,26.9,,10.5,,,,,,,,GaAs pHEMT WIN Semiconductor PP10-10 process
+382,2005,10,Heijningen, Ka-band AlGaN/GaN HEMT high power and driver amplifier MMICs,GaAs,,27.0,34.1,,,,,10.7,,,,,,,,GaAs
+383,2011,9,Taghian,Nonlinear analysis and design of a mm-wave wideband Doherty power amplifier,GaAs,,27.0,23.0,35,PAE,,,15,,,,,,,,GaAs
+384,2017,6,Ngyugen,A Compact 29% PAE at 6 dB Power Back-off E-mode GaAs pHEMT MMIC Doherty Power Amplifier at Ka-Band,GaAs,,27.0,26.0,40,PAE,,,,,,,,,,,0.15um E-mode GaAs
+385,2018,5,Wang,A K-band Power Amplifier in a 0.15um GaAs pHEMT Process,GaAs,,27.0,31.0,27.3,PAE,,,21.3,,,,,,,,0.15um GaAs pHEMT
+386,2021,8,Chuang,An Efficient and Linear 24.4dBm Ka-Band GaAs Power Amplifier for 5G Communication,GaAs,25-31,27.0,24.4,43.4,PAE,24.1,35,21.2,,-30.5,,21.3,21.5,64-QAM (100MHz),,0.15 um GaAs pHEMT
+387,1989,6,Oda,Ka-band monolithic GaAs two-stage power amplifier,GaAs,,28.0,,,PAE,27.48,15,7.2,,,,,,,,GaAs
+388,1998,12,Siddiqui,A high-power and high-efficiency monolithic power amplifier at 28 GHz for LMDS applications,GaAs,,28.0,30.0,43,PAE,,,16,,,,,,,,GaAs
+389,2000,9,Matsunaga,A CW 4 Watt Ka-Band Power Amplifier Utilizing MMIC Multi-Chip Technology,GaAs,,28.0,34.77,30,PAE,,,,,,,,,,,GaAs
+390,2000,9,Matsunaga,A CW 4 Watt Ka-Band Power Amplifier Utilizing MMIC Multi-Chip Technology,GaAs,,28.0,,20,PAE,36,17.4,,,,,,,,,GaAs
+391,2003,6,Colomb,2 and 4 watt Ka-band GaAs PHEMT power amplifier MMICs,GaAs,,28.0,36.0,28,PAE,,,22,,,,,,,,GaAs
+392,2005,10,Heijningen, Ka-band AlGaN/GaN HEMT high power and driver amplifier MMICs,GaAs,,28.0,28.6,,,,,14,,,,,,,,GaAs
+393,2016,7,Ngyugen, An Ultra Compact Watt-Level Ka-Band Stacked-FET Power Amplifier,GaAs,,28.0,31.5,33,PAE,29.5,,16.7,,,,,,,,0.15um GaAs
+394,2016,6,Curtis, A Fully Integrated Ka-Band Front End for 5G Transceiver,GaAs,,28.0,25.0,35,PAE,,,21.7,,,,,,,,0.15um GaAs pHEMT
+395,2017,6,Ngyugen,A Ka-band Asymmetrical Stacked-FET MMIC Doherty Power Amplifier,GaAs,,28.0,,37,PAE,28.2,,,,,,,,,,0.15um E-mode GaAs
+396,2018,6,Ngyugen, A 28-GHz Symmetrical Doherty Power Amplifier Using Stacked-FET Cells,GaAs,,28.0,28.7,37,PAE,,,14.4,,,,,,,,E-mode 0.15-μm GaAs
+397,2019,1,Nguyen,A Compact Ka-Band Integrated Doherty Amplifier With Reconfigurable Input Network,GaAs,,28.0,26.5,42,PAE,,,11.8,,,,19.5,29.5,20 MHz 64QAM,,
+398,2018,10,Ming,A 28-GHz Two-Stage Power Amplifier with a Shunt Built-in Linearizer Using 0.1-μm GaAs pHEMT Process,GaAs,,28.0,23.3,,PAE,22.2,28.1,,,,,,,,,0.1um pHEMT
+399,2020,7,Martin,An 18-38-GHz K-/Ka-Band Reconfigurable Chireix Outphasing GaAs MMIC Power Amplifier,GaAs,28 GHz,28.0,24.0,31,PAE,,,18.5,,,,,,,,100nm GaAs
+400,2021,1,Estrada,Power Amplifiers With Frequency-Selective Matching Networks,GaAs,27.5-28.5,28.0,23.0,30,PAE,,,8,,,,,,,Analog,150-nm GaAs PIH1-10 E-mode HEMT
+401,2021,1,Zhao,"A High-Linear Ka-Band Power Amplifier with
+Diode-Based Analogue Predistortion",GaAs,28,28.0,28.0,38,PAE,27,,23,,,,20.6,10,256QAM (100MHz),,0.1um GaAs
+402,2021,8,Huang,A 28/39 GHz Dual-Band Power Amplifier Using Optimal Matching Contour in GaAs pHEMT,GaAs,28-39,28.0,21.9,28.9,PAE,21.8,28,20,,,,,,,,0.15 um GaAs pHEMT
+403,2003,6,Chen, A balanced 2 watt compact PHEMT power amplifier MMIC for Ka-band applications,GaAs,,29.0,33.1,24,PAE,,,18,,,,,,,,GaAs
+404,2017,1,Alsuraisry,Ka-Band up-link CMOS/GaAs Power Amplifier Design for Satellite-based Wireless Sensor,GaAs,,29.0,26.5,25.7,PAE,26,,16.3,,,,,,,,150nm GaAs pHEMT
+405,2019,7,Lv,A Compact Ka/Q Dual-Band GaAs MMIC Doherty Power Amplifier With Simplified Offset Lines for 5G Applications,GaAs,,29.0,25.4,33,PAE,,,16,,-36.48,,,,20 MHz 64AQM,,0.1 um GaAs
+406,2021,8,Fe,A 0.5-W 26-31 GHz Power Amplifier Using Pre-matching Technique in 0.15-μm pHEMT Process,GaAs,26-31,29.0,28.0,10,PAE,26,8,10,,,,,,,,0.15 um GaAs pHEMT
+407,2021,11,Xie,A High-Efficiency 28 GHz/39 GHz Dual-Band Power Amplifier MMIC for 5G Communication,GaAs,28-39,29.6,23.8,49,PAE,22.5,48.6,19.1,,-32.04,1000,16.08,,64-QAM,,0.09 um GaAs pHEMT
+408,2017,11,Chen,Energy efficient doherty power amplifier MMIC and beamforming oriented digital predistortion for 5G massive MIMO application,GaAs,,29.8,26.8,38,PAE,,,14,,,,,,,,GaAs
+409,1999,6,Siddiqui, A high power broadband monolithic power amplifier for Ka-band ground terminals,GaAs,,30.0,33.0,27,PAE,31,,16,,,,,,,,GaAs
+410,2004,11,Varonen, Millimetre wave metamorphic HEMT amplifiers,GaAs,,30.0,16.0,,,12.5,,,,,,,,,,GaAs
+411,2009,10,Li,A high-power Ka-band power amplifier design based on GaAs P-HEMT technology for VSAT ODU applications,GaAs,,30.0,,,PAE,29.5,31,11.2,,,,,,,,GaAs pHEMT
+412,2012,12,Cho, An optimized 0.1 um T-gate AlGaAs/InGaAs/GaAs PHEMT power amplifier MMIC for Ka-band applications,GaAs,,30.0,,,PAE,29.5,31,10,,,,,,,,AlGaAs/InGaAs/GaAs pHEMT
+413,2015,5,Fujii, Low cost Ka-band 7W GaAs PHEMT based HPA with GaN PHEMT equivalent performance,GaAs,,30.0,38.0,27,PAE,37,,24,,,,,,,,GaAs pHEMT
+414,2016,10,Ngyugen,A High Efficiency High Power Density Harmonic-tuned Ka Band  Stacked-FET GaAs Power Amplifier,GaAs,,30.0,28.5,38.4,PAE,,,12,,,,,,,,GaAs
+415,2018,11,Huang,A 29.6 dBm 29-GHz Power Amplifier for Satellite and 5G Communications Using 0.15-μm GaAs p-HEMT Technology,GaAs,,30.0,28.9,30.8,PAE,28.2,,18.3,,,,,,,,0.15um pHEMT
+416,2018,11,Huang,A 29.6 dBm 29-GHz Power Amplifier for Satellite and 5G Communications Using 0.15-μm GaAs p-HEMT Technology,GaAs,,30.0,29.6,29.8,PAE,29.1,,16.1,,,,,,,,0.15um pHEMT
+417,2003,6,Wu,An 18-71 GHz Multi-band and High Gain GaAs MMIC Medium Power Amplifier for Millimeter-wave Applications,GaAs,,30.0,15.5,,,,,16,,,,,,,,GaAs
+418,2001,10,Lee, 17-36 GHz broadband PHEMT MMIC power amplifier for point-to-multipoint applications,GaAs,,30.5,,,,23,,11,,,,,,,,GaAs
+419,2000,12,Lien, Ka-band monolithic GaAs PHEMT circuits for transceiver applications,GaAs,,31.0,,,,,,15,,,,,,,,GaAs
+420,2002,10,Bessemoulin,1-Watt Broad Ka-Band Ultra Small High Power Amplifier MMICs Using 0.25um GaAs PHEMTs,GaAs,,31.0,30.1,17,PAE,29.5,,18,,,,,,,,GaAs
+421,2018,9,Ayad,Mixed technologies Packaged High Power Frond-End for Broadband 28GHz 5G solutions,GaAs,,31.0,32.5,22,PAE,,,32,,,,,,,,
+422,2018,6,Lv,A Compact and Broadband Ka-band Asymmetrical GaAs Doherty Power Amplifier MMIC for 5G Communications,GaAs,,31.1,26.3,35,PAE,,,14,,,,,,,,0.15um GaAs E-mode pHEMT
+423,2018,3,Bondarev, A line of 4–40 GHz GaAs low noise medium power amplifiers for SDH relay stations,GaAs,,32.0,,,,10,,30,,,,,,,,0.15um GaAs pHEMT
+424,2020,4,Dang,An Ultra-Wideband Power Combining in Ridge Waveguide for Millimeter Wave,GaAs,18-40,32.0,36.0,12,PAE,,,20,,,,,,,,
+425,2020,7,Martin,An 18-38-GHz K-Ka-Band Reconfigurable Chireix Outphasing GaAs MMIC Power Amplifier,GaAs,28/32/36,32.0,23.0,30,PAE,22,,15.5,LTE,,200,14.3,15.3,200MHz,,100nm GaAs
+426,2000,11,Martin, A Ka band extended resonance power amplifier,GaAs,,32.8,,,PAE,23.3,12.8,4.6,,,,,,,,GaAs
+427,2000,6,Martin, A 33 GHz power amplifier based on an extended resonance technique,GaAs,,32.8,,12.8,PAE,23.3,12.8,4.6,,,,,,,,GaAs
+428,2009,5,Haque, Solid state power amplifier and travelling wave tube amplifier additive phase noise characterization at Ka-band operation,GaAs,,33.0,47.0,11,PAE,,,10.96,,,,,,,,GaAs
+429,2011,12,Wang,A Ka-band MMIC Doherty Power Amplifier using GaAs pHEMT technology,GaAs,,33.0,26.0,40,PAE,,,5.5,,,,,,,,GaAs
+430,2013,10,Yoshida, Ka-band 2-stacked chip-scale-package using GaAs PA MMIC with hot-via interconnections for spacecraft applications,GaAs,,33.0,,,,14.6,,15.7,,,,,,,,0.15um GaAs HEMT
+431,2018,5,Lin, Interconnect reliability analysis for a 26–40 GHz 1-watt stacked GaAs pHEMT power amplifier design,GaAs,,33.0,30.0,37.4,PAE,,,13.1,,,,,,,,0.1um GaAs pHEMT
+432,1988,11,Saunier,A high Efficiency KA-band Monolithic GaAs FET Amplifier,GaAs,,34.0,20.5,21.6,PAE,,,16,,,,,,,,GaAs
+433,1998,11,Komiak,3 WATT Ka-BAND MMIC HPA AND DRIVER AMPLIFIEIR IMPLEMENTED IN A FULLY SELECTIVE 0.15UM POWER PHEMT PROCESS,GaAs,,34.0,35.5,32,PAE,34,,13,,,,,,,,GaAs
+434,1998,5,Camilleri,Ka-band monolithic GaAs FET power amplifier modules,GaAs,,34.0,30.0,21,PAE,,,30,,,,,,,,GaAs
+435,2004,6,Chen,A Ka/Q-Band 2 Watt MMIC Power Amplifier Using Dual Recess 0.15 um PHEMT Process,GaAs,,34.0,32.0,25,PAE,31,,18,,,,,,,,GaAs
+436,2008,11,Li,A design of Ka-band GaAs PHEMT power amplifier MMIC,GaAs,,34.0,27.0,22,PAE,,,15,,,,,,,,GaAs
+437,1992,10,Mondal,MESFET MMIC Ka-band transmitter performance for high volume system applications,GaAs,,35.0,20.0,11.6,SE,,,,,,,,,,,GaAs
+438,1997,10,Goldfarb," Quarter, half, and one watt wideband millimeter-wave MMIC amplifiers",GaAs,,35.0,30.0,,,,,6,,,,,,,,GaAs
+439,2000,12,Bessemoulin,1-WATT KA-BAND COPLANAR HIGH P O m R MMIC AMPLIFIERS USING 0.15-UM GAAS PHEMTS,GaAs,,35.0,30.0,,,28.63,,11,,,,,,,,GaAs
+440,2002,6,Merkle, Intercept point behavior of Ka-band GaAs high power amplifiers,GaAs,,35.0,27.0,,,,,,,,,,,,,GaAs
+441,2008,6,Mahon," 35 dBm, 35 GHz power amplifier MMICs using 6-inch GaAs pHEMT commercial technology",GaAs,,35.0,35.5,25,PAE,,,22,,,,,,,,0.15um  GaAs pHEMT
+442,2008,6,Abbasi," Q-, V-, and W-band power amplifiers utilizing coupled lines for impedance matching",GaAs,,35.0,16.0,,,,,20,,,,,,,,GaAs
+443,2009,1,Nemati, Design of high efficiency Ka-band harmonically tuned power amplifiers,GaAs,,35.0,14.0,43,PAE,,,14,,,,,,,,GaAs mHEMT
+444,2011,10,Campbell,High Efficiency Ka-band Power Amplifier MMIC Utilizing a High Voltage Dual Field Plate GaAs PHEMT Process,GaAs,,35.0,37.0,30,PAE,,,28,,,,,,,,0.15um  GaAs pHEMT
+445,2012,9,Zhang,The research on mm-wave power amplifier MMIC,GaAs,,35.0,,23,PAE,36,,24,,,,,,,,GaAs pHEMT
+446,2016,5,Yuan, Ka band 0.5W TR chip with a novel high power handling switch,GaAs,,35.0,27.0,,,,,12,,,,,,,,GaAs
+447,1991,10,Wang,A monolithic Ka-Band Transmitter using 0.25um GaAs MESFET Technology,GaAs,,35.8,21.5,,,,,,,,,,,,,GaAs
+448,2001,9,Kosov, Ka-band power amplifier with series connected GaAs IMPATT diodes,GaAs,,36.0,29.0,15,PAE,,,,,,,,,,,GaAs
+449,1993,10,Biedenbender,A Power   HEMT Production   Process For High-Efficiency Ka-Band MMIC Power Amplifiers,GaAs,,37.0,31.13,24,PAE,,,9,,,,,,,,GaAs
+450,1993,10,Biedenbender,A Power   HEMT Production   Process For High-Efficiency Ka-Band MMIC Power Amplifiers,GaAs,,37.0,23.8,40,PAE,,,7.8,,,,,,,,GaAs
+451,2022,2,Wang,A 37-GHz Asymmetric Doherty Power Amplifier With 28-dBm Psat and 32% Back-Off PAE in 0.1-μm GaAs Process,GaAs,35-40,37.0,28.0,33.2,PAE,26,14,15.6,,-26.4,400,16.1,,64-QAM,,0.1 um GaAs pHEMT
+452,2003,6,Udomoto, A 38/77 GHz MMIC transmitter chip set for automotive applications,GaAs,,38.0,,,,16,,17,,,,,,,,GaAs
+453,2006,6,Chen, A 1/2 Watt High Linearity and Wide Bandwidth PHEMT Driver Amplifier MMIC for Millimeter-Wave Applications,GaAs,,38.0,28.0,,,27,,18,,,,,,,,0.15um  GaAs pHEMT
+454,2006,12,Lee,Ka-band flip-chip assembled power amplifier,GaAs,,38.0,15.0,,,,,15,,,,,,,,0.15um  GaAs pHEMT
+455,2007,10,Bessemoulin,GaAs PHEMT Power Amplifier MMIC with Integrated ESD Protection for Full SMD 38-GHz Radio Chipset,GaAs,,38.0,26.0,,,24,,25,,,,,,,,0.15um GaAs pHEMT
+456,2012,10,Bessemoulin, 38 GHz driver and power amplifier MMICs in surface mount packages,GaAs,,38.0,30.0,,,28,,25,,,,,,,,0.15um GaAs pHEMT
+457,2017,5,Alsuraisry,A 38GHz 27dBm power amplifier in enhancement mode GaAs PHEMT technology,GaAs,,38.0,28.1,28,PAE,27.1,,24.7,,,,,,,,0.15um E-mode GaAs pHEMT
+458,2017,9,Tsai,A 37-40 GHz Power Amplifier for 5G Phased Array Applications using 0.1-μm GaAs pHEMT Process,GaAs,,38.0,25.6,28,PAE,24.6,,13.5,,,,,,,,0.1um GaAs pHEMT
+459,2021,8,Tsai,A 1-Watt 38 GHz Power Amplifier Using 0.1-μm GaAs p-HEMT Technology,GaAs,37-40,38.0,30.23,23.4,PAE,29.4,20.8,18.4,,-25,,,,64-QAM OFDM (250MHz channel BW),,0.1 um GaAs pHEMT
+460,2016,8,Hosseinzadeh,Wideband 5 W Ka-Band GaAs Power Amplifier,GaAs,,39.0,37.0,26,PAE,,,20,,,,,,,,0.1um GaAs pHEMT
+461,2021,8,Huang,A 28/39 GHz Dual-Band Power Amplifier Using Optimal Matching Contour in GaAs pHEMT,GaAs,28-39,39.0,22.7,32.6,PAE,22.6,32,12,,,,,,,,0.15 um GaAs pHEMT
+462,2021,11,Xie,A High-Efficiency 28 GHz/39 GHz Dual-Band Power Amplifier MMIC for 5G Communication,GaAs,28-39,39.0,23.7,53,PAE,22.5,46.7,20.3,,-30.81,1000,13.03,,64-QAM,,0.09 um GaAs pHEMT
+463,2016,4,Li,A Millimeter Wave Broadband GaAs Power Amplifier with Balanced Bias Feedings for Stability Enhancement,GaAs,,39.4,20.3,22.4,PAE,18,,13.8,,,,,,,,GaAs
+464,1999,10,Dourlens,A highly integrated MMIC chipset for a 40 GHz MVDS transceiver subscriber terminal,GaAs,,40.0,17.0,,,17,,17,,,,,,,,GaAs
+465,2002,9,Bessemoulin,A Miniaturized 0.5-Watt Q-band 0.25-gm GaAs PHEMT High Power Amplifier MMIC,GaAs,,40.0,27.0,,,26,,18,,,,,,,,GaAs
+466,2005,10,Bessemoulin,Compact and Broadband Microstrip Power Amplifier MMIC with 400-mW Output Power using 0.15-μm GaAs PHEMTs,GaAs,,40.0,27.0,,,26,,24,,,,,,,,GaAs
+467,2010,5,Otsuka, A Q-band 6W MMIC power amplifier with 3-way power combination circuit,GaAs,,40.0,37.9,18,PAE,,,10,,,,,,,,GaAs
+468,2018,11,Lin,A Ka-Band Power Amplifier with Phase Compensation Technique Applied to 5G Phased Array,GaAs,,40.0,20.0,22.5,PAE,17.5,17,15.7,,-25,,13.7,7.4,64QAM OFDM,,0.1um pHEMT
+469,2007,5,Tsai, A 38–46 GHz MMIC Doherty Power Amplifier Using Post-Distortion Linearization,GaAs,,42.0,21.8,25,DE,,,7,,,,,,,,0.15um  GaAs pHEMT
+470,2007,5,Tsai, A 38–46 GHz MMIC Doherty Power Amplifier Using Post-Distortion Linearization,GaAs,,42.0,21.8,22,DE,,,10,,,,,,,,0.15um  GaAs pHEMT
+471,2007,5,Tsai, A 38–46 GHz MMIC Doherty Power Amplifier Using Post-Distortion Linearization,GaAs,,42.0,21.8,24,DE,,,6,,,,,,,,0.15um  GaAs pHEMT
+472,2006,6,Colomb,A 3-Watt Q-Band GaAs pHEMT Power Amplifier MMIC For High Temperature Operation,GaAs,,43.0,36.0,21,PAE,,,23,,,,,,,,GaAs pHEMT
+473,1993,10,Deakin,POWER HBT FOR 44GHz OPERATION,GaAs,,44.0,24.0,30,PAE,,,5,,,,,,,,GaAs
+474,1993,10,Hughes,MMIC 20 GHz low-noise and 44 GHz power amplifiers for phased array communication antennas designed for manufacturability,GaAs,,44.0,16.7,17,PAE,,,32.7,,,,,,,,GaAs
+475,1996,6,Hwang," Fully-matched, high-efficiency Q-band 1 watt MMIC solid state power amplifier",GaAs,,44.0,30.0,30,PAE,,,9.2,,,,,,,,GaAs
+476,2004,10,Wang, A high power Q-band MMIC power amplifier based on dual-recess 0.15um pHEMT,GaAs,,44.0,34.0,14,PAE,,,15,,,,,,,,GaAs
+477,2005,6,Tsai,A 44-GHz high-linearity MMIC medium power amplifier with a low-loss built-in linearizer,GaAs,,44.0,14.0,,,,,9.5,,,,,,,,GaAs
+478,2006,9,Dadello, 44-GHz High Power and Driver Microstrip Amplifier MMICs using 6-inch 0.15-μm PHEMTs,GaAs,,44.0,33.52,,,,,18,,,,,,,,0.15um  GaAs pHEMT
+479,2006,9,Dadello, 44-GHz High Power and Driver Microstrip Amplifier MMICs using 6-inch 0.15-μm PHEMTs,GaAs,,44.0,30.96,16,PAE,,,18,,,,,,,,0.15um  GaAs pHEMT
+480,2006,9,Dadello, 44-GHz High Power and Driver Microstrip Amplifier MMICs using 6-inch 0.15-μm PHEMTs,GaAs,,44.0,28.0,18,PAE,,,15,,,,,,,,0.15um  GaAs pHEMT
+481,2009,10,Yukawa, Q-band gaas MMIC modules for active phased array antenna systems,GaAs,,44.0,22.0,,,,,14,,,,,,,,GaAs
+482,2011,3,Yan, Efficiency Enhancement of mm-Wave Power Amplifiers Using Envelope Tracking,GaAs,,44.0,33.0,10,PAE,32,,,,,,,,,,GaAs
+483,2006,10,Aust, A 2.8-W Q-Band High-Efficiency Power Amplifier,GaAs,,44.0,34.47,28,PAE,,,17,,,,,,,,InGaAs/GaAs HEMT
+484,1997,6,Lester, 3-watt Q-band waveguide PHEMT MMIC power amplifier module,GaAs,,44.5,36.4,25,PAE,,,13,,,,,,,,GaAs
+485,2005,10,Aust,A Highly Efficient Q-Band MMIC 2.8 Watt Output Power Amplifier  Based on 0.15um InGaAs/GaAs pHEMT Process Technology,GaAs,,45.0,34.5,24,PAE,,,14,,,,,,,,GaAs
+486,2003,6,Wu,An 18-71 GHz Multi-band and High Gain GaAs MMIC Medium Power Amplifier for Millimeter-wave Applications,GaAs,,45.0,18.0,,,,,23,,,,,,,,
+487,1996,6,Lester, Highly efficient compact Q-band MMIC power amplifier using 2-mil substrate and partially-matched output,GaAs,,45.5,29.29,34,PAE,,,17,,,,,,,,GaAs
+488,1991,10,Yang,A 0.25-Watt Three stage  Q-band MESFET Monolithic Power Amplifier,GaAs,,46.0,27.0,9.5,PAE,,,,,,,,,,,GaAs
+489,2019,7,Lv,A Compact Ka/Q Dual-Band GaAs MMIC Doherty Power Amplifier With Simplified Offset Lines for 5G Applications,GaAs,,46.0,25.2,25,PAE,,,10.5,,-39.17,,,,20 MHz 64AQM,,0.1um GaAs
+490,1992,11,Ho,U-Band Monolithic Millimetre-Wave GaAs MESFET Power Amplifiier,GaAs,,47.0,22.5,,,,,14.2,,,,,,,,GaAs
+491,2018,6,Lv,An Energy-Efficient K a/Q Dual-Band Power Amplifier MMIC in 0.1-μm GaAs Process,GaAs,,47.0,22.7,40,PAE,,,15.5,,,,,,,,0.1um GaAs
+492,1989,10,Camilleri,Mononlithic 50GHz GaAs FET Power amplfiier,GaAs,,50.0,28.0,,,,,18,,,,,,,,GaAs
+493,2020,12,Tsao,A 52–58 GHz Power Amplifier With 18.6-dBm Saturated Output Power for Space Applications,GaAs,52-58,54.0,18.6,18.2,PAE,16.15,,14.7,,,,,,,,0.15 um GaAs pHEMT
+494,2020,12,Tsao,A 52–58 GHz Power Amplifier With 18.6-dBm Saturated Output Power for Space Applications,GaAs,52-58,56.0,18.0,17,PAE,15,,14,,,,,,,,0.15 um GaAs pHEMT
+495,2012,12,wu,A V-band power amplifier with 11.6dB gain and 7.8% PAE in GaAs 0.15µm pHEMT process technology,GaAs,,56.5,12.2,7.8,PAE,12.3,,11.6,,,,,,,,0.15um GaAs pHEMT
+496,2012,5,Chiu,High Performance V-band GaAs Power Amplifier and Low Noise Amplifier Using Low-loss Transmission Line Technology,GaAs,,58.0,18.9,19.8,PAE,13.81,,16.8,,,,,,,,0.15um GaAs pHEMT
+497,2008,10,Chaki, A V-Band High Power and High Gain Amplifier MMIC using GaAs PHEMT Technology,GaAs,,59.0,28.9,14.2,PAE,,,17.8,,,,,,,,0.1um GaAs pHEMT
+498,2008,1,Kim, 60 GHz flip-chip mounted frequency doubler/PA chain MMIC with low input power and high output power,GaAs,,59.0,19.0,,,,,17,,,,,,,,0.15um GaAs pHEMT
+499,1994,9,Kasody, A high efficiency V-band monolithic HEMT power amplifier,GaAs,,59.5,24.95,19.9,PAE,,,8.95,,,,,,,,GaAs
+500,1994,9,Sharma, A high power and high efficiency monolithic power amplifier at V-band using pseudomorphic HEMTs,GaAs,,60.0,26.83,13.9,PAE,,,13.8,,,,,,,,GaAs
+501,1994,9,Sharma, A high power and high efficiency monolithic power amplifier at V-band using pseudomorphic HEMTs,GaAs,,60.0,25.68,11,PAE,,,13.18,,,,,,,,GaAs
+502,2003,11,Handa,60GHz-band low noise Amplifier and Power Amplifier Using InGaP/GaAs HBT Technology,GaAs,,60.0,,,,13,,15,,,,,,,,GaAs
+503,2004,10,Lee, A very compact 60GHz transmitter integrating GaAs MMICs on LTCC passive circuits for wireless terminals applications,GaAs,,60.0,11.0,,,,,12,,,,,,,,GaAs
+504,2005,6,Ngo-Wah, A V-band eight-way combined solid-state power amplifier with 12.8 Watt output power,GaAs,,60.0,41.0,,,,,44,,,,,,,,GaAs
+505,2005,6,Ngo-Wah, A V-band eight-way combined solid-state power amplifier with 12.8 Watt output power,GaAs,,60.0,32.0,,,,,25,,,,,,,,GaAs
+506,2005,12,Han,V-band CPW balanced medium power amplifier for 60 GHz wireless LAN application,GaAs,,60.0,,,,7.5,,8,,,,,,,,GaAs
+507,2007,1,Chang, 60 GHz Amplifier MMICs and Module for 60 GHz WPAN System,GaAs,,60.0,,,,,,15,,,,,,,,0.12um GaAs pHEMT
+508,2008,6,Abbasi," Q-, V-, and W-band power amplifiers utilizing coupled lines for impedance matching",GaAs,,60.0,16.0,,,,,15,,,,,,,,GaAs
+509,2009,6,Campbell,V-Band Power Amplifier MMICs Exhibiting Low Power Slump Characteristics Utilizing a Production Released 0.15-um GaAs PHEMT Process,GaAs,,60.0,27.5,26,PAE,,,17,,,,,,,,GaAs
+510,2014,12,Chou,A V-band balanced power amplifier in 0.15µm GaAs pHEMT process,GaAs,,60.0,10.0,18,PAE,,,10,,,,,,,,WIN 0.15 μm GaAs pHEMT
+511,2017,6,Chang,V-band flip-chip pHEMT balanced power amplifier with CPWGMS-CPWG topology and CPWG Lange couplers,GaAs,,60.0,15.0,,,12,,18,,,,,,,,0.15um GaAs pHEMT
+512,2003,6,Wu,An 18-71 GHz Multi-band and High Gain GaAs MMIC Medium Power Amplifier for Millimeter-wave Applications,GaAs,,60.0,14.7,,,,,20,,,,,,,,
+513,2008,11,Wang,43–68 GHz broad band low noise MMIC medium power amplifier,GaAs,,60.0,15.0,,,13,,16,,,,,,,,0.15um  GaAs pHEMT
+514,2009,10,Koch," A Fully Integrated, Compound Transceiver MIMIC Utilizing Six Antenna Ports for 60 GHz Wireless Applications",GaAs,,60.0,14.0,,,,,27,,,,,,,,GaAs
+515,2015,6,Gavell,A high voltage mm-wave stacked HEMT power amplifier in 0.1 µm InGaAs technology,GaAs,,61.0,25.0,15,PAE,,,22,,,,,,,,0.1um InGaAs pHEMT
+516,2016,12,Gavell,A V -Band Stacked HEMT Power Amplifier With 25-dBm Saturated Output Power in 0.1- μm InGaAs Technology,GaAs,,61.0,25.0,15,PAE,22,,22,,,,,,,,0.1um GaAs
+517,1999,10,Chen,A Single Chip 1-W InP HEMT V-Band Module,GaAs,,62.0,30.0,21,PAE,,,20,,,,,,,,GaAs
+518,1999,10,Chen,A Single Chip 1-W InP HEMT V-Band Module,GaAs,,62.0,27.2,25,PAE,,,,,,,,,,,GaAs
+519,2000,11,Maruhashi,A 60GHz-band Coplanar-MMIC Chipset for 5OOMbps ASK Transceivers,GaAs,,62.0,15.0,,,,,12,,,,,,,,GaAs
+520,2021,8,Tsao,A New Design Technique for Power Amplifiers Operating Close to Unit-Current-Gain Cutoff Frequency,GaAs,59-66,62.0,15.52,16.8,PAE,13.4,,12.3,,,,,,,,0.15μm GaAs pHEMT 
+521,1996,11,Tang,"A 560mW, 21% Power-Added Efficiency V-Band MMIC Power Amplifier",GaAs,,62.5,24.7,26,PAE,,,9.9,,,,,,,,GaAs
+522,2011,12,Tsai,A 71-80 GHz Medium Power Amplifier Using 4-mil 0.15- μm GaAs-PHEMT Technology,GaAs,,73.0,18.8,10.7,PAE,,,8.4,,,,,,,,0.15um GaAs pHEMT
+523,2015,9,Bessemoulin,Reduced-size E-band GaAs power amplifier MMIC,GaAs,,73.0,31.0,,,29,,26,,,,,,,,GaAs
+524,2014,10,Kang,Compact E-band single-chip transmitter using 0.1μm GaAs pHEMT process,GaAs,,73.5,,,,15,,20.8,,,,,,,,0.1um GaAs pHEMT
+525,2014,6,Schwantuschke, Q- and E-band amplifier MMICs for satellite communication,GaAs,,74.0,28.0,10,PAE,,,15,,,,,,,,50nm GaAs pHEMT
+526,2014,6,Camargo, Power GaAs MMICs for E-band communications applications,GaAs,71-76,74.0,28.5,,,25,,17,,,,,,,,GaAs
+527,2009,9,Fujii,40 to 85GHz Power Amplifier MMICs Using an Optical Lithography Based Low Cost GaAs PHEMT Process,GaAs,,75.0,17.0,,,,,18,,,,,,,,0.15um GaAs pHEMT
+528,2017,1,Gavell,An E -Band Analog Predistorter and Power Amplifier MMIC Chipset,GaAs,,75.5,27.0,22,PAE,24,,26,,,,,,,,GaAs
+529,2017,1,Gavell,An E -Band Analog Predistorter and Power Amplifier MMIC Chipset,GaAs,,75.5,27.0,20,PAE,26,,18,,,,,,,,GaAs
+530,1998,12,Siweris, Low cost GaAs PHEMT MMICs for millimeter wave sensor applications,GaAs,,76.0,13.0,,,,,11,,,,,,,,GaAs
+531,2012,10,Rodriguez," Full ETSI E-Band Doubler, Quadrupler and 24 dBm Power Amplifier",GaAs,,76.0,24.2,8,PAE,,,15,,,,,,,,GaAs
+532,2013,10,Tarazi, GaAs E Band Radio Chip-Set,GaAs,,76.0,25.4,10,PAE,22,,20,,,,,,,,GaAs pHEMT
+533,2003,6,Udomoto, A 38/77 GHz MMIC transmitter chip set for automotive applications,GaAs,,76.5,,,,15,,17,,,,,,,,GaAs
+534,1997,10,Kamozaki,A 77GHz T/R MMIC Chip Set for Automotive Radar Systems,GaAs,,77.0,12.0,,,9.7,,16,,,,,,,,GaAs
+535,1999,10,Tessmann,A 77GHz GaAs pHEMT Transceiver MMIC for Automotive Sensor Applications,GaAs,,77.0,14.5,,,11.5,,10,,,,,,,,GaAs
+536,1999,10,Kondoh, 77 GHz fully-MMIC automotive forward-looking radar [using pHEMTs],GaAs,,77.0,14.0,,,,,,,,,,,,,GaAs
+537,2000,6,Siweris, A mixed Si and GaAs chip set for millimeter-wave automotive radar front-ends,GaAs,,77.0,15.0,,,12,,10,,,,,,,,GaAs
+538,2003,4,Chang,A 77-GHz MMIC power amplifier for automotive radar applications,GaAs,,77.0,21.5,10,PAE,18.5,,12,,,,,,,,GaAs
+539,2006,11,Kim, A 77 GHz Transceiver for Automotive Radar System Using a 120nm In0.4AlAs/In0.35GaAs Metamorphic HEMTs,GaAs,,77.0,23.4,,,,,21.4,,,,,,,,GaAs
+540,2014,8,Lai,77GHz power amplifier design using WIN 0.1μm GaAs pHEMT process,GaAs,,77.0,8.6,,,6,,12,,,,,,,,WIN 0.1um GaAs pHEMT
+541,2000,6,Wang, Monolithic power amplifiers covering 70-113 GHz,GaAs,,79.0,25.5,,,,,9,,,,,,,,GaAs
+542,2008,10,Micovic, GaN MMIC PAs for E-Band (71 GHz - 95 GHz) Radio,GaAs,,80.0,27.0,17,PAE,,,12,,,,,,,,GaAs
+543,2013,6,Canales,A 75-90 GHz High Linearity MMIC Power Amplifier with Integrated Output Power Detector,GaAs,,80.0,20.0,,,19,,25,,,,,,,,0.1um GaAs pHEMT
+544,2015,9,Bessemoulin,Reduced-size E-band GaAs power amplifier MMIC,GaAs,,82.0,27.0,,,26,,22,,,,,,,,GaAs
+545,2019,8,Lu,A 78-93 GHz Power Amplifier with 19.6-dBm Psat and 12.8 % PAEpeak in 0.1-µm GaAs pHEMT for Radio Astronomical Receiver System,GaAs,78-93,82.0,19.6,12.8,PAE,18.2,,11.5,,,,,,,,0.1um GaAs pHEMT
+546,2014,6,Camargo, Power GaAs MMICs for E-band communications applications,GaAs,81-86,83.0,28.0,26.5,PAE,27.5,,15,,,,,,,,GaAs
+547,2012,6,Kim,Full W-Band Power Amplifier/Combiner Utilizing GaAs,GaAs,,84.0,19.0,,,,,15,,,,,,,,0.1um GaAs pHEMT
+548,2021,11,Tran,A W-band driver amplifier in 0.1 µm pHEMT Gallium Arsenide process,GaAs,85-104,85.0,16.0,,,,,18,,,,,,,,0.1 µm GaAs pHEMT
+549,2020,9,Zhu,A W-Band Balanced Power Amplifier in 0.1-μm GaAs PHEMT Process,GaAs,84-100,88.0,22.3,,,,,15,,,,,,,,0.1um GaAs pHEMT
+550,1995,10,Wang,A Novel W-band Monolithic Push-Pull Power Amplifier,GaAs,,90.0,19.4,13.3,PAE,,,12,,,,,,,,GaAs
+551,1995,5,Wang, A W-band monolithic 175-mW power amplifier,GaAs,,90.0,22.43,4,PAE,,,7,,,,,,,,GaAs
+552,2003,6,Morgan, A W-band monolithic medium power amplifier,GaAs,,90.0,21.0,,,,,11,,,,,,,,GaAs
+553,2008,10,Micovic, GaN MMIC PAs for E-Band (71 GHz - 95 GHz) Radio,GaAs,,90.0,23.0,9,PAE,,,13.8,,,,,,,,GaAs
+554,2021,11,Tran,A W-band driver amplifier in 0.1 µm pHEMT Gallium Arsenide process,GaAs,85-104,90.0,17.5,,,,,18,,,,,,,,0.1 µm GaAs pHEMT
+555,1994,10,Biedenbender, A 0.1um W-band HEMT production process for high yield and high performance low noise and power MMICs,GaAs,,94.0,19.0,,,,,12,,,,,,,,GaAs
+556,1995,1,Aust,A 94-GHz Monolithic Balanced Power Amplifier Using 0.1um Gate GaAs-Based HEMT MMIC Production  Process Technology,GaAs,,94.0,20.1,8,PAE,,,6,,,,,,,,GaAs
+557,1995,5,Marosi, 94 GHz power amplifier using PHEMT technology,GaAs,,94.0,20.0,,,,,32,,,,,,,,GaAs
+558,1997,12,Huang, A 94-GHz 0.35-W power amplifier module,GaAs,,94.0,24.77,10.5,PAE,,,8,,,,,,,,GaAs
+559,1999,6,Huang, A 94 GHz monolithic high output power amplifier,GaAs,,94.0,24.77,10.5,PAE,,,8,,,,,,,,GaAs
+560,2000,6,Ingram, Compact W-band solid-state MMIC high power sources,GaAs,,94.0,33.8,8.2,PAE,,,12,,,,,,,,GaAs
+561,2020,9,Zhu,A W-Band Balanced Power Amplifier in 0.1-μm GaAs PHEMT Process,GaAs,84-100,94.0,22.0,,,,,16,,,,,,,,0.1um GaAs pHEMT
+562,2020,11,Tian,W-band Amplifiers in 0.1 μm GaAs,GaAs,,94.0,,,,,,7.3,,,,,,,,0.1um GaAs
+563,2020,11,Tian,W-band Amplifiers in 0.1 μm GaAs,GaAs,,94.0,,,,,,17,,,,,,,,0.1um GaAs
+564,2000,6,Wang, Monolithic power amplifiers covering 70-113 GHz,GaAs,,95.0,23.5,,,,,8,,,,,,,,GaAs
+565,2003,6,Herrick, 95 GHz metamorphic HEMT power amplifiers on GaAs,GaAs,,95.0,23.3,23,PAE,,,10,,,,,,,,GaAs
+566,2021,6,Thome,A 75–305-GHz Power Amplifier MMIC With 10–14.9-dBm P out in a 35-nm InGaAs mHEMT Technology,GaAs,75-305,95.0,12.0,3.4,PAE,11,2.9,22,,,,,,,,35-nm In0.52Al0.48As/In0.8Ga0.2As mHEMT 
+567,2021,11,Tran,A W-band driver amplifier in 0.1 µm pHEMT Gallium Arsenide process,GaAs,85-104,95.0,20.0,,,,,18,,,,,,,,0.1 µm GaAs pHEMT
+568,2018,6,Barabi,A +27 dBm P sat 27 dB Gain W-Band Power Amplifier in 0.1 μm GaAs,GaAs,,96.0,27.3,12.5,PAE,,,27,,,,,,,,0.1um GaAs pHEMT
+569,2015,10,Bessemoulin, Compact W-Band PA MMICs in Commercially Available 0.1-µm GaAs PHEMT Process,GaAs,92-96,96.0,23.0,,,,,13,,,,,,,,0.1um GaAs pHEMT
+570,2015,10,Bessemoulin, Compact W-Band PA MMICs in Commercially Available 0.1-µm GaAs PHEMT Process,GaAs,92-97,97.0,20.5,,,,,12.5,,,,,,,,0.1um GaAs pHEMT
+571,2021,11,Tran,A W-band driver amplifier in 0.1 µm pHEMT Gallium Arsenide process,GaAs,85-104,97.0,20.0,12.5,PAE,,,18,,,,,,,,0.1 µm GaAs pHEMT
+572,2021,11,Mahon,W-Band Coplanar Medium Power Amplifier,GaAs,,99.0,14.6,,,,,22.2,,,,,,,,100-nm power pHEMT
+573,2008,6,Abbasi," Q-, V-, and W-band power amplifiers utilizing coupled lines for impedance matching",GaAs,,100.0,7.0,,,,,10,,,,,,,,GaAs
+574,2015,10,Bessemoulin, Compact W-Band PA MMICs in Commercially Available 0.1-µm GaAs PHEMT Process,GaAs,80-100,100.0,24.5,,,,,12,,,,,,,,0.1um GaAs pHEMT
+575,2021,11,Mahon,W-Band Coplanar Medium Power Amplifier,GaAs,,100.0,14.3,5.2,PAE,,,22.1,,,,,,,,100-nm power pHEMT
+576,2021,11,Mahon,W-Band Coplanar Medium Power Amplifier,GaAs,,100.0,15.7,3.5,PAE,,,22,,,,,,,,100-nm power pHEMT
+577,2021,11,Tran,A W-band driver amplifier in 0.1 µm pHEMT Gallium Arsenide process,GaAs,85-104,100.0,20.0,,,,,18,,,,,,,,0.1 µm GaAs pHEMT
+578,2019,8,Chen,A Wideband W-Band Driver Amplifier in 0.1 μm GaAs Process,GaAs,67-103,103.0,16.0,,,,,17,,,,,,,,0.1um GaAs
+579,2021,11,Tran,A W-band driver amplifier in 0.1 µm pHEMT Gallium Arsenide process,GaAs,85-104,104.0,18.0,,,,,18,,,,,,,,0.1 µm GaAs pHEMT
+580,2000,6,Wang, Monolithic power amplifiers covering 70-113 GHz,GaAs,,105.0,25.0,,,,,7,,,,,,,,GaAs
+581,2001,1,Wang, Power-amplifier modules covering 70-113 GHz using MMICs,GaAs,,105.0,25.0,,,,,20,,,,,,,,GaAs
+582,2021,6,Thome,A 75–305-GHz Power Amplifier MMIC With 10–14.9-dBm P out in a 35-nm InGaAs mHEMT Technology,GaAs,75-305,140.0,13.0,5.8,PAE,12,3.9,28,,,,,,,,35-nm In0.52Al0.48As/In0.8Ga0.2As mHEMT 
+583,2012,11,Diebold, A 130 to 160 GHz broadband power amplifier with binary power splitting topology,GaAs,,145.0,13.1,4,PAE,,,15,,,,,,,,0.1um GaAs pHEMT
+584,2018,5,Amado-rey,A G-Band Broadband Balanced Power Amplifier Module Based on Cascode mHEMTs,GaAs,,200.0,10.0,1.5,PAE,,,15.3,,,,,,,,GaAs 35-nm mHEMT
+585,2021,6,Thome,A 75–305-GHz Power Amplifier MMIC With 10–14.9-dBm P out in a 35-nm InGaAs mHEMT Technology,GaAs,75-305,200.0,14.9,6.6,PAE,,,25,,,,,,,,35-nm In0.52Al0.48As/In0.8Ga0.2As mHEMT 
+586,2018,5,Amado-rey,Analysis and Development of Submillimeter-Wave Stacked-FET Power Amplifier MMICs in 35-nm mHEMT Technology,GaAs,,240.0,10.8,5.02,PAE,,,21.5,,,,,,,,GaAs
+587,2021,6,Thome,A 75–305-GHz Power Amplifier MMIC With 10–14.9-dBm P out in a 35-nm InGaAs mHEMT Technology,GaAs,75-305,240.0,12.5,4.4,PAE,12.2,4.1,23,,,,,,,,35-nm In0.52Al0.48As/In0.8Ga0.2As mHEMT 
+588,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,280.0,3.3,,,,,8.5,,,,,,,,
+589,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,280.0,6.8,,,,,11.5,,,,,,,,
+590,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,285.0,5.5,,,,,10.5,,,,,,,,
+591,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,285.0,8.0,,,,,12.8,,,,,,,,
+592,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,290.0,6.0,,,,,11,,,,,,,,
+593,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,290.0,8.2,,,,,13,,,,,,,,
+594,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,295.0,6.5,,,,,11.8,,,,,,,,
+595,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,295.0,8.5,,,,,13.2,,,,,,,,
+596,2019,1,Amado-Rey,GCPW GaAs Broadside Couplers at H-Band and Application to Balanced Power Amplifiers,GaAs,,300.0,4.5,2.5,PAE,,,7.5,,,,,,,,35nm mHEMT
+597,2019,6,Schoch,300 GHz broadband power amplifier with 508 GHz gain-bandwidthproduct and 8 dBm output power,GaAs,,300.0,8.0,2.97,PAE,,,19,,,,,,,,
+598,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,300.0,7.0,,,,,12,,,,,,,,
+599,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,300.0,8.2,,,,,13,,,,,,,,
+600,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,305.0,7.0,,,,,11.8,,,,,,,,
+601,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,305.0,8.8,,,,,13.5,,,,,,,,
+602,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,310.0,7.0,,,,,12,,,,,,,,
+603,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,310.0,8.5,,,,,13.2,,,,,,,,
+604,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,315.0,7.0,,,,,11.8,,,,,,,,
+605,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,315.0,8.5,,,,,13.4,,,,,,,,
+606,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,320.0,7.0,,,,,11.5,,,,,,,,
+607,2019,6,John,Investigation of Compact Power Amplifier Cells at THz Frequenciesusing InGaAs mHEMT Technology,GaAs,,320.0,8.1,,,,,13,,,,,,,,
+608,2020,6,Gashi,Broadband and High-Gain 400-GHz InGaAs mHEMT Medium-Power Amplifier S-MMIC, InGaAs mHEMT,280–430,355.0,2.8,1.5,PAE,2,,20,,,,,,,,35-nm In0.52Al0.48As/In0.80Ga0.20As mHEMT
+609,2020,6,Gashi,Broadband and High-Gain 400-GHz InGaAs mHEMT Medium-Power Amplifier S-MMIC, InGaAs mHEMT,,360.0,3.3,,,2.4,,20,,,,,,,,35-nm In0.52Al0.48As/In0.80Ga0.20As mHEMT
+610,2020,6,Gashi,Broadband and High-Gain 400-GHz InGaAs mHEMT Medium-Power Amplifier S-MMIC, InGaAs mHEMT,,365.0,3.1,,,2.5,,20,,,,,,,,35-nm In0.52Al0.48As/In0.80Ga0.20As mHEMT
+611,2020,6,Gashi,Broadband and High-Gain 400-GHz InGaAs mHEMT Medium-Power Amplifier S-MMIC, InGaAs mHEMT,,370.0,2.9,,,2.4,,20,,,,,,,,35-nm In0.52Al0.48As/In0.80Ga0.20As mHEMT
+612,2020,6,Gashi,Broadband and High-Gain 400-GHz InGaAs mHEMT Medium-Power Amplifier S-MMIC, InGaAs mHEMT,,375.0,3.1,,,2.4,,20,,,,,,,,35-nm In0.52Al0.48As/In0.80Ga0.20As mHEMT
+613,2020,6,Gashi,Broadband and High-Gain 400-GHz InGaAs mHEMT Medium-Power Amplifier S-MMIC, InGaAs mHEMT,,380.0,2.9,,,2,,20,,,,,,,,35-nm In0.52Al0.48As/In0.80Ga0.20As mHEMT
+614,2020,6,Gashi,Broadband and High-Gain 400-GHz InGaAs mHEMT Medium-Power Amplifier S-MMIC, InGaAs mHEMT,,385.0,2.5,,,1.9,,20,,,,,,,,35-nm In0.52Al0.48As/In0.80Ga0.20As mHEMT
+615,2020,6,Gashi,Broadband and High-Gain 400-GHz InGaAs mHEMT Medium-Power Amplifier S-MMIC, InGaAs mHEMT,,390.0,2.1,,,1.7,,20,,,,,,,,35-nm In0.52Al0.48As/In0.80Ga0.20As mHEMT
+616,2020,6,Gashi,Broadband and High-Gain 400-GHz InGaAs mHEMT Medium-Power Amplifier S-MMIC, InGaAs mHEMT,,395.0,2.0,,,1.1,,20,,,,,,,,35-nm In0.52Al0.48As/In0.80Ga0.20As mHEMT
+617,2004,6,Dow,Low DC Current 2.4-2.5 GHz and 4.9-6.0 GHz Linear Power Amplifier Modules for IEEE802.11 a/b/g Applications,GaAs,,,,,,,,29.4,,-27.54,54Mbps,20,,802.11bg(OFDM_64QAM),,InGaP/GaAs_HBT
+618,2004,6,Dow,Low DC Current 2.4-2.5 GHz and 4.9-6.0 GHz Linear Power Amplifier Modules for IEEE802.11 a/b/g Applications,GaAs,,,,,,,,24,,-28.18,54Mbps,19,,802.11a(OFDM_64QAM),,InGaP/GaAs_HBT
+619,2004,6,Noh,An intelligent power amplifier MMIC using a new adaptive bias control circuit for W-CDMA applications,GaAs,,,,,,,,12.3,,,3.84,28.3,52.4,W-CDMA,,InGaP/GaAs
+620,2015,1,Kang,A Multi-Mode Multi-Band Reconfigurable Power Amplifier for 2G/3G/4G Handset Applications,GaAs,3G,,28.0,40.5,PAE,,,25.5,,,,28,40.1,3GPP W-CDMA,,2- u InGaP/GaAs HBT
+621,2015,1,Kang,A Multi-Mode Multi-Band Reconfigurable Power Amplifier for 2G/3G/4G Handset Applications,GaAs,4G,,26.5,35,PAE,,,27.2,,,,26.5,34.3,LTE QPSK 1.428-1.463GHz,,2- u InGaP/GaAs HBT
+622,2023,Early,Hwang,Switchless Dual-Power-Mode Fully Differential HBT Power Amplifier for Mobile Applications,GaAs,5.15-5.925,5.5,34.2,44.4,PAE,33,35,24,,-32,160,24.5,10.5,802.11ac MCS7,Analog,2-μm InGaP/GaAs HBT
+623,2023,Early,Hwang,Switchless Dual-Power-Mode Fully Differential HBT Power Amplifier for Mobile Applications,GaAs,5.15-5.925,5.5,23.2,32,PAE,22,25,11.4,,-32,160,14,10.1,802.11ac MCS7,Analog,2-μm InGaP/GaAs HBT
+624,2022,12,Huang,A Millimeter-Wave Ultra-Wide Band Power Amplifier in 0.15-μm GaAs pHEMT for 5G Communication,GaAs,19-32,19.0,24.0,28,PAE,22.8,21,15.7,,,,,,,Analog,0.15-μm GaAs pHEMT
+625,2022,12,Huang,A Millimeter-Wave Ultra-Wide Band Power Amplifier in 0.15-μm GaAs pHEMT for 5G Communication,GaAs,19-32,20.0,24.0,30,PAE,23,24,15.7,,,,,,,Analog,0.15-μm GaAs pHEMT
+626,2022,12,Takenaka,Multiband Doherty Power Amplifier Design for 5G NR Sub-6 GHz Handset Applications,GaAs,3.75 / 4.7,3.75,,,PAE,,,40,,,100,27.4,38.9,5G NR 100 MHz,Analog,0.15-μm GaAs pHEMT
+627,2022,12,Takenaka,Multiband Doherty Power Amplifier Design for 5G NR Sub-6 GHz Handset Applications,GaAs,3.75 / 4.7,4.7,,,PAE,,,35,,,100,27.4,34.6,5G NR 100 MHz,Analog,0.15-μm GaAs pHEMT
+628,2023,3,Zhang,A Rapid Matching Network Layout Synthesis and Optimization Method for High-Performance MMIC PAs Using Modified Implicit Space Mapping,GaAs,15.9-16.7 / 26.8-27.6,16.0,24.8,30.2,PAE,23,10,21.7,,,,,,,Analog,0.15-μm GaAs pHEMT
+629,2023,Early,Chen,Fully-Integrated Broadband GaAs MMIC Load Modulated Balanced Amplifier for Sub-6 GHz Applications,GaAs,4.2-5.2,4.7,30.8,46.6,DE,,,6.3,,,20,24.8,40.2,20 MHz 64-QAM OFDM 5G-NR,Analog,0.25-μm GaAs pHEMT
+630,2023,Early,Li,A Bandpass Power Amplifier Applying Transformer-Based Filtering Combiner in 0.5-μm GaAs pHEMT,GaAs,5.1-5.9,5.4,33.3,30.6,PAE,,,26,,-32,80,18.5,,80-MHz 256-QAM 802.11ax MCS9,Analog,0.15-μm GaAs pHEMT
+631,2023,1,Yi,Design of a 17–24-GHz High-Efficiency Power Amplifier for Satellite Communications,GaAs,17-24,18.0,27.0,42,PAE,26.5,41,22,,,,,,,Analog,0.1-μm GaAs pHEMT
+632,2023,1,Yi,Design of a 17–24-GHz High-Efficiency Power Amplifier for Satellite Communications,GaAs,17-24,20.0,27.0,46,PAE,26.5,45,22,,,,,,,Analog,0.1-μm GaAs pHEMT
+633,2023,3,Liu,High Linear and Temperature Insensitive GaAs Power Amplifier Operating at 3.3–3.6 GHz Using a Multi-Feedback Branch Bias Circuit,GaAs,3.3-3.6,3.5,35.5,48,PAE,34,41,33.8,,-38,100,28,19.5,100 MHz 64-QAM OFDM 5G-NR,Analog,InGaP/GaAs_HBT
+634,2023,Early Access,Li,A mm-Wave Parallel-Combined Power Amplifier Supporting Balanced/Unbalanced Mode for 5G NR FR2 Applications,GaAs,23-30,27.0,22.0,32,PAE,19,28,25,,-28,200,13.5,36.5,64 QAM 9.64dB PAPR 5G-NR,Analog,0.15-μm GaAs pHEMT
+635,2022,12,Huang,A Millimeter-Wave Ultra-Wide Band Power Amplifier in 0.15-μm GaAs pHEMT for 5G Communication,GaAs,19-32,27.0,24.0,27,PAE,23.5,26,14,,,,,,,Analog,0.15-μm GaAs pHEMT
+636,2023,2,Xie,A Ka-Band Watt-Level High-Efficiency Doherty Amplifier MMIC in 90-nm GaAs Technology,GaAs,26.5-30.5,28.0,30.0,37.9,PAE,26,35,18,,-28.5,1000,21.2,,64 QAM 7.8dB PAPR ,Analog,0.09-μm GaAs pHEMT
+637,2023,4,Xia,A 26/38-GHz Dual-Band Filtering Balanced Power Amplifier MMIC for 5G Mobile Communications,GaAs,26-38,26.0,27.7,31.5,PAE,27.1,,22.4,,-31.84,400,19.7,,400 MHz 64-QAM 5G-NR,Analog,0.1-μm GaAs
+638,2023,4,Xia,A 26/38-GHz Dual-Band Filtering Balanced Power Amplifier MMIC for 5G Mobile Communications,GaAs,26-38,38.0,26.9,22.8,PAE,25.6,,15.8,,-32.28,400,19.49,,400 MHz 64-QAM 5G-NR,Analog,0.1-μm GaAs
+639,2022,9,Mahon,Microstrip GaAs Power Amplifiers for High Capacity 92–114 GHz 5G and 6G Backhaul,GaAs,82-118GHz,80.0,11.0,,PAE,,,12.5,,,,,,,,100nm GaAs pHEMT
+640,2022,9,Mahon,Microstrip GaAs Power Amplifiers for High Capacity 92–114 GHz 5G and 6G Backhaul,GaAs,82-118GHz,90.0,23.0,,PAE,,,23,,,,,,,,100nm GaAs pHEMT
+641,2022,9,Mahon,Microstrip GaAs Power Amplifiers for High Capacity 92–114 GHz 5G and 6G Backhaul,GaAs,82-118GHz,100.0,21.0,,PAE,,,21,,,,,,,,100nm GaAs pHEMT
+642,2022,9,Mahon,Microstrip GaAs Power Amplifiers for High Capacity 92–114 GHz 5G and 6G Backhaul,GaAs,82-118GHz,108.0,20.5,5,PAE,,,18,,,,,,,,100nm GaAs pHEMT
+643,2022,9,Mahon,Microstrip GaAs Power Amplifiers for High Capacity 92–114 GHz 5G and 6G Backhaul,GaAs,85-116GHz,80.0,14.5,0.8,PAE,,,9.5,,,,,,,,100nm GaAs pHEMT
+644,2022,9,Mahon,Microstrip GaAs Power Amplifiers for High Capacity 92–114 GHz 5G and 6G Backhaul,GaAs,85-116GHz,90.0,25.0,8,PAE,,,22.5,,,,,,,,100nm GaAs pHEMT
+645,2022,9,Mahon,Microstrip GaAs Power Amplifiers for High Capacity 92–114 GHz 5G and 6G Backhaul,GaAs,85-116GHz,100.0,22.9,4.1,PAE,,,22,,,,,,,,100nm GaAs pHEMT
+646,2022,9,Mahon,Microstrip GaAs Power Amplifiers for High Capacity 92–114 GHz 5G and 6G Backhaul,GaAs,85-116GHz,108.0,22.5,4,PAE,,,19.8,,,,,,,,100nm GaAs pHEMT
+647,2022,8,Yang,A Broadband E-band Driver Amplifier in 0.1 μm GaAs pHEMT Technology,GaAs,61-94GHz,60.0,15.5,,PAE,,,17.5,,,,,,,,100nm GaAs pHEMT
+648,2022,8,Yang,A Broadband E-band Driver Amplifier in 0.1 μm GaAs pHEMT Technology,GaAs,61-94GHz,65.0,17.5,,PAE,,,18,,,,,,,,100nm GaAs pHEMT
+649,2022,8,Yang,A Broadband E-band Driver Amplifier in 0.1 μm GaAs pHEMT Technology,GaAs,61-94GHz,75.0,18.7,11.1,PAE,15.2,,17,,,,,,,,100nm GaAs pHEMT
+650,2022,8,Yang,A Broadband E-band Driver Amplifier in 0.1 μm GaAs pHEMT Technology,GaAs,61-94GHz,80.0,18.0,,PAE,,,16,,,,,,,,100nm GaAs pHEMT
+651,2022,8,Yang,A Broadband E-band Driver Amplifier in 0.1 μm GaAs pHEMT Technology,GaAs,61-94GHz,90.0,15.0,,PAE,,,16,,,,,,,,100nm GaAs pHEMT
+652,2022,8,Zheng,A 64-QAM 94-GHz GaAs Transceiver with 18 dBm Output Power for High Data-Rate Communication,GaAs,90-96GHz,90.0,18.0,,PAE,,,,,,,,,,,100nm GaAs pHEMT
+653,2022,8,Zheng,A 64-QAM 94-GHz GaAs Transceiver with 18 dBm Output Power for High Data-Rate Communication,GaAs,90-96GHz,91.5,17.9,,PAE,,,,,,,,,,,100nm GaAs pHEMT
+654,2022,8,Zheng,A 64-QAM 94-GHz GaAs Transceiver with 18 dBm Output Power for High Data-Rate Communication,GaAs,90-96GHz,93.0,17.7,,PAE,,,,,,,,,,,100nm GaAs pHEMT
+655,2022,8,Zheng,A 64-QAM 94-GHz GaAs Transceiver with 18 dBm Output Power for High Data-Rate Communication,GaAs,90-96GHz,94.5,17.6,,PAE,,,,,,,,,,,100nm GaAs pHEMT
+656,2022,8,Zheng,A 64-QAM 94-GHz GaAs Transceiver with 18 dBm Output Power for High Data-Rate Communication,GaAs,90-96GHz,95.0,,,PAE,,,,64QAM,-26.3,400,,,,,100nm GaAs pHEMT
+657,2022,8,Zheng,A 64-QAM 94-GHz GaAs Transceiver with 18 dBm Output Power for High Data-Rate Communication,GaAs,90-96GHz,96.0,17.5,,PAE,,,,,,,,,,,100nm GaAs pHEMT
+658,2023,1,Soma,"A 160-GHz, 10-dBm power amplifier for D-band communication in 0.1-μm GaAs pHEMT",GaAs,105-160GHz,110.0,9.0,,PAE,,,11,,,,,,,,100nm GaAs pHEMT
+659,2023,1,Soma,"A 160-GHz, 10-dBm power amplifier for D-band communication in 0.1-μm GaAs pHEMT",GaAs,105-160GHz,135.0,7.5,,PAE,,,10,,,,,,,,100nm GaAs pHEMT
+660,2023,1,Soma,"A 160-GHz, 10-dBm power amplifier for D-band communication in 0.1-μm GaAs pHEMT",GaAs,105-160GHz,155.0,10.1,,PAE,,,16,,,,,,,,100nm GaAs pHEMT
+661,2023,1,Soma,"A 160-GHz, 10-dBm power amplifier for D-band communication in 0.1-μm GaAs pHEMT",GaAs,105-160GHz,160.0,10.0,,PAE,,,8.5,,,,,,,,100nm GaAs pHEMT
+662,2023,2,Mihaljevic,An 82 - 98 GHz medium power amplifier in a 0.1-µm GaAs pHEMT process,GaAs,82-96GHz,84.0,20.2,10,PAE,,,16,,,,,,,,100nm GaAs pHEMT
+663,2023,2,Mihaljevic,An 82 - 98 GHz medium power amplifier in a 0.1-µm GaAs pHEMT process,GaAs,82-96GHz,90.0,21.1,11,PAE,,,16.4,,,,,,,,100nm GaAs pHEMT
+664,2023,2,Mihaljevic,An 82 - 98 GHz medium power amplifier in a 0.1-µm GaAs pHEMT process,GaAs,82-96GHz,96.0,22.0,13.3,PAE,,,16,,,,,,,,100nm GaAs pHEMT
+665,2023,2,Chau,A 40-60 GHz driver amplifier implemented in 0.1 µm Gallium Arsenide process,GaAs,40-60GHz,55.0,20.0,22.4,PAE,,,15.5,,,,,,,,100nm GaAs pHEMT
