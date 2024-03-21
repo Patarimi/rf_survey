@@ -20,7 +20,7 @@ class PASpec(BaseModel):
     pae_max: float = Field(..., ge=0, le=100)
     P1dB: float
     PAE_1dB: float
-    gain: float
+    gain: float = Field(..., le=100)
     EVM: float
     modulation_speed: float
     average_pout: float
