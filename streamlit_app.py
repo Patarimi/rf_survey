@@ -46,8 +46,8 @@ if __name__ == "__main__":
 
     col1.write(
         "**Source** : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, "
-        "Hossein Jalili, Mohsen Ghorbanpoor, Chenhao Chu, Tzu-​Yuan Huang, Naga Sasikanth Mannem, Jeongsoo Park, "
+        "Hossein Jalili, Mohsen Ghorbanpoor, Chenhao Chu, Tzu-Yuan Huang, Naga Sasikanth Mannem, Jeongsoo Park, "
         "Jeongseok Lee, David Munzer,Sensen Li, Fei Wang, Amr S. Ahmed, Christopher Snyder, Huy Thong Nguyen, "
-        'and Michael Edward Duffy Smith, "*Power Amplifiers Performance Survey 2000-​Present,*" '
-        "[Online]. Available: https://ideas.ethz.ch/Surveys/pa-​survey.html"
+        'and Michael Edward Duffy Smith, "*Power Amplifiers Performance Survey 2000-Present,*" '
+        "[Online]. Available: https://ideas.ethz.ch/Surveys/pa-survey.html"
     )
