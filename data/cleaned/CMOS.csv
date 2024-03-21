@@ -1,4 +1,4 @@
-,Year,Month,Last Name (1st Author),Paper Title,"Process (CMOS_Bulk, CMOS_SOI, SiGe)",CW Performance,Frequency (GHz),Psat (dBm),PAEmax (%),PAE Note,P1dB (dBm),PAE_1dB (%),Gain (dB),RF PA Modulations,EVM (dB),Modulation Speed (Msym/s),Average Pout (dBm),Average PAE (%),RF PA Note (Modulation Type),RF PA Note (Analog PA or Digital PA),Process node
+,Year,Month,Last Name (1st Author),Paper Title,Process,CW Performance,Frequency (GHz),Psat (dBm),PAEmax (%),PAE Note,P1dB (dBm),PAE_1dB (%),Gain (dB),RF PA Modulations,EVM (dB),Modulation Speed (Msym/s),Average Pout (dBm),Average PAE (%),RF PA Note (Modulation Type),RF PA Note (Analog PA or Digital PA),Process node
 0,2000.0,6,Giry,A 1.9 GHz low voltage CMOS power amplifier for medium power RF applications,CMOS_Bulk,,1.9,23.5,35,PAE,21.5,28,24.6,,,,22,,Pi/4 DQPSK,,350nm
 1,2000.0,,Chen,RF Power Amplifier Integration in CMOS Technology,CMOS_Bulk,,2.4,22,44,DE,,,11,,,,,,,,240nm
 2,2001.0,5,Gerna,1W 900 MHz direct conversion CMOS transmitter for paging applications,CMOS_Bulk,,0.9,30,46.7,PAE,27.25,,,,,0.02,25,,2GFSK,,350nm

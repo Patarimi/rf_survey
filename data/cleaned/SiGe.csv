@@ -1,4 +1,4 @@
-,Year,Month,Last Name (1st Author),Paper Title,"Process (CMOS_Bulk, CMOS_SOI, SiGe)",CW Performance,Frequency (GHz),Psat (dBm),PAEmax (%),PAE Note,P1dB (dBm),PAE_1dB (%),Gain (dB),RF PA Modulations,EVM (dB),Modulation Speed (Msym/s),Average Pout (dBm),Average PAE (%),RF PA Note (Modulation Type),RF PA Note (Analog PA or Digital PA),Process node
+,Year,Month,Last Name (1st Author),Paper Title,Process,CW Performance,Frequency (GHz),Psat (dBm),PAEmax (%),PAE Note,P1dB (dBm),PAE_1dB (%),Gain (dB),RF PA Modulations,EVM (dB),Modulation Speed (Msym/s),Average Pout (dBm),Average PAE (%),RF PA Note (Modulation Type),RF PA Note (Analog PA or Digital PA),Process node
 0,2008.0,9.0,Bakalski,A Quad-Band GSM/EDGE-Compliant SiGe-Bipolar Power Amplifier,SiGe,,0.83,,,PAE,,,33.9,,,,35.9,56,GMSK,,0.35um SiGe BiCMOS
 1,2000.0,9.0,Tseng,A 3-V monolithic SiGe HBT power amplifier for dual-mode (CDMA/AMPS) cellular handset applications,SiGe,,0.84,,,PAE,,,21.0,,,,29.0,41,CDMA,,
 2,2000.0,9.0,Tseng,A 3-V monolithic SiGe HBT power amplifier for dual-mode (CDMA/AMPS) cellular handset applications,SiGe,,0.84,,,PAE,,,21.0,,,,31.5,51,AMPS,,
