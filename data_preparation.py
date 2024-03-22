@@ -90,8 +90,22 @@ if __name__ == "__main__":
             if d["month"] == "Early Access":
                 d["month"] = 0
             d["node"] = str(d["node"]).lower().rstrip().replace("nm", "")
-            d["modulation_speed"] = str(d["modulation_speed"]).lower().rstrip("-sy/mbpsc ")
-            for field in ("month", "year", "frequency", "pae_max", "average_pae", "average_pout", "gain", "sat_power", "P1dB", "PAE_1dB", "node"):
+            d["modulation_speed"] = (
+                str(d["modulation_speed"]).lower().rstrip("-sy/mbpsc ")
+            )
+            for field in (
+                "month",
+                "year",
+                "frequency",
+                "pae_max",
+                "average_pae",
+                "average_pout",
+                "gain",
+                "sat_power",
+                "P1dB",
+                "PAE_1dB",
+                "node",
+            ):
                 d[field] = str(d[field]).lower().rstrip("^(sde)* ")
                 if d[field] is np.nan or d[field] == "nan":
                     d[field] = 0 if field != "year" else 1800
