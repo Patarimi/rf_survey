@@ -4,6 +4,12 @@ import pandas as pd
 import matplotlib as mpl
 
 
+@st.cache_data
+def load_data(path):
+    df = pd.read_csv(path)
+    return df
+
+
 if __name__ == "__main__":
     st.set_page_config(
         page_title="Passive Auto Design demo",
@@ -22,7 +28,7 @@ if __name__ == "__main__":
         techno = st.selectbox(
             "Technology", ["CMOS", "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"]
         )
-        data = pd.read_csv(f"data/cleaned/{techno}.csv")
+        data = load_data(f"data/cleaned/{techno}.csv")
         x_name = st.selectbox("X axis", data.keys(), index=6)
         y_name = st.selectbox("Y axis", data.keys(), index=7)
         x_log = st.checkbox("X Log scale", True)
