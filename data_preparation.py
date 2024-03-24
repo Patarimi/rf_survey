@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from pydantic import BaseModel, Field, ValidationError
 
-Process = Enum("process", ["bulk", "SOI", "SOS", "unknown", "FinFET"])
+Process = Enum("process", ["bulk", "SOI", "SOS", "unknown", "FinFET", "SiGe", "BiCMOS"])
 PAType = Enum("type", ("analog", "digital", "unknown"))
 
 
@@ -34,7 +34,7 @@ class PASpec(BaseModel):
 if __name__ == "__main__":
     logging.basicConfig(filename="prep.log", level=logging.INFO, filemode="w")
     for techno in [
-        "CMOS",
+        "SiGe",
     ]:  # "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"]:
         data = pd.read_excel(
             io="data/raw/PA-Survey-v8.xlsx", sheet_name=techno, usecols="B:V"
@@ -64,25 +64,29 @@ if __name__ == "__main__":
         )
         clean_data = pd.DataFrame(columns=PASpec.model_fields)
         for i, d in enumerate(data.to_dict(orient="records")):
-            match str(d["process"]).replace(" ", "").upper():
+            match str(d["process"]).replace(" ", "").replace("_", "").upper():
                 case "CMOS_BULK" | "CMOS":
                     d["process"] = Process.bulk
                 case (
-                    "CMOS_SOI"
-                    | "CMOS_PD_SOI"
-                    | "CMOS_FD_SOI"
-                    | "CMOS_PDSOI"
-                    | "CMOS_FDSOI"
-                    | "PD_SOI"
-                    | "FD_SOI"
+                    "CMOSSOI"
+                    | "CMOSPDSOI"
+                    | "CMOSFDSOI"
+                    | "PDSOI"
+                    | "FDSOI"
                 ):
                     d["process"] = Process.SOI
-                case "CMOS_SOS":
+                case "CMOSSOS":
                     d["process"] = Process.SOS
-                case "CMOS_FINFET":
+                case "CMOSFINFET":
                     d["process"] = Process.FinFET
+                case "SIGE" | "SIGEHBT":
+                    d["process"] = Process.SiGe
+                case "BICMOS" | "SIGEBICMOS":
+                    d["process"] = Process.BiCMOS
                 case np.nan:
                     d["process"] = Process.unknown
+                case _:
+                    logging.info(f"Line {i}: Could not parse {d["process"]}")
             match d["PA_type"]:
                 case "analog" | "Analog":
                     d["PA_type"] = PAType.analog
@@ -90,7 +94,12 @@ if __name__ == "__main__":
                     d["PA_type"] = PAType.unknown
             if str(d["month"]).lower() == "early access":
                 d["month"] = 0
-            d["node"] = str(d["node"]).lower().rstrip().replace("nm", "")
+            d["node"] = str(d["node"]).lower().strip()
+            for radical in ("nm", "sige", "bi", "cmos", "hbt"):
+                d["node"] = d["node"].replace(radical, "")
+            d["node"] = d["node"].strip("_() ")
+            if "um" in d["node"]:
+                d["node"] = float(d["node"].replace("um", "").strip())*1000
             d["modulation_speed"] = (
                 str(d["modulation_speed"]).lower().rstrip("-sy/mbpsc ")
             )

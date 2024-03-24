@@ -60,3 +60,5 @@ if __name__ == "__main__":
         'and Michael Edward Duffy Smith, "*Power Amplifiers Performance Survey 2000-Present,*" '
         "[Online]. Available: https://ideas.ethz.ch/Surveys/pa-survey.html"
     )
+    if st.button("clear data"):
+        load_data.clear()
