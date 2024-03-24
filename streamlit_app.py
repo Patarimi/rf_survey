@@ -29,12 +29,17 @@ if __name__ == "__main__":
             "Technology", ["CMOS", "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"]
         )
         data = load_data(f"data/cleaned/{techno}.csv")
+        sel_tech = dict()
+        for sub_t in data["process"].unique():
+            sel_tech[sub_t] = st.checkbox(sub_t, value=True)
         x_name = st.selectbox("X axis", data.keys(), index=6)
         y_name = st.selectbox("Y axis", data.keys(), index=7)
         x_log = st.checkbox("X Log scale", True)
         y_log = st.checkbox("Y Log scale", False)
     fig, ax = plt.subplots()
-    for i, process in enumerate(data["process"].unique()):
+    for i, process in enumerate(sel_tech):
+        if not sel_tech[process]:
+            continue
         subset = data.loc[data["process"] == process]
         subset.plot(
             x=x_name,
