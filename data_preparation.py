@@ -16,19 +16,19 @@ class PASpec(BaseModel):
     author_name: str = ""
     paper_title: str = ""
     process: Process
-    frequency: Optional[Annotated[float, Field(ge=0)]] = None
-    sat_power: Optional[float] = None
-    pae_max: Annotated[float, Field(ge=0, le=100)] = None
-    P1dB: Optional[float] = None
-    PAE_1dB: Optional[float] = None
-    gain: Annotated[float, Field(le=100)] = None
-    EVM: float = None
-    modulation_speed: float = None
-    average_pout: float = None
-    average_pae: Optional[float] = None
+    frequency: Optional[Annotated[float, Field(ge=0)]] = float('nan')
+    sat_power: Optional[float] = float('nan')
+    pae_max: Annotated[float, Field(ge=0, le=100)] = float('nan')
+    P1dB: Optional[float] = float('nan')
+    PAE_1dB: Optional[float] = float('nan')
+    gain: Annotated[float, Field(le=100)] = float('nan')
+    EVM: float = float('nan')
+    modulation_speed: float = float('nan')
+    average_pout: float = float('nan')
+    average_pae: Optional[float] = float('nan')
     modulation_type: str = ""
     PA_type: PAType = PAType.unknown
-    node: int = None
+    node: int = -1
 
 
 if __name__ == "__main__":

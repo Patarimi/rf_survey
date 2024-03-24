@@ -719,7 +719,7 @@ Parallel Combining Transformer",process.bulk,2.5,24.7,38.1,,,,,,,,unknown,type.u
 711,2018,10,Zhai,Dual-Mode CMOS RF Power Amplifier Design Using a Novel Reconfigurable Single-Switch Single-Inductor Balun,process.bulk,2.0,27.3,40.7,,,13.0,,,24.1,32.0,WCDMA(3.84Mhz),type.unknown,350
 712,2018,0,Yoo,A 1W Quadrature Class-G Switched-Capacitor Power Amplifier with Merged Cell Switching and Linearization Techniques,process.bulk,2.2,30.1,37.0,,,,-40.7,,19.5,14.7,64QAM (20Mhz),type.unknown,65
 713,2018,8,Kuo,A 0.4-to-4-Ghz All-Digital RF Transmitter Package With a Band-Selecting Interposer Combining Three Wideband CMOS Transmitters,process.bulk,2.2,22.1,27.0,,,,-27.0,,,,64QAM,type.unknown,65
-714,2018,0,Toh,A CMOS-SOI Power Amplifier Technology using EDNMOS for Sub 6 GHz Wireless Applications,process.SOI,2.4,25.0,77.0,21.3,54.0,20.0,,,,,unknown,type.unknown,
+714,2018,0,Toh,A CMOS-SOI Power Amplifier Technology using EDNMOS for Sub 6 GHz Wireless Applications,process.SOI,2.4,25.0,77.0,21.3,54.0,20.0,,,,,unknown,type.unknown,-1
 715,2018,10,Luong,A 2.5-GHz Multimode Broadband Bias-Segmented Power Amplifier With Linearity-Efficiency Tradeoff,process.bulk,2.5,29.0,26.2,,,30.0,-18.0,,24.0,,"LTE (5 MHz,, 16-QAM)",type.unknown,65
 716,2018,11,Luong,A 2.5-GHz Multimode Broadband Bias-Segmented Power Amplifier With Linearity-Efficiency Tradeof,process.bulk,2.5,29.0,26.2,,,30.0,,,,,unknown,type.unknown,65
 717,2018,0,Ho,An 87.1% Efficiency RF-PA Envelope-Tracking Modulator for 80MHz LTE-Advanced Transmitter and 31dBm PA Output Power for HPUE in 0.153μm CMOS,process.bulk,2.59,,,,,,,,31.0,,QPSK  ( LTE),type.unknown,153
@@ -727,7 +727,7 @@ Parallel Combining Transformer",process.bulk,2.5,24.7,38.1,,,,,,,,unknown,type.u
 719,2018,2,Park,A CMOS Wideband Current-Mode Digital Polar Power Amplifier With Built-In AM–PM Distortion Self-Compensation,process.bulk,2.8,24.9,42.7,,,,-32.39,20.0,18.2,23.7,64QAM,type.unknown,28
 720,2018,7,Ko,A Two-Stage S-/X-Band CMOS Power Amplifier for High-Resolution Radar Transceivers,process.bulk,3.0,24.8,32.8,,,,,,,,unknown,type.unknown,180
 721,2018,6,Ko,A Two-StageS−/X-Band CMOS Power Amplifier for High-Resolution Radar Transceivers,process.bulk,3.0,24.8,32.8,,,,,,,,unknown,type.unknown,180
-722,2018,0,Toh,A CMOS-SOI Power Amplifier Technology using EDNMOS for Sub 6 GHz Wireless Applications,process.SOI,4.5,25.0,55.0,21.3,45.0,16.5,,,,,unknown,type.unknown,
+722,2018,0,Toh,A CMOS-SOI Power Amplifier Technology using EDNMOS for Sub 6 GHz Wireless Applications,process.SOI,4.5,25.0,55.0,21.3,45.0,16.5,,,,,unknown,type.unknown,-1
 723,2018,0,Andesron,An Asymmetrical Parallel-Combined Cascode CMOS WiFi 5GHz 802.11ac RF Power Amplifier,process.bulk,5.53,,,,,27.6,-35.0,,17.6,4.2,MCS9 256QAM,type.unknown,55
 724,2018,0,Jung,A Highly Linear Doherty Power Amplifier with Multigated Transistors Supporting 80MSymbol/s 256-QAM,process.bulk,5.8,27.2,24.5,,,,-34.8,,17.0,5.3,256 QAM,type.unknown,55
 725,2018,0,Gao,A 1-17 GHz Stacked Distributed Power Amplifier with 19-21 dBm Saturated Output Power in 45nm CMOS SOI Technology,process.SOI,7.0,21.0,19.0,,,17.1,,,,,unknown,type.unknown,45
@@ -946,7 +946,7 @@ Parallel Combining Transformer",process.bulk,2.5,24.7,38.1,,,,,,,,unknown,type.u
 938,2021,7,Hung,A Quadrature Class-G Complex-Domain Doherty Digital Power Amplifier,process.bulk,2.2,27.8,32.1,,,,-42.0,40.0,14.7,7.9,802.11ax OFDM 1024QAM,type.unknown,65
 939,2021,0,Yang,A Watt-Level Quadrature Switched/Floated-Capacitor Power Amplifier with Back-Off Efficiency Enhancement in Complex Domain Using Reconfigurable Self-Coupling Canceling Transformer,process.bulk,2.4,30.3,41.3,,,,-31.9,,23.32,30.7,256 QAM,type.unknown,40
 940,2021,0,Yang,A Watt-Level Quadrature Switched/Floated-Capacitor Power Amplifier with Back-Off Efficiency Enhancement in Complex Domain Using Reconfigurable Self-Coupling Canceling Transformer,process.bulk,2.4,30.3,36.5,,,,-35.9,,20.4,22.6,1024QAM,type.unknown,40
-941,2021,0,Reynier,A High-Power SOI-CMOS PA Module with Fan-Out Wafer-Level Packaging for 2.4 GHz Wi-Fi 6 Applications,process.SOI,2.4,35.0,53.0,,,29.5,-35.0,,24.5,21.0,MCS9,type.analog,
+941,2021,0,Reynier,A High-Power SOI-CMOS PA Module with Fan-Out Wafer-Level Packaging for 2.4 GHz Wi-Fi 6 Applications,process.SOI,2.4,35.0,53.0,,,29.5,-35.0,,24.5,21.0,MCS9,type.analog,-1
 942,2021,12,Yang,Quadrature Switched/Floated Capacitor Power Amplifier With Reconfigurable Self-Coupling Canceling Transformer for Deep Back-Off Efficiency Enhancement,process.bulk,2.4,30.3,36.5,,,,-35.9,40.0,20.44,22.6,1024QAM,type.unknown,40
 943,2021,11,Mariappan,A 1.7-to-2.7GHz 35-38% PAE Multiband CMOS Power Amplifier Employing a Digitally-Assisted Analog Pre-distorter (DAAPD) Reconfigurable Linearization Technique,process.bulk,2.45,28.0,42.0,26.0,40.0,27.5,,,25.0,38.0,16QAM-LTE,type.analog,130
 944,2021,2,Celik,"A Robust, Efficient Distributed Power Amplifier Achieving 96 Gbit/s With 10 dBm Average Output Power and 3.7% PAE in 22 nm FD-SOI",process.SOI,2.5,14.8,12.0,10.1,5.0,12.0,-25.0,,9.72,3.6,64QAM,type.unknown,22
@@ -1013,7 +1013,7 @@ Parallel Combining Transformer",process.bulk,2.5,24.7,38.1,,,,,,,,unknown,type.u
 1005,2021,6,Tso-Wei Li,A V-Band Doubly Hybrid NMOS/PMOS Four-Way Distributed-Active-Transformer Power Amplifier for Nonlinearity Cancellation and Joint Linearity/Efficiency Optimization,process.SOI,55.0,16.1,36.0,15.0,,16.4,-24.5,18000.0,8.1,9.1,64QAM,type.unknown,45
 1006,2021,6,Tso-Wei Li,A V-Band Doubly Hybrid NMOS/PMOS Four-Way Distributed-Active-Transformer Power Amplifier for Nonlinearity Cancellation and Joint Linearity/Efficiency Optimization,process.SOI,55.0,16.3,35.4,13.5,,18.8,-23.5,400.0,10.8,14.5,5GNR CP-OFDM 64 QAM,type.unknown,45
 1007,2021,6,Tso-Wei Li,A V-Band Doubly Hybrid NMOS/PMOS Four-Way Distributed-Active-Transformer Power Amplifier for Nonlinearity Cancellation and Joint Linearity/Efficiency Optimization,process.SOI,55.0,16.1,36.0,15.0,,16.4,-23.2,800.0,8.0,8.1,5GNR CP-OFDM 64 QAM,type.unknown,45
-1008,2021,3,Mosalam,A 54―68 GHz Power Amplifier with Improved Linearity and Efficiency in 40 nm CMOS,process.bulk,60.0,15.0,26.0,14.0,,15.5,,,,,unknown,type.unknown,
+1008,2021,3,Mosalam,A 54―68 GHz Power Amplifier with Improved Linearity and Efficiency in 40 nm CMOS,process.bulk,60.0,15.0,26.0,14.0,,15.5,,,,,unknown,type.unknown,-1
 1009,2021,2,Ellinger,Design of a Compact Power Amplifier with 18.6 dBm 60 GHz 20.5% PAE in 22 nm FD-SOI,process.SOI,60.0,18.6,,14.1,11.5,30.0,,,,,unknown,type.unknown,22
 1010,2021,2,Ellinger,Design of a Compact Power Amplifier with 18.6 dBm 60 GHz 20.5% PAE in 22 nm FD-SOI,process.SOI,60.0,18.6,19.6,15.7,12.5,22.0,,,,,unknown,type.unknown,22
 1011,2021,3,Tzu-Yuan,A 26-to-60GHz Continuous Coupler-Doherty Linear Power Amplifier for Over-An-Octave Back-Off Efficiency Enhancement,process.SOI,60.0,19.9,24.7,19.2,23.9,12.0,-25.2,200.0,7.4,7.8,5GNR FR2,type.unknown,45
@@ -1029,7 +1029,7 @@ Parallel Combining Transformer",process.bulk,2.5,24.7,38.1,,,,,,,,unknown,type.u
 1021,2021,5,Chu,A Reconfigurable Non-Uniform Power-Combining V-Band PA With +17.9 dBm Psat and 26.5% PAE in 16-nm FinFET CMOS,process.FinFET,65.0,13.8,18.4,9.6,12.0,18.5,-21.6,6000.0,11.8,10.6,16QAM,type.unknown,16
 1022,2021,5,Chu,A Reconfigurable Non-Uniform Power-Combining V-Band PA With +17.9 dBm Psat and 26.5% PAE in 16-nm FinFET CMOS,process.FinFET,65.0,13.8,18.4,9.6,12.0,18.5,-23.2,6000.0,9.8,7.2,64QAM,type.unknown,16
 1023,2021,5, Yamaura,A 77-GHz 8RX3TX Transceiver for 250-m Long-Range Automotive Radar in 40-nm CMOS Technology,process.bulk,76.0,16.5,,,,11.8,,,,,unknown,type.unknown,40
-1024,2021,3,Nocera,A 13.5-dBm 1-V Power Amplifier for W-Band Automotive Radar Applications in 28-nm FD-SOI CMOS Technology,process.SOI,77.0,13.5,14.5,,,26.5,,,,,unknown,type.unknown,
+1024,2021,3,Nocera,A 13.5-dBm 1-V Power Amplifier for W-Band Automotive Radar Applications in 28-nm FD-SOI CMOS Technology,process.SOI,77.0,13.5,14.5,,,26.5,,,,,unknown,type.unknown,-1
 1025,2021,3,Nocera,A 13.5-dBm 1-V Power Amplifier for W-Band Automotive Radar Applications in 28-nm FD-SOI CMOS Technology,process.SOI,77.0,13.5,14.5,10.0,7.0,26.5,,,,,unknown,type.unknown,28
 1026,2021,5,Arai,A 77-GHz 8RX3TX Transceiver for 250-m Long-Range Automotive Radar in 40-nm CMOS Technology,process.bulk,81.0,17.8,,,,11.0,,,,,unknown,type.unknown,40
 1027,2021,11,Celik,An NP Matrix-Based E-Band Power Amplifier Achieving 24-Gbit/s Data Rate Using 256 QAM in 22-nm FD-SOI,process.SOI,83.7,13.9,13.8,10.1,6.8,13.1,-29.161,24000.0,8.5,4.9,256GHz,type.unknown,22
@@ -1038,19 +1038,19 @@ Parallel Combining Transformer",process.bulk,2.5,24.7,38.1,,,,,,,,unknown,type.u
 1030,2021,2,Socher,95GHz 13dBm IQ-combined PA in 65nm CMOS,process.bulk,95.0,13.4,11.6,9.3,,20.5,,,,,unknown,type.unknown,65
 1031,2021,2,Socher,95GHz 13dBm IQ-combined PA in 65nm CMOS,process.bulk,95.0,12.0,12.3,8.0,,17.0,,,,,unknown,type.unknown,65
 1032,2021,2,Socher,95GHz 13dBm IQ-combined PA in 65nm CMOS,process.bulk,98.0,13.0,,,,,,,,,unknown,type.unknown,65
-1033,2021,7,Li,A 130-151GHz 8-Way Power Amplifier with 16.8-17.5dBm Psat and 11.7-13.4% PAE using 45nm RFSOI,process.SOI,140.0,16.0,12.5,12.5,7.5,22.2,,,,,unknown,type.unknown,
-1034,2021,7,Li,A 130-151GHz 8-Way Power Amplifier with 16.8-17.5dBm Psat and 11.7-13.4% PAE using 45nm RFSOI,process.SOI,140.0,17.5,13.4,14.2,7.5,24.0,,,,,unknown,type.unknown,
-1035,2021,7,Tang,A 140 GHz T/R Front-End Module in 22 nm FD-SOI CMOS,process.SOI,140.0,12.5,10.8,9.4,,33.6,,,,,unknown,type.unknown,
+1033,2021,7,Li,A 130-151GHz 8-Way Power Amplifier with 16.8-17.5dBm Psat and 11.7-13.4% PAE using 45nm RFSOI,process.SOI,140.0,16.0,12.5,12.5,7.5,22.2,,,,,unknown,type.unknown,-1
+1034,2021,7,Li,A 130-151GHz 8-Way Power Amplifier with 16.8-17.5dBm Psat and 11.7-13.4% PAE using 45nm RFSOI,process.SOI,140.0,17.5,13.4,14.2,7.5,24.0,,,,,unknown,type.unknown,-1
+1035,2021,7,Tang,A 140 GHz T/R Front-End Module in 22 nm FD-SOI CMOS,process.SOI,140.0,12.5,10.8,9.4,,33.6,,,,,unknown,type.unknown,-1
 1036,2021,7,Li,A 130-151 GHz 8-Way Power Amplifier with 16.8-17.5 dBm Psat and 11.7-13.4% PAE Using CMOS 45nm RFSOI,process.SOI,140.0,16.0,12.5,12.5,7.5,22.4,,,,,unknown,type.unknown,45
 1037,2021,7,Li,A 130-151 GHz 8-Way Power Amplifier with 16.8-17.5 dBm Psat and 11.7-13.4% PAE Using CMOS 45nm RFSOI,process.SOI,140.0,17.5,13.4,14.2,,24.0,,,,,unknown,type.unknown,45
-1038,2021,7,Park,A D-Band Power Amplifier in 65-nm CMOS by Adopting Simultaneous Output Power-and Gain-Matched Gmax-Core,process.bulk,150.0,9.4,16.0,4.0,,17.5,,,,,unknown,type.unknown,
+1038,2021,7,Park,A D-Band Power Amplifier in 65-nm CMOS by Adopting Simultaneous Output Power-and Gain-Matched Gmax-Core,process.bulk,150.0,9.4,16.0,4.0,,17.5,,,,,unknown,type.unknown,-1
 1039,2021,2,Hamani,167-GHz and 155-GHz High Gain D-band Power Amplifiers in CMOS SOI 45-nm Technology,process.SOI,152.5,8.8,6.8,5.0,3.5,18.0,,,,,unknown,type.unknown,45
 1040,2021,2,Hamani,167-GHz and 155-GHz High Gain D-band Power Amplifiers in CMOS SOI 45-nm Technology,process.SOI,167.5,6.5,4.7,3.0,2.0,15.5,,,,,unknown,type.unknown,45
 1041,2021,7,Sadlo,One Stage Gain Boosted Power Driver at 184GHz in 28nm FD-SOI CMOS,process.SOI,184.0,-3.7,4.2,-8.0,-2.5,7.6,,,,,unknown,type.unknown,28
 1042,2021,7,Sadlo,One stage gain boosted power driver at 184 GHz in 28 nm FD-SOI CMOS,process.SOI,184.0,-3.7,4.2,-8.0,2.5,7.6,,,,,unknown,type.unknown,28
 1043,2021,12,Yun,"245/243GHz, 9.2/10.5dBm Saturated Output Power, 4.6/2.8% PAE, and 28/26dB Gain Power Amplifiers in 65nm CMOS Adopting 2- and 4-way Power Combining",process.bulk,243.0,10.5,2.7,7.7,1.5,26.0,,,,,unknown,type.unknown,65
 1044,2021,12,Yun,"245/243GHz, 9.2/10.5dBm Saturated Output Power, 4.6/2.8% PAE, and 28/26dB Gain Power Amplifiers in 65nm CMOS Adopting 2- and 4-way Power Combining",process.bulk,245.0,9.2,3.9,6.0,2.0,28.0,,,,,unknown,type.unknown,65
-1045,2021,3,Yun,A 250-GHz 12.6-dB Gain and 3.8-dBm Psat Power Amplifier in 65-nm CMOS Adopting Dual-Shunt Elements Based Gmax-Core,process.bulk,250.0,3.8,3.2,2.3,,12.6,,,,,unknown,type.unknown,
+1045,2021,3,Yun,A 250-GHz 12.6-dB Gain and 3.8-dBm Psat Power Amplifier in 65-nm CMOS Adopting Dual-Shunt Elements Based Gmax-Core,process.bulk,250.0,3.8,3.2,2.3,,12.6,,,,,unknown,type.unknown,-1
 1046,2022,3,Choi,A 0.3-to-1-GHz IoT Transmitter Employing Pseudo-Randomized Phase Switching Modulator and Single-Supply Class-G Harmonic Rejection PA,process.bulk,0.3,2.5,55.4,,,,,,,,unknown,type.unknown,55
 1047,2022,0,Choi,A 915 MHz IoT Transmitter Employing Frequency Tripler and Digitally Controlled Duty-Cycle/Phase Calibration,process.bulk,0.9,5.2,47.2,,,,,,,,unknown,type.unknown,55
 1048,2022,4,Paek,A 1.7-to-2.7GHz 35-38% PAE Multiband CMOS Power Amplifier Employing a Digitally-Assisted Analog Pre-Distorter (DAAPD) Reconfigurable Linearization Technique,process.bulk,1.75,24.0,38.0,,,,,,,,DFT-spread-OFDM QPSK modulated LTE,type.unknown,130
