@@ -966,13 +966,13 @@ xmp = ["defusedxml"]
 
 [[package]]
 name = "poethepoet"
-version = "0.25.0"
+version = "0.26.0"
 description = "A task runner that works well with poetry."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "poethepoet-0.25.0-py3-none-any.whl", hash = "sha256:42c0fd654f23e1b7c67aa8aa395c72e15eb275034bd5105171003daf679c1470"},
-    {file = "poethepoet-0.25.0.tar.gz", hash = "sha256:ca8f1d8475aa10d2ceeb26331d2626fc4a6b51df1e7e70d3d0d6481a984faab6"},
+    {file = "poethepoet-0.26.0-py3-none-any.whl", hash = "sha256:d37d543e8ec5fb1d51e04b6c26439fc07c342e541d40fcbe67a3a3189a877db3"},
+    {file = "poethepoet-0.26.0.tar.gz", hash = "sha256:ba964c242676501acc4ed87e71ce4984a752a7bd0684acf13fa34655d9a715eb"},
 ]
 
 [package.dependencies]
@@ -1628,4 +1628,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "b66839dedd3f6fc09063e4984bb021700265e3302382022b7bd0fccc27794673"
+content-hash = "cc15a205d063c463abd9126c2edb8bfb56467f2b6a8816caabd4a594d59cff19"
