@@ -67,13 +67,7 @@ if __name__ == "__main__":
             match str(d["process"]).replace(" ", "").replace("_", "").upper():
                 case "CMOS_BULK" | "CMOS":
                     d["process"] = Process.bulk
-                case (
-                    "CMOSSOI"
-                    | "CMOSPDSOI"
-                    | "CMOSFDSOI"
-                    | "PDSOI"
-                    | "FDSOI"
-                ):
+                case "CMOSSOI" | "CMOSPDSOI" | "CMOSFDSOI" | "PDSOI" | "FDSOI":
                     d["process"] = Process.SOI
                 case "CMOSSOS":
                     d["process"] = Process.SOS
@@ -99,7 +93,7 @@ if __name__ == "__main__":
                 d["node"] = d["node"].replace(radical, "")
             d["node"] = d["node"].strip("_() ")
             if "um" in d["node"]:
-                d["node"] = float(d["node"].replace("um", "").strip())*1000
+                d["node"] = float(d["node"].replace("um", "").strip()) * 1000
             d["modulation_speed"] = (
                 str(d["modulation_speed"]).lower().rstrip("-sy/mbpsc ")
             )
