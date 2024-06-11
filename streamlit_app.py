@@ -25,16 +25,16 @@ if __name__ == "__main__":
     col1, col2 = st.columns([0.3, 0.7])
     with col1:
         st.title("Welcome!")
-        st.write("Please select a technology.")
         comp = st.selectbox("Component Type", ("PA",))
+        col1.write("---")
         techno = st.selectbox(
             "Technology", ["CMOS", "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"]
         )
         data = load_data(f"data/cleaned/{techno}.csv")
-        col1.write("---")
         sel_tech = dict()
         for sub_t in data["process"].unique():
-            sel_tech[sub_t] = st.checkbox(sub_t, value=True)
+            sel_tech[sub_t] = st.checkbox(sub_t.split(".")[-1], value=True)
+        col1.write("---")
         c1, c2 = st.columns([0.5, 0.5])
         x_name = c1.selectbox("X axis", data.keys(), index=6)
         y_name = c2.selectbox("Y axis", data.keys(), index=7)
@@ -43,6 +43,9 @@ if __name__ == "__main__":
         x_max = np.max(data[x_name])
         x_min_u, x_max_u = c1.slider("Rescale", x_min, x_max, (x_min, x_max))
         y_log = c2.checkbox("Y Log scale", False)
+    col1.write("---")
+    if col1.button("clear data"):
+        load_data.clear()
     fig, ax = plt.subplots()
     for i, process in enumerate(sel_tech):
         if not sel_tech[process]:
@@ -64,13 +67,10 @@ if __name__ == "__main__":
         )
     ax.grid(True)
     col2.pyplot(fig, use_container_width=True)
-    col1.write("---")
-    col1.write(
+    st.write(
         "**Source** : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, "
         "Hossein Jalili, Mohsen Ghorbanpoor, Chenhao Chu, Tzu-Yuan Huang, Naga Sasikanth Mannem, Jeongsoo Park, "
         "Jeongseok Lee, David Munzer,Sensen Li, Fei Wang, Amr S. Ahmed, Christopher Snyder, Huy Thong Nguyen, "
         'and Michael Edward Duffy Smith, "*Power Amplifiers Performance Survey 2000-Present,*" '
         "[Online]. Available: https://ideas.ethz.ch/Surveys/pa-survey.html"
     )
-    if st.button("clear data"):
-        load_data.clear()
