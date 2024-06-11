@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib as mpl
 import numpy as np
-
+from scipy.spatial import ConvexHull
 
 @st.cache_data
 def load_data(path):
@@ -54,17 +54,23 @@ if __name__ == "__main__":
             (data["process"] == process)
             & (data[x_name] > x_min_u)
             & (data[x_name] < x_max_u)
-        ]
+            & (data[y_name] != np.NaN)
+            , [x_name, y_name]].dropna()
         subset.plot(
-            x=x_name,
-            y=y_name,
-            kind="scatter",
-            ax=ax,
-            logx=x_log,
-            logy=y_log,
-            label=process.split(".")[-1],
-            color=cmap[i % 10],
+          x=x_name,
+          y=y_name,
+          kind="scatter",
+          ax=ax,
+          logx=x_log,
+          logy=y_log,
+          label=process.split(".")[-1],
+          color=cmap[i % 10],
         )
+        if subset.shape[0] > 3:
+            hull = ConvexHull(subset)
+            array = np.array(subset)
+            for simplex in hull.simplices:
+                ax.plot(array[simplex, 0], array[simplex, 1], color=cmap[i % 10], linestyle="--")
     ax.grid(True)
     col2.pyplot(fig, use_container_width=True)
     st.write(
