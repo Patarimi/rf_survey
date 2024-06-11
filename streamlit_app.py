@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
 import matplotlib as mpl
+import numpy as np
 
 
 @st.cache_data
@@ -34,16 +35,23 @@ if __name__ == "__main__":
         sel_tech = dict()
         for sub_t in data["process"].unique():
             sel_tech[sub_t] = st.checkbox(sub_t, value=True)
-        x_name = st.selectbox("X axis", data.keys(), index=6)
-        y_name = st.selectbox("Y axis", data.keys(), index=7)
         c1, c2 = st.columns([0.5, 0.5])
+        x_name = c1.selectbox("X axis", data.keys(), index=6)
+        y_name = c2.selectbox("Y axis", data.keys(), index=7)
         x_log = c1.checkbox("X Log scale", True)
+        x_min = np.min(data[x_name])
+        x_max = np.max(data[x_name])
+        x_min_u, x_max_u = c1.slider("Rescale", x_min, x_max, (x_min, x_max))
         y_log = c2.checkbox("Y Log scale", False)
     fig, ax = plt.subplots()
     for i, process in enumerate(sel_tech):
         if not sel_tech[process]:
             continue
-        subset = data.loc[data["process"] == process]
+        subset = data.loc[
+            (data["process"] == process)
+            & (data[x_name] > x_min_u)
+            & (data[x_name] < x_max_u)
+        ]
         subset.plot(
             x=x_name,
             y=y_name,
@@ -54,7 +62,7 @@ if __name__ == "__main__":
             label=process.split(".")[-1],
             color=cmap[i % 10],
         )
-        ax.grid(True)
+    ax.grid(True)
     col2.pyplot(fig, use_container_width=True)
     col1.write("---")
     col1.write(
