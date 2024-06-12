@@ -11,6 +11,9 @@ def load_data(path):
     return df
 
 
+# field to ignore for the data plot
+ignored_field = {"paper_title", "author_name", "month"}
+
 if __name__ == "__main__":
     st.set_page_config(
         page_title="RF-survey",
@@ -36,8 +39,9 @@ if __name__ == "__main__":
             sel_tech[sub_t] = st.checkbox(sub_t.split(".")[-1], value=True)
         col1.write("---")
         c1, c2 = st.columns([0.5, 0.5])
-        x_name = c1.selectbox("X axis", data.keys(), index=6)
-        y_name = c2.selectbox("Y axis", data.keys(), index=7)
+        field_list = data.keys().drop(ignored_field).delete(0)
+        x_name = c1.selectbox("X axis", field_list, index=2)
+        y_name = c2.selectbox("Y axis", field_list, index=3)
         x_log = c1.checkbox("X Log scale", True)
         x_min = np.min(data[x_name])
         x_max = np.max(data[x_name])
