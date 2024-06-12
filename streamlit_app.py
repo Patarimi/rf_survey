@@ -84,7 +84,7 @@ if __name__ == "__main__":
             for simplex in hull.simplices:
                 p.patch(10**array[simplex, 0] if x_log else array[simplex, 0],
                         10**array[simplex, 1] if y_log else array[simplex, 1],
-                        color="#a6cee3", fill_alpha=1., line_alpha=1.)
+                        color=Spectral6[i % 6], fill_alpha=1., line_alpha=1.)
     col2.bokeh_chart(p, use_container_width=True)
     col2.write(
         "**Source** : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, "
