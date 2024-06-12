@@ -1,9 +1,10 @@
-import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
-import matplotlib as mpl
+from bokeh.plotting import figure
+from bokeh.palettes import Spectral6
 import numpy as np
 from scipy.spatial import ConvexHull
+
 
 @st.cache_data
 def load_data(path):
@@ -24,8 +25,7 @@ if __name__ == "__main__":
             "Report a bug": "https://github.com/Patarimi/rf-survey/issues",
         },
     )
-    cmap = mpl.colormaps.get_cmap("tab10").colors
-    col1, _, col2 = st.columns([0.3, 0.1, 0.6])
+    col1, col2 = st.columns([0.25, 0.75])
     with col1:
         st.title("Welcome!")
         comp = st.selectbox("Component Type", ("PA",))
@@ -50,33 +50,37 @@ if __name__ == "__main__":
     col1.write("---")
     if col1.button("clear data"):
         load_data.clear()
-    fig, ax = plt.subplots()
+    p = figure(
+        title=f"State of Art of PA in {techno}",
+        x_axis_label=x_name,
+        y_axis_label=y_name,
+        x_axis_type="log" if x_log else "linear",
+        y_axis_type="log" if y_log else "linear",
+    )
     for i, process in enumerate(sel_tech):
         if not sel_tech[process]:
             continue
         subset = data.loc[
             (data["process"] == process)
             & (data[x_name] >= x_min_u)
-            & (data[x_name] <= x_max_u)
-            , [x_name, y_name]].dropna()
-        subset.plot(
-          x=x_name,
-          y=y_name,
-          kind="scatter",
-          ax=ax,
-          logx=x_log,
-          logy=y_log,
-          label=process.split(".")[-1],
-          color=cmap[i % 10],
+            & (data[x_name] <= x_max_u),
+            [x_name, y_name],
+        ].dropna()
+        p.scatter(
+            x=x_name,
+            y=y_name,
+            source=subset,
+            marker="o",
+            color=Spectral6[i % 6],
+            legend_label=process.split(".")[-1],
         )
         hull_set = subset.loc[(data["process"] == process), [x_name, y_name]]
         if hull_set.shape[0] > 3:
             array = np.array(hull_set.dropna())
             hull = ConvexHull(array)
             for simplex in hull.simplices:
-                ax.plot(array[simplex, 0], array[simplex, 1], color=cmap[i % 10], linestyle="--")
-    ax.grid(True)
-    col2.pyplot(fig, use_container_width=True)
+                p.patch(array[simplex, 0], array[simplex, 1], line_color=Spectral6[i % 6])
+    col2.bokeh_chart(p, use_container_width=True)
     st.write(
         "**Source** : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, "
         "Hossein Jalili, Mohsen Ghorbanpoor, Chenhao Chu, Tzu-Yuan Huang, Naga Sasikanth Mannem, Jeongsoo Park, "
