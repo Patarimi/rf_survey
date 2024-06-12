@@ -56,9 +56,8 @@ if __name__ == "__main__":
             continue
         subset = data.loc[
             (data["process"] == process)
-            & (data[x_name] > x_min_u)
-            & (data[x_name] < x_max_u)
-            & (data[y_name] != np.NaN)
+            & (data[x_name] >= x_min_u)
+            & (data[x_name] <= x_max_u)
             , [x_name, y_name]].dropna()
         subset.plot(
           x=x_name,
@@ -70,9 +69,10 @@ if __name__ == "__main__":
           label=process.split(".")[-1],
           color=cmap[i % 10],
         )
-        if subset.shape[0] > 3:
-            hull = ConvexHull(subset)
-            array = np.array(subset)
+        hull_set = subset.loc[(data["process"] == process), [x_name, y_name]]
+        if hull_set.shape[0] > 3:
+            array = np.array(hull_set.dropna())
+            hull = ConvexHull(array)
             for simplex in hull.simplices:
                 ax.plot(array[simplex, 0], array[simplex, 1], color=cmap[i % 10], linestyle="--")
     ax.grid(True)
