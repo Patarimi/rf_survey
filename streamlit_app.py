@@ -74,11 +74,17 @@ if __name__ == "__main__":
             legend_label=process.split(".")[-1],
         )
         hull_set = subset.loc[(data["process"] == process), [x_name, y_name]]
+        if x_log:
+            hull_set[x_name] = np.log10(hull_set[x_name])
+        if y_log:
+            hull_set[y_name] = np.log10(hull_set[y_name])
         if draw_hull and hull_set.shape[0] > 3:
             array = np.array(hull_set.dropna())
             hull = ConvexHull(array)
             for simplex in hull.simplices:
-                p.patch(array[simplex, 0], array[simplex, 1], line_color=Spectral6[i % 6])
+                p.patch(10**array[simplex, 0] if x_log else array[simplex, 0],
+                        10**array[simplex, 1] if y_log else array[simplex, 1],
+                        color="#a6cee3", fill_alpha=1., line_alpha=1.)
     col2.bokeh_chart(p, use_container_width=True)
     col2.write(
         "**Source** : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, "
