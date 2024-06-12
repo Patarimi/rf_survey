@@ -78,13 +78,18 @@ if __name__ == "__main__":
             hull_set[x_name] = np.log10(hull_set[x_name])
         if y_log:
             hull_set[y_name] = np.log10(hull_set[y_name])
-        if draw_hull and hull_set.shape[0] > 3:
+        if not draw_hull:
+            continue
+        if hull_set.shape[0] > 3:
             array = np.array(hull_set.dropna())
             hull = ConvexHull(array)
-            for simplex in hull.simplices:
-                p.patch(10**array[simplex, 0] if x_log else array[simplex, 0],
-                        10**array[simplex, 1] if y_log else array[simplex, 1],
-                        color=Spectral6[i % 6], fill_alpha=1., line_alpha=1.)
+            x, y = list(), list()
+            for simplex in hull.vertices:
+                x.append(10 ** array[simplex, 0] if x_log else array[simplex, 0])
+                y.append(10 ** array[simplex, 1] if y_log else array[simplex, 1])
+            p.patch(x, y, color=Spectral6[i % 6], fill_alpha=.1, line_alpha=1)
+        else:
+            p.patch(hull_set[x_name], hull_set[y_name], color=Spectral6[i % 6], fill_alpha=.1, line_alpha=1)
     col2.bokeh_chart(p, use_container_width=True)
     col2.write(
         "**Source** : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, "
