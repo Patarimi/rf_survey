@@ -25,7 +25,7 @@ if __name__ == "__main__":
         },
     )
     cmap = mpl.colormaps.get_cmap("tab10").colors
-    col1, col2 = st.columns([0.3, 0.7])
+    col1, _, col2 = st.columns([0.3, 0.1, 0.6])
     with col1:
         st.title("Welcome!")
         comp = st.selectbox("Component Type", ("PA",))
@@ -35,17 +35,17 @@ if __name__ == "__main__":
         )
         data = load_data(f"data/cleaned/{techno}.csv")
         sel_tech = dict()
+        popover = st.popover("Technology Filter")
         for sub_t in data["process"].unique():
-            sel_tech[sub_t] = st.checkbox(sub_t.split(".")[-1], value=True)
+            sel_tech[sub_t] = popover.checkbox(sub_t.split(".")[-1], value=True)
         col1.write("---")
         c1, c2 = st.columns([0.5, 0.5])
         field_list = data.keys().drop(ignored_field).delete(0)
         x_name = c1.selectbox("X axis", field_list, index=2)
         y_name = c2.selectbox("Y axis", field_list, index=3)
         x_log = c1.checkbox("X Log scale", True)
-        x_min = np.min(data[x_name])
-        x_max = np.max(data[x_name])
-        x_min_u, x_max_u = c1.slider("Rescale", x_min, x_max, (x_min, x_max))
+        x_min, x_max = np.min(data[x_name]), np.max(data[x_name])
+        x_min_u, x_max_u = col1.slider("Rescale X", x_min, x_max, (x_min, x_max))
         y_log = c2.checkbox("Y Log scale", False)
     col1.write("---")
     if col1.button("clear data"):
