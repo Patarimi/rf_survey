@@ -13,7 +13,7 @@ def load_data(path):
 
 
 # field to ignore for the data plot
-ignored_field = {"paper_title", "author_name", "month"}
+ignored_field = {"paper_title", "author_name", "month", "process", "modulation_type"}
 
 if __name__ == "__main__":
     st.set_page_config(
@@ -29,7 +29,6 @@ if __name__ == "__main__":
     with col1:
         st.title("Welcome!")
         comp = st.selectbox("Component Type", ("PA",))
-        col1.write("---")
         techno = st.selectbox(
             "Technology", ["CMOS", "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"]
         )
@@ -47,7 +46,7 @@ if __name__ == "__main__":
         x_min, x_max = np.min(data[x_name]), np.max(data[x_name])
         x_min_u, x_max_u = col1.slider("Rescale X", x_min, x_max, (x_min, x_max))
         y_log = c2.checkbox("Y Log scale", False)
-    col1.write("---")
+        draw_hull = col1.checkbox("SoA contour", True)
     if col1.button("clear data"):
         load_data.clear()
     p = figure(
@@ -75,13 +74,13 @@ if __name__ == "__main__":
             legend_label=process.split(".")[-1],
         )
         hull_set = subset.loc[(data["process"] == process), [x_name, y_name]]
-        if hull_set.shape[0] > 3:
+        if draw_hull and hull_set.shape[0] > 3:
             array = np.array(hull_set.dropna())
             hull = ConvexHull(array)
             for simplex in hull.simplices:
                 p.patch(array[simplex, 0], array[simplex, 1], line_color=Spectral6[i % 6])
     col2.bokeh_chart(p, use_container_width=True)
-    st.write(
+    col2.write(
         "**Source** : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, "
         "Hossein Jalili, Mohsen Ghorbanpoor, Chenhao Chu, Tzu-Yuan Huang, Naga Sasikanth Mannem, Jeongsoo Park, "
         "Jeongseok Lee, David Munzer,Sensen Li, Fei Wang, Amr S. Ahmed, Christopher Snyder, Huy Thong Nguyen, "
