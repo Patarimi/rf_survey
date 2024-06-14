@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from bokeh.plotting import figure
 from bokeh.palettes import Spectral6
+from bokeh.models import HoverTool
 import numpy as np
 from scipy.spatial import ConvexHull
 
@@ -50,6 +51,7 @@ if __name__ == "__main__":
         draw_hull = col1.checkbox("SoA contour", True)
     if col1.button("clear data"):
         load_data.clear()
+    tooltips = "@author_name:@year"
     p = figure(
         title=f"State of Art of PA in {techno}",
         x_axis_label=x_name,
@@ -57,6 +59,9 @@ if __name__ == "__main__":
         x_axis_type="log" if x_log else "linear",
         y_axis_type="log" if y_log else "linear",
     )
+    hvr = HoverTool(tooltips=tooltips)
+    p.add_tools(hvr)
+    sca = list()
     for i, process in enumerate(sel_tech):
         if not sel_tech[process]:
             continue
@@ -64,16 +69,16 @@ if __name__ == "__main__":
             (data["process"] == process)
             & (data[x_name] >= x_min_u)
             & (data[x_name] <= x_max_u),
-            [x_name, y_name],
+            [x_name, y_name, "year", "author_name"],
         ].dropna()
-        p.scatter(
+        sca.append(p.scatter(
             x=x_name,
             y=y_name,
             source=subset,
             marker="o",
             color=Spectral6[i % 6],
             legend_label=process.split(".")[-1],
-        )
+        ))
         hull_set = subset.loc[(data["process"] == process), [x_name, y_name]]
         if x_log:
             hull_set[x_name] = np.log10(hull_set[x_name])
@@ -91,6 +96,7 @@ if __name__ == "__main__":
             p.patch(x, y, color=Spectral6[i % 6], fill_alpha=.1, line_alpha=1)
         else:
             p.patch(hull_set[x_name], hull_set[y_name], color=Spectral6[i % 6], fill_alpha=.1, line_alpha=1)
+    hvr.renderers = sca
     col2.bokeh_chart(p, use_container_width=True)
     col2.write(
         "**Source** : Hua Wang, Kyungsik Choi, Basem Abdelaziz, Mohamed Eleraky, Bryan Lin, Edward Liu, Yuqi Liu, "
