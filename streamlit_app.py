@@ -39,6 +39,7 @@ if __name__ == "__main__":
             sel_tech[sub_t] = popover.checkbox(sub_t.split(".")[-1], value=True)
         col1.write("---")
         c1, c2 = st.columns([0.5, 0.5])
+        data["ITRS FOM"] = data["frequency"]**2 * data["sat_power"] * data["pae_max"] * data["gain"]
         field_list = data.keys().drop(ignored_field).delete(0)
         x_name = c1.selectbox("X axis", field_list, index=1)
         y_name = c2.selectbox("Y axis", field_list, index=2)
