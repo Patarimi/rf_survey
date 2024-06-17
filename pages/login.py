@@ -10,6 +10,6 @@ cred = st.secrets["admin_credentials"]
 if st.button("Login"):
     if login == cred.username and password == cred.password:
         st.session_state.role = "admin"
-        st.switch_page("app.py")
+        st.switch_page("streamlit_app.py")
 
 menu()
