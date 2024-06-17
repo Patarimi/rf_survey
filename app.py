@@ -5,6 +5,7 @@ from bokeh.palettes import Spectral6
 from bokeh.models import HoverTool
 import numpy as np
 from scipy.spatial import ConvexHull
+from menu import menu
 
 
 @st.cache_data
@@ -12,11 +13,18 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
+def set_role():
+    # Callback function to save the role selection to Session State
+    st.session_state.role = st.session_state._role
+
 
 # field to ignore for the data plot
 ignored_field = {"paper_title", "author_name", "month", "process", "modulation_type"}
 
 if __name__ == "__main__":
+    if "role" not in st.session_state:
+        st.session_state.role = None
+    st.session_state._role = st.session_state.role
     st.set_page_config(
         page_title="RF-survey",
         page_icon="📈",
@@ -26,6 +34,7 @@ if __name__ == "__main__":
             "Report a bug": "https://github.com/Patarimi/rf-survey/issues",
         },
     )
+    menu()
     col1, col2 = st.columns([0.25, 0.75])
     with col1:
         st.title("Welcome!")
@@ -40,7 +49,9 @@ if __name__ == "__main__":
             sel_tech[sub_t] = popover.checkbox(sub_t.split(".")[-1], value=True)
         col1.write("---")
         c1, c2 = st.columns([0.5, 0.5])
-        data["ITRS FOM"] = data["frequency"]**2 * data["sat_power"] * data["pae_max"] * data["gain"]
+        data["ITRS FOM"] = (
+            data["frequency"] ** 2 * data["sat_power"] * data["pae_max"] * data["gain"]
+        )
         field_list = data.keys().drop(ignored_field).delete(0)
         x_name = c1.selectbox("X axis", field_list, index=1)
         y_name = c2.selectbox("Y axis", field_list, index=2)
@@ -71,14 +82,16 @@ if __name__ == "__main__":
             & (data[x_name] <= x_max_u),
             [x_name, y_name, "year", "author_name"],
         ].dropna()
-        sca.append(p.scatter(
-            x=x_name,
-            y=y_name,
-            source=subset,
-            marker="o",
-            color=Spectral6[i % 6],
-            legend_label=process.split(".")[-1],
-        ))
+        sca.append(
+            p.scatter(
+                x=x_name,
+                y=y_name,
+                source=subset,
+                marker="o",
+                color=Spectral6[i % 6],
+                legend_label=process.split(".")[-1],
+            )
+        )
         hull_set = subset.loc[(data["process"] == process), [x_name, y_name]]
         if x_log:
             hull_set[x_name] = np.log10(hull_set[x_name])
@@ -93,9 +106,15 @@ if __name__ == "__main__":
             for simplex in hull.vertices:
                 x.append(10 ** array[simplex, 0] if x_log else array[simplex, 0])
                 y.append(10 ** array[simplex, 1] if y_log else array[simplex, 1])
-            p.patch(x, y, color=Spectral6[i % 6], fill_alpha=.1, line_alpha=1)
+            p.patch(x, y, color=Spectral6[i % 6], fill_alpha=0.1, line_alpha=1)
         else:
-            p.patch(hull_set[x_name], hull_set[y_name], color=Spectral6[i % 6], fill_alpha=.1, line_alpha=1)
+            p.patch(
+                hull_set[x_name],
+                hull_set[y_name],
+                color=Spectral6[i % 6],
+                fill_alpha=0.1,
+                line_alpha=1,
+            )
     hvr.renderers = sca
     col2.bokeh_chart(p, use_container_width=True)
     col2.write(
