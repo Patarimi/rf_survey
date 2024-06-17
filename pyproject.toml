@@ -8,7 +8,7 @@ package-mode = false
 
 [tool.poe.tasks]
 prep = "python data_preparation.py"
-run = "streamlit run streamlit_app.py"
+run = "streamlit run app.py"
 
 [tool.poetry.dependencies]
 python = "^3.10"

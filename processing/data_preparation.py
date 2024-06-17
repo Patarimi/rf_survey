@@ -32,7 +32,7 @@ class PASpec(BaseModel):
 
 
 if __name__ == "__main__":
-    logging.basicConfig(filename="prep.log", level=logging.INFO, filemode="w")
+    logging.basicConfig(filename="../prep.log", level=logging.INFO, filemode="w")
     for techno in [
         "SiGe",
     ]:  # "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"]:
