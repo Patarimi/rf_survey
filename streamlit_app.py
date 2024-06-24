@@ -64,7 +64,9 @@ if __name__ == "__main__":
             )
         marker = c2.checkbox("Marker", False)
         if marker:
-            marker_name = c2.selectbox("Marker", field_list, index=12)
+            marker_name = c2.selectbox(
+                "Marker", np.append(field_list.values, "process"), index=12
+            )
     if col1.button("clear data"):
         load_data.clear()
     fig = px.scatter(
@@ -72,7 +74,7 @@ if __name__ == "__main__":
         x=x_name,
         y=y_name,
         color=None if not colored else color_name,
-        symbol=None if not (marker) else marker_name,
+        symbol=None if not marker else marker_name,
         hover_name="author_name",
         hover_data=["year"],
         log_x=x_log,
