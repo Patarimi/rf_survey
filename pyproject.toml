@@ -21,7 +21,7 @@ plotly = "^5.22.0"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.0"
-poethepoet = "^0.26.0"
+poethepoet = "^0.27.0"
 scikit-learn = "^1.5.0"
 rich = "^13.7.1"
 
