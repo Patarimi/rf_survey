@@ -20,7 +20,9 @@ jobs:
         with:
           python-version: "3.11"
           cache: "poetry"
-      - run: poetry install
+      - run: |
+          poetry config virtualenvs.create false
+          poetry install
       - uses: streamlit/streamlit-app-action@v0.0.3
         with:
           app-path: streamlit_app.py
