@@ -23,7 +23,6 @@ jobs:
       - run: |
           # https://github.com/python-poetry/poetry/issues/1214
           pip install --requirement <(poetry export --dev --format requirements.txt)
-          pip install --no-deps .
       - uses: streamlit/streamlit-app-action@v0.0.3
         with:
           app-path: streamlit_app.py
