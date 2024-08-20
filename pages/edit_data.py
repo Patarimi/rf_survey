@@ -1,5 +1,5 @@
 import streamlit as st
-from menu import menu_with_redirect
+from pages.menu import menu_with_redirect
 import pandas as pd
 
 # Redirect to app.py if not logged in, otherwise show the navigation menu
