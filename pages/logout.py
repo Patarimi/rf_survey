@@ -1,5 +1,5 @@
 import streamlit as st
-from menu import menu
+from pages.menu import menu
 
 
 st.title("Logout")
