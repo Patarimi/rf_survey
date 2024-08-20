@@ -1,0 +1,30 @@
+name: Streamlit app
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+permissions:
+  contents: read
+
+jobs:
+  streamlit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install poetry
+        run: pipx install poetry
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "poetry"
+      - run: |
+          # https://github.com/python-poetry/poetry/issues/1214
+          pip install --requirement <(poetry export --dev --format requirements.txt)
+      - uses: streamlit/streamlit-app-action@v0.0.3
+        with:
+          app-path: streamlit_app.py
+          skip-smoke: 'true'
+          

@@ -6,7 +6,10 @@ st.title("Login Page")
 login = st.text_input("Login")
 password = st.text_input("Password", type="password")
 
-cred = st.secrets["admin_credentials"]
+try:
+    cred = st.secrets["admin_credentials"]
+except FileNotFoundError:
+    print("Misconfigured Server, please see [secrets](https://docs.streamlit.io/streamlit-cloud/get-started/deploy-an-app/connect-to-data-sources/secrets-management)")
 if st.button("Login"):
     if login == cred.username and password == cred.password:
         st.session_state.role = "admin"
