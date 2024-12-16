@@ -12,7 +12,7 @@ run = "streamlit run streamlit_app.py"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-streamlit = "^1.40.2"
+streamlit = "^1.41.1"
 openpyxl = "^3.1.2"
 pydantic = "^2.10.3"
 scipy = "^1.14.1"
