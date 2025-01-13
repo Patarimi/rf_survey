@@ -80,7 +80,7 @@ if __name__ == "__main__":
                 case np.nan:
                     d["process"] = Process.unknown
                 case _:
-                    logging.info(f"Line {i}: Could not parse {d["process"]}")
+                    logging.info(f"Line {i}: Could not parse {d['process']}")
             match d["PA_type"]:
                 case "analog" | "Analog":
                     d["PA_type"] = PAType.analog
