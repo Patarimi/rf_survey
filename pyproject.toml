@@ -20,7 +20,7 @@ plotly = "^6.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.9.6"
+ruff = "^0.9.7"
 poethepoet = "^0.32.2"
 scikit-learn = "^1.6.1"
 rich = "^13.9.4"
