@@ -1,23 +1,25 @@
-[tool.poetry]
+[project]
 name = "rf-survey"
 version = "0.1.0"
 description = ""
-authors = ["Patarimi <38954040+Patarimi@users.noreply.github.com>"]
-readme = "README.md"
+authors = [
+    {name="Patarimi", email ="<38954040+Patarimi@users.noreply.github.com>"}
+]
+requires-python = ">=3.10"
+dependencies = [
+    "plotly (>=6.0.1,<7.0.0)",
+    "streamlit (>=1.43.2,<2.0.0)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "scipy (>=1.15.2,<2.0.0)"
+]
+
+[tool.poetry]
 package-mode = false
 
 [tool.poe.tasks]
 prep = "python ./processing/data_preparation.py"
 run = "streamlit run streamlit_app.py"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-streamlit = "^1.43.1"
-openpyxl = "^3.1.2"
-pydantic = "^2.10.6"
-scipy = "^1.15.2"
-plotly = "^6.0.0"
-
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.11.0"
