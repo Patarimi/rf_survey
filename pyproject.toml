@@ -22,7 +22,7 @@ prep = "python ./processing/data_preparation.py"
 run = "streamlit run streamlit_app.py"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.14.1"
+ruff = "^0.14.2"
 poethepoet = "^0.37.0"
 scikit-learn = "^1.7.2"
 rich = "^14.2.0"
