@@ -23,7 +23,7 @@ run = "streamlit run streamlit_app.py"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.14.10"
-poethepoet = "^0.39.0"
+poethepoet = "^0.40.0"
 scikit-learn = "^1.7.2"
 rich = "^14.2.0"
 
