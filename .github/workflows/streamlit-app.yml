@@ -38,5 +38,5 @@ jobs:
       - uses: streamlit/streamlit-app-action@v0.0.3
         with:
           app-path: streamlit_app.py
-          skip-smoke: 'true'
+          skip-smoke: 'false'
           
