@@ -37,6 +37,6 @@ jobs:
           pip install --requirement <(uv export --dev --format requirements.txt)
       - uses: streamlit/streamlit-app-action@v0.0.3
         with:
-          app-path: streamlit_app.py
+          app-path: ../streamlit_app.py
           skip-smoke: 'false'
           
