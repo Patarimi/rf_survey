@@ -81,7 +81,7 @@ if __name__ == "__main__":
         log_y=y_log,
         labels={x_name: x_name, y_name: y_name},
     )
-    event = col2.plotly_chart(fig, use_container_width=True, on_select="rerun")
+    event = col2.plotly_chart(fig, width="stretch", on_select="rerun")
     if event:
         st.write("## Selected Data:")
         st.write(
