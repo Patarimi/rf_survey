@@ -14,19 +14,16 @@ dependencies = [
     "scipy (>=1.15.2,<2.0.0)"
 ]
 
-[tool.poetry]
-package-mode = false
+tool.uv.package = false
 
 [tool.poe.tasks]
 prep = "python ./processing/data_preparation.py"
 run = "streamlit run streamlit_app.py"
 
-[tool.poetry.group.dev.dependencies]
-ruff = "^0.14.10"
-poethepoet = "^0.40.0"
-scikit-learn = "^1.7.2"
-rich = "^14.2.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = [
+    "ruff>=0.14.10",
+    "poethepoet>=0.40.0",
+    "scikit-learn>=1.7.2",
+    "rich>=14.2.0",
+]
