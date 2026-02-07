@@ -22,7 +22,6 @@ run = "streamlit run streamlit_app.py"
 
 [dependency-groups]
 dev = [
-    "ruff>=0.14.10",
     "poethepoet>=0.40.0",
     "scikit-learn>=1.7.2",
     "rich>=14.2.0",
