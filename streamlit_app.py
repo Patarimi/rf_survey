@@ -1,8 +1,9 @@
-import streamlit as st
-import pandas as pd
 import numpy as np
-from pages.menu import menu
+import pandas as pd
 import plotly.express as px
+import streamlit as st
+
+from pages.menu import menu
 
 
 @st.cache_data
@@ -41,7 +42,7 @@ if __name__ == "__main__":
             "Technology", ["CMOS", "SiGe", "GaN", "GaAs", "InP", "LDMOS", "Others"]
         )
         data = load_data(f"data/cleaned/{techno}.csv")
-        sel_tech = list()
+        sel_tech = []
         popover = st.popover("Technology Filter")
         for sub_t in data["process"].unique():
             val = popover.checkbox(sub_t.split(".")[-1], value=True)

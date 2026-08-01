@@ -1,8 +1,10 @@
 import glob
 from os.path import basename
-import streamlit as st
-from pages.menu import menu_with_redirect
+
 import pandas as pd
+import streamlit as st
+
+from pages.menu import menu_with_redirect
 from processing.data_preparation import PASpec
 
 # Redirect to app.py if not logged in, otherwise show the navigation menu

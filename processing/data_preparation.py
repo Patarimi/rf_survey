@@ -1,31 +1,33 @@
 import logging
 from enum import Enum
-from typing_extensions import Annotated, Optional
+from typing import Annotated
 
 import numpy as np
 import pandas as pd
 from pydantic import BaseModel, Field, ValidationError
 
-Process = Enum("process", ["bulk", "SOI", "SOS", "unknown", "FinFET", "SiGe", "BiCMOS"])
-PAType = Enum("type", ("analog", "digital", "unknown"))
+Process = Enum("Process", ["bulk", "SOI", "SOS", "unknown", "FinFET", "SiGe", "BiCMOS"])
+PAType = Enum("PAType", ("analog", "digital", "unknown"))
+
+logger = logging.getLogger(__name__)
 
 
 class PASpec(BaseModel):
     year: int = Field(..., ge=1800)
-    month: Optional[Annotated[int, Field(ge=0, le=12)]] = 0
+    month: Annotated[int, Field(ge=0, le=12)] | None = 0
     author_name: str = ""
     paper_title: str = ""
     process: Process
-    frequency: Optional[Annotated[float, Field(ge=0)]] = float("nan")
-    sat_power: Optional[float] = float("nan")
+    frequency: Annotated[float, Field(ge=0)] | None = float("nan")
+    sat_power: float | None = float("nan")
     pae_max: Annotated[float, Field(ge=0, le=100)] = float("nan")
-    P1dB: Optional[float] = float("nan")
-    PAE_1dB: Optional[float] = float("nan")
+    P1dB: float | None = float("nan")
+    PAE_1dB: float | None = float("nan")
     gain: Annotated[float, Field(le=100)] = float("nan")
     EVM: float = float("nan")
     modulation_speed: float = float("nan")
     average_pout: float = float("nan")
-    average_pae: Optional[float] = float("nan")
+    average_pae: float | None = float("nan")
     modulation_type: str = ""
     PA_type: PAType = PAType.unknown
     node: int = -1
@@ -80,7 +82,7 @@ if __name__ == "__main__":
                 case np.nan:
                     d["process"] = Process.unknown
                 case _:
-                    logging.info(f"Line {i}: Could not parse {d['process']}")
+                    logger.info(f"Line {i}: Could not parse {d['process']}")
             match d["PA_type"]:
                 case "analog" | "Analog":
                     d["PA_type"] = PAType.analog
@@ -121,11 +123,11 @@ if __name__ == "__main__":
                     if data_s == "nan" or data_s.strip() == "":
                         del d[field]
                 except ValueError:
-                    logging.info(
+                    logger.info(
                         f"line {i}: Error in {field} field: {d[field]} parse as {data_s}"
                     )
                     del d[field]
-            if d["modulation_type"] is np.nan:
+            if np.isnan(d["modulation_type"]):
                 d["modulation_type"] = "unknown"
 
             try:
@@ -135,6 +137,6 @@ if __name__ == "__main__":
                 if str(d["author_name"]) == "nan":
                     # These are empty rows at the end of the sheet
                     continue
-                logging.info(f"line {i}: {e}")
+                logger.info(f"line {i}: {e}")
                 continue
         clean_data.to_csv(f"data/cleaned/{techno}.csv")
