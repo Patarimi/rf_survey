@@ -79,7 +79,7 @@ if __name__ == "__main__":
                     d["process"] = Process.SiGe
                 case "BICMOS" | "SIGEBICMOS":
                     d["process"] = Process.BiCMOS
-                case np.nan:
+                case np.nan:  # noqa: PLW0177
                     d["process"] = Process.unknown
                 case _:
                     logger.info(f"Line {i}: Could not parse {d['process']}")
@@ -97,7 +97,7 @@ if __name__ == "__main__":
             if "um" in d["node"]:
                 d["node"] = float(d["node"].replace("um", "").strip()) * 1000
             d["modulation_speed"] = (
-                str(d["modulation_speed"]).lower().rstrip("-sy/mbpsc ")
+                str(d["modulation_speed"]).lower().rstrip("-sy/mbpsc ")  # noqa: B005
             )
             for field in (
                 "month",

@@ -87,7 +87,7 @@ if __name__ == "__main__":
         st.write("## Selected Data:")
         st.write(
             data.drop(columns=["Unnamed: 0", "month"]).loc[
-                data.index.isin(event.selection.point_indices)
+                data.index.isin(event.selection.point_indices)  # ty:ignore[unresolved-attribute]
             ]
         )
     col2.write(
