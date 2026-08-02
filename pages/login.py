@@ -1,6 +1,6 @@
 import streamlit as st
-from pages.menu import menu
 
+from pages.menu import menu
 
 st.title("Login Page")
 login = st.text_input("Login")
